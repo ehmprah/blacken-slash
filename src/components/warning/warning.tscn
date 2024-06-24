@@ -1,0 +1,196 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://theme.tres" type="Theme" id=1]
+[ext_resource path="res://assets/font/RubikItalicSmall.tres" type="DynamicFont" id=2]
+[ext_resource path="res://assets/icons/icon_warning.svg" type="Texture" id=3]
+[ext_resource path="res://components/warning/warning.gd" type="Script" id=4]
+
+[sub_resource type="Animation" id=3]
+resource_name = "Hide"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 2 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ), Vector2( 0, 10 ), Vector2( 0, -200 ) ]
+}
+
+[sub_resource type="Animation" id=1]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Left/Icon:rect_scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Right/Icon:rect_scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath(".:rect_position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "Throb"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Left/Icon:rect_scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, -2, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1.2, 1.2 ), Vector2( 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Right/Icon:rect_scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, -2, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1.2, 1.2 ), Vector2( 1, 1 ) ]
+}
+
+[node name="Warning" type="Control"]
+margin_right = 410.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 410, 60 )
+size_flags_horizontal = 4
+theme = ExtResource( 1 )
+script = ExtResource( 4 )
+
+[node name="Container" type="HBoxContainer" parent="."]
+modulate = Color( 0.92549, 0, 0, 1 )
+margin_right = 410.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 410, 60 )
+mouse_filter = 2
+custom_constants/separation = 8
+alignment = 1
+
+[node name="Left" type="Control" parent="Container"]
+margin_right = 60.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 60, 60 )
+mouse_filter = 2
+
+[node name="Icon" type="TextureRect" parent="Container/Left"]
+anchor_top = 0.5
+anchor_bottom = 0.5
+margin_top = -25.0
+margin_right = 50.0
+margin_bottom = 25.0
+rect_min_size = Vector2( 50, 50 )
+rect_pivot_offset = Vector2( 25, 25 )
+mouse_filter = 2
+texture = ExtResource( 3 )
+expand = true
+
+[node name="Labels" type="VBoxContainer" parent="Container"]
+margin_left = 68.0
+margin_right = 342.0
+margin_bottom = 60.0
+mouse_filter = 2
+size_flags_horizontal = 3
+custom_constants/separation = 0
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Top" type="Label" parent="Container/Labels"]
+margin_top = 3.0
+margin_right = 274.0
+margin_bottom = 27.0
+custom_fonts/font = ExtResource( 2 )
+text = "T_REACH_GATE_IN"
+align = 1
+clip_text = true
+uppercase = true
+
+[node name="Main" type="HBoxContainer" parent="Container/Labels"]
+margin_top = 27.0
+margin_right = 274.0
+margin_bottom = 56.0
+mouse_filter = 2
+custom_constants/separation = 8
+alignment = 1
+
+[node name="Left" type="Label" parent="Container/Labels/Main"]
+margin_left = 68.0
+margin_right = 83.0
+margin_bottom = 29.0
+text = "5"
+uppercase = true
+
+[node name="Right" type="Label" parent="Container/Labels/Main"]
+margin_left = 91.0
+margin_right = 206.0
+margin_bottom = 29.0
+text = "T_TURNS"
+uppercase = true
+
+[node name="Right" type="Control" parent="Container"]
+margin_left = 350.0
+margin_right = 410.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 60, 60 )
+mouse_filter = 2
+
+[node name="Icon" type="TextureRect" parent="Container/Right"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -50.0
+margin_top = -25.0
+margin_bottom = 25.0
+rect_min_size = Vector2( 50, 50 )
+rect_pivot_offset = Vector2( 25, 25 )
+mouse_filter = 2
+texture = ExtResource( 3 )
+expand = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../Container")
+autoplay = "Throb"
+anims/Hide = SubResource( 3 )
+anims/RESET = SubResource( 1 )
+anims/Throb = SubResource( 2 )

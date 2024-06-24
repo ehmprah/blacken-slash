@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Beeper07.mp3-11ccf059ede306099382fede0f3c98db.mp3str"
+
+[deps]
+
+source_file="res://assets/voice/Beeper07.mp3"
+dest_files=[ "res://.import/Beeper07.mp3-11ccf059ede306099382fede0f3c98db.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

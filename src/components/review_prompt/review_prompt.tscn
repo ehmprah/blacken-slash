@@ -1,0 +1,112 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://theme.tres" type="Theme" id=1]
+[ext_resource path="res://components/button_base/button_base.tscn" type="PackedScene" id=2]
+[ext_resource path="res://components/story_frame/story_frame.tscn" type="PackedScene" id=3]
+[ext_resource path="res://assets/font/StoryFont.tres" type="DynamicFont" id=4]
+[ext_resource path="res://components/review_prompt/review_prompt.gd" type="Script" id=5]
+[ext_resource path="res://assets/icons/icon_material.svg" type="Texture" id=6]
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0, 0, 0, 0.75 )
+
+[node name="Story" type="PanelContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource( 1 )
+custom_styles/panel = SubResource( 6 )
+script = ExtResource( 5 )
+
+[node name="Scroll" type="ScrollContainer" parent="."]
+margin_left = 50.0
+margin_right = 650.0
+margin_bottom = 700.0
+rect_min_size = Vector2( 600, 0 )
+size_flags_horizontal = 4
+size_flags_vertical = 3
+
+[node name="V" type="VBoxContainer" parent="Scroll"]
+margin_right = 600.0
+margin_bottom = 700.0
+rect_min_size = Vector2( 600, 590 )
+size_flags_horizontal = 4
+size_flags_vertical = 3
+custom_constants/separation = 32
+alignment = 1
+
+[node name="Bits" type="VBoxContainer" parent="Scroll/V"]
+margin_top = 216.0
+margin_right = 600.0
+margin_bottom = 323.0
+custom_constants/separation = 132
+
+[node name="StoryFrame" parent="Scroll/V/Bits" instance=ExtResource( 3 )]
+margin_top = 0.0
+margin_bottom = 107.0
+rect_pivot_offset = Vector2( -986, -143 )
+character = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Scroll/V/Bits/StoryFrame"]
+margin_left = 16.0
+margin_top = 16.0
+margin_right = 584.0
+margin_bottom = 91.0
+custom_constants/separation = 16
+
+[node name="Label" type="Label" parent="Scroll/V/Bits/StoryFrame/VBoxContainer"]
+modulate = Color( 0.658824, 0.803922, 0.211765, 1 )
+margin_right = 568.0
+margin_bottom = 29.0
+custom_fonts/font = ExtResource( 4 )
+text = "T_FEEDBACK_PROMPT"
+autowrap = true
+
+[node name="H" type="HBoxContainer" parent="Scroll/V/Bits/StoryFrame/VBoxContainer"]
+modulate = Color( 0.658824, 0.803922, 0.211765, 1 )
+margin_top = 45.0
+margin_right = 568.0
+margin_bottom = 75.0
+alignment = 1
+
+[node name="Amount" type="Label" parent="Scroll/V/Bits/StoryFrame/VBoxContainer/H"]
+margin_left = 228.0
+margin_right = 305.0
+margin_bottom = 30.0
+rect_min_size = Vector2( 0, 30 )
+text = "+5000"
+align = 1
+
+[node name="Icon" type="TextureRect" parent="Scroll/V/Bits/StoryFrame/VBoxContainer/H"]
+margin_left = 309.0
+margin_right = 339.0
+margin_bottom = 30.0
+rect_min_size = Vector2( 30, 30 )
+texture = ExtResource( 6 )
+expand = true
+
+[node name="Btns" type="VBoxContainer" parent="Scroll/V"]
+margin_top = 355.0
+margin_right = 600.0
+margin_bottom = 483.0
+custom_constants/separation = 8
+
+[node name="Review" parent="Scroll/V/Btns" instance=ExtResource( 2 )]
+modulate = Color( 0.658824, 0.803922, 0.211765, 1 )
+margin_right = 600.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 320, 60 )
+text = "T_WRITE_REVIEW"
+
+[node name="Continue" parent="Scroll/V/Btns" instance=ExtResource( 2 )]
+margin_top = 68.0
+margin_right = 600.0
+margin_bottom = 128.0
+rect_min_size = Vector2( 320, 60 )
+text = "T_CONTINUE"
+
+[node name="Tween" type="Tween" parent="."]
+
+[connection signal="button_down" from="Scroll/V/Btns/Review" to="." method="yes"]
+[connection signal="button_down" from="Scroll/V/Btns/Continue" to="." method="close"]

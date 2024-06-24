@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://floor.tres" type="TileSet" id=1]
+[ext_resource path="res://components/level_base/level_base.gd" type="Script" id=2]
+[ext_resource path="res://entities.tres" type="TileSet" id=14]
+
+[node name="Level" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Floor" type="TileMap" parent="."]
+mode = 1
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 128, 64 )
+cell_custom_transform = Transform2D( 64, 0, 0, 32, 0, 0 )
+cell_tile_origin = 1
+cell_y_sort = true
+format = 1
+
+[node name="Entities" type="TileMap" parent="."]
+mode = 1
+tile_set = ExtResource( 14 )
+cell_size = Vector2( 128, 64 )
+cell_custom_transform = Transform2D( 64, 0, 0, 32, 0, 0 )
+cell_tile_origin = 1
+cell_y_sort = true
+format = 1

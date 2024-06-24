@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Patch04.mp3-e2b27a65e494d9c815f0013222513800.mp3str"
+
+[deps]
+
+source_file="res://assets/voice/Patch04.mp3"
+dest_files=[ "res://.import/Patch04.mp3-e2b27a65e494d9c815f0013222513800.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

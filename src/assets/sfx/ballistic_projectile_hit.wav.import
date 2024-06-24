@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/ballistic_projectile_hit.wav-b4a553d4a979e28b9e4c67409a767bfc.sample"
+
+[deps]
+
+source_file="res://assets/sfx/ballistic_projectile_hit.wav"
+dest_files=[ "res://.import/ballistic_projectile_hit.wav-b4a553d4a979e28b9e4c67409a767bfc.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

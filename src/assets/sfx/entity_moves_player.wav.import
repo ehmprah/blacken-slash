@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/entity_moves_player.wav-6d83d6483e87ed0409161a057278e037.sample"
+
+[deps]
+
+source_file="res://assets/sfx/entity_moves_player.wav"
+dest_files=[ "res://.import/entity_moves_player.wav-6d83d6483e87ed0409161a057278e037.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

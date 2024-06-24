@@ -1,0 +1,892 @@
+key,en,de,es,fr,zh
+T_STORY_FRICTION,"Wait a second, don't move! These values make no sense but it looks like you might be damaged as you move?! Tread carefully!","Warte mal, nicht bewegen! Diese Werte machen keinen Sinn, aber es sieht so aus, als würdest du Schaden nehmen wenn du dich bewegst?! Vorsichtig!","¡Espera un segundo, no te muevas! ¿Estos valores no tienen sentido, pero parece que podrías estar dañado a medida que te mueves? ¡Ve con cuidado!","Attendez une seconde, ne bougez pas! Ces valeurs n'ont aucun sens, mais il semble que vous pourriez être endommagé lorsque vous bougez ?! Marchez soigneusement!",等一下，不要动！这些价值没有意义，但是看起来您可能会损坏吗？小心！
+T_STORY_KEEP_MOVING,Oh what a nasty trick: this targeted power surge will follow you – you have got to keep moving!,"Oh, was für ein böser Trick: ein gezielter Blitzschlag, der dir folgen wird - bleib in Bewegung!","Oh, qué truco tan desagradable: esta oleada de poder dirigida te seguirá: ¡tienes que seguir moviéndote!",Oh quelle mauvaise astuce: cette surtension ciblée vous suivra - vous devez continuer à bouger!,哦，这是一个令人讨厌的技巧：这种有针对性的动力激增将跟随您 - 您必须继续前进！
+T_STORY_BLOCK_EXIT,Oh no! I totally forgot about these old maintenance tunnels; don't let them escape or we're doomed!,Ach nein! Ich habe diese alten Wartungstunnel total vergessen. Lass sie nicht entkommen oder wir sind zum Scheitern verurteilt!,"¡Oh, no! Me olvidé totalmente de estos viejos túneles de mantenimiento; ¡No los dejes escapar o estamos condenados!",Oh non! J'ai totalement oublié ces anciens tunnels d'entretien; Ne les laissez pas s'échapper ou nous sommes condamnés!,不好了！我完全忘记了这些古老的维护隧道。不要让他们逃脱，否则我们注定要失败！
+T_TYPE_FRICTION,Painful moves,Schmerzende Bewegung,Movimientos dolorosos,Mouvements douloureux,痛苦的举动
+T_TYPE_KEEP_MOVING,Keep moving,Bewege dich,Sigue moviendote,Continuer à bouger,继续移动
+T_BLOCK_EXIT,Block the exit,Blockiere den Ausgang,Bloquear la salida,Bloquer la sortie,阻止出口
+T_MASOCHISM,Masochism,Masochismus,Masoquismo,Masochisme,受虐狂
+T_MASOCHISM_DESCRIPTION,Lose some of your health.,Verliere einen Teil deines Lebens.,Pierde algo de tu salud.,Perdre une partie de votre santé.,失去一些健康。
+T_FLAG_LIFE_STEAL,Regenerate health upon eliminating an enemy.,Regeneriere Leben für jeden eliminierten Feind.,Regenerar la salud al eliminar a un enemigo.,Régénérer la santé lors de l'élimination d'un ennemi.,消除敌人后，再生健康。
+T_ENTANGLER,Entangler,Verschränker,Entrelazador,Intricateur,纠缠
+T_FLAG_LIFE_LINK,"Whenever you lose health, all enemies lose as much – as long as they stay above 1%.","Wenn du Leben verlierst, vierlieren alle Feinde genauso viel – solange sie über 1% bleiben.","Cada vez que pierdes la salud, todos los enemigos pierden tanto, siempre que permanezcan por encima del 1%.","Chaque fois que vous perdez la santé, tous les ennemis perdent autant - tant qu'ils restent au-dessus de 1%.",每当您失去健康时，所有敌人都会失去很多 - 只要他们保持在1％以上。
+T_FOLDER,Folder,Ordner,Carpeta,Dossier,文件夹
+T_NEW_FOLDER,New Folder,Neuer Ordner,Nueva carpeta,Nouveau dossier,新建文件夹
+T_FLAG_DOUBLE_DIFFICULTY,Choose two difficulty upgrades after each sector.,Wähle zwei Schwierigkeits-Upgrades nach jedem Sektor.,Elija dos actualizaciones de dificultad después de cada sector.,Choisissez deux mises à niveau de difficulté après chaque secteur.,在每个部门之后选择两个困难升级。
+T_STATS,Stats,Statistiken,Estadísticas,Statistiques,统计
+T_PLAYER,Player,Spieler,Jugador,Joueur,球员
+T_FLAG_FOG_OF_WAR,Your vision is limited.,Deine Sicht ist eingeschränkt.,Tu visión es limitada.,Votre vision est limitée.,您的视野有限。
+T_FLAG_FRICTION,Lose 1% of your maximum health upon moving if you have more than 1% left.,"Bei jeder Bewegung verlierst du 1% deiner maximalen Gesundheit, falls du mehr als 1% hast.",Pierda el 1% de su salud máxima al moverse si le queda más del 1%.,Perdez 1% de votre santé maximale en déménageant s'il vous reste plus de 1%.,如果您剩下1％以上，则在移动后将损失最大健康状况的1％。
+T_FINAL_THANK_YOU,They're all gone! Thank you for saving the system!,"Das waren alle! Danke, dass du das System gerettet hast!",¡Todos se han ido! ¡Gracias por guardar el sistema!,Ils sont tous partis! Merci d'avoir sauvé le système!,他们都走了！感谢您保存系统！
+T_SCORE,Score,Punktzahl,Puntaje,Score,分数
+T_CHOOSE_DIFFICULTY,Choose Difficulty,Wähle Schwierigkeit,Elegir dificultad,Choisissez la difficulté,选择难度
+T_KILO,Kilo,Kilo,Kilo,Kilo,公斤
+T_MEGA,Mega,Mega,Mega,Méga,巨型
+T_GIGA,Giga,Giga,Giga,Giga,千兆
+T_LANGUAGE,English,Deutsch,Español,Francais,简体中文
+T_ABANDON_RUN,Abandon Run,Spiel aufgeben,Abandonar ejecución,Abandonner,放弃游戏
+T_ACHIEVEMENT_UNLOCKED,Achievement Unlocked,Errungenschaft freigeschaltet,Logro desbloqueado,Succès déverrouillé,成就已解锁
+T_ACHIEVEMENTS,Achievements,Errungenschaften,Logros,Succès,成就
+T_ACTION_JACKSON,Action Jackson,Action Jackson,de Acción Jackson,Action Jackson,杰克逊行动
+T_ARCHIVE_KEY,Archive Key,Archiv-Schlüssel,Clave de archivo,Clé de l'Archive,存档钥匙
+T_ARTFUL_DODGER,Artful Dodger,Raffinierter Ausreißer,Artista evasivo,Acrobate Astucieux,巧妙的闪躲
+T_ARTISAN_DESCRIPTION,Augment 100 times.,Steigere hundertmal eine Variable.,Aplica 100 aumentos.,Augmenter 100 fois.,扩增100次。
+T_ARTISAN,Artisan,Kunsthandwerker,Artesano,Artisan,工匠
+T_AUGMENT_CAP,Augment Cap,Steigerungslimit,Límite de aumento,Max,扩增帽
+T_AUGMENT_DESCRIPTION,Increase an variable's value.,Steigere den Wert einer Variable.,Mejora el valor de una variable.,Augmenter la valeur d'une variable,增加一个变量的价值。
+T_AUGMENT_STEP,Augment Step,Steigerungsschritt,Paso de aumento,Bonus de rang,扩增步骤
+T_AUGMENT,Augment,Steigern,Aumento,Augmenter,扩增
+T_AUTO_EQUIP_HELP,Install parts in empty slots,Leere Steckplätze mit neuen Komponenten füllen.,Instala partes automáticamente en ranuras vacías.,Installe des composants dans les emplacements vides,在空槽中安装零件
+T_AUTO_EQUIP,Auto-Install,Auto-Installieren,Autoinstalar,Installation automatique,自动安装
+T_AUTO_SALVAGE_HELP,Salvage everything in the inbox,Neue Komponenten verwerten.,Desmontar todo en la bandeja,Recycle tous les composants,收件箱内容恢复
+T_BACK,Back,Zurück,Desmontar todo en la bandeja,Retour,后退
+T_BAUD_DESCRIPTION,Has the teleport script.,Hat das Teleport-Skript.,"Tiene el script ""Teletransporte"".",Possède le script de téléportation,拥有传送脚本。
+T_BAUD,Baud,Baud,Baudio,Baud,波特
+T_BEEPER,Beeper,Beeper,Beeper,Beeper,蜂鸣器
+T_BEGINNING_OF_THE_END_DESCRIPTION,Clear level 100.,Schaffe Level 100.,Completa el nivel 100.,Compléter le niveau 100.,通关100级。
+T_BEGINNING_OF_THE_END,The Beginning of the End,Der Anfang vom Ende,El principio del fin,Le Début de la Fin,结束的开端
+T_BFG,BFG-9000,BFG-9000,BFG-9000,BFG-9000,BFG-9000
+T_BITSHIFT,Bitshift,Bitverschiebung,Desplazador de bits,Bitplacement,位移
+T_BLASTER,Blaster,Blaster,Bláster,Blaster,冲击波
+T_BLOCKED,Blocked,Blockiert,Bloqueado,Bloqué,受阻
+T_BRAGGING_RIGHTS_DESCRIPTION,Clear level 100 in ladder mode.,Schaffe Level 100 im Ranglisten-Modus.,Completa el nivel 100 en el modo Carrera.,Compléter le niveau 100 en mode compétitif.,在阶梯模式下通关100级。
+T_BRAGGING_RIGHTS,Bragging Rights,Angeber-Rechte,Derecho a presumir,Droit de Frimer,炫耀的权利
+T_BUFFER_DESCRIPTION,Cannot move and only attacks cardinally adjacent enemies.,Kann sich nicht bewegen und greift nur kardinal benachbarte Gegner an.,No puede moverse y solo ataca a los enemigos que estén cerca.,Ne peut pas bouger et n'attaque que des ennemis cardinalement adjacents.,不能移动，只能攻击心形相邻的敌人。
+T_BUFFER,Buffer,Puffer,Buffer,Tampon,缓冲
+T_BYTE_DESCRIPTION,Slow but packs a punch.,"Langsam, aber schlagkräftig.","Lento, pero golpea fuerte.","Lent, mais très robuste.",速度慢，但却很有力。
+T_BYTE,Byte,Byte,Byte,Octet,字节
+T_CALAMITOUS,Calamitous,Unheilvoll,de Calamidad,Calamiteux,灾难性的
+T_CANNON,Cannon,Kanone,Cañón,Canon,大炮
+T_CHALLENGER_DESCRIPTION,Clear level 50 in ladder mode.,Schaffe Level 50 im Ranglisten-Modus.,Completa el nivel 50 en el modo Carrera.,Compléter le niveau 50 en mode compétitif.,在阶梯模式下通关50级。
+T_CHALLENGER,Challenger,Herausforderer,Contendiente,Challenger,挑战者
+T_CHANGELOG,Changelog,Änderungsliste,Historial,Notes de mise à jour,更新日志
+T_CHARGE_SHIELDS,Charge Shields,Schilde aufladen,Cargar escudos,Recharger Boucliers,充电护盾
+T_CHARGED_CREEPER,Charged Creeper,Geladener Creeper,Creeper cargado,Creeper rechargé,充电的爬行者
+T_CHARGER_DESCRIPTION,Has the Dash and Slash script.,Hat das Sprintattacken-Skript.,"Tiene el script ""Lanzarse y atacar"".",Possède le script d'Attaque-éclair,有冲刺和斜线脚本。
+T_CHARGER,Charger,Sprinter,Cargador,Chargeur,充电器
+T_CHIP,Chip,Chip,Chip,Chip,芯片
+T_CHIPSET,Chipset,Chipset,Conjunto de chip,Puce,芯片组
+T_CHOOSE,Choose,Auswählen,Elegir,Choisir,选择
+T_CIRCUIT_DESCRIPTION,"Only rolls variables, no scripts.","Rollt nur Variablen, keine Skripte.",Solo carga variables (no carga scripts).,"Obtient uniquement des variables aléatoires, mais aucun script.",只有滚动的变量，没有脚本。
+T_CIRCUIT,Circuit,Schaltkreis,Circuito,Circuit,电路
+T_CLOSE_CALL_DESCRIPTION,Finish a level with health below 5%.,Beende einen Level mit einem Lebenspunktestand unter 5%.,Completa un nivel con la salud por debajo del 5 %.,Terminer un niveau avec moins de 5 % de santé.,在健康状况低于5%的情况下完成一关。
+T_CLOSE_CALL,Close Call,Um Haaresbreite,Por los pelos,De Justesse,近距离通话
+T_CLOSE,Close,Schließen,Cerrar,Fermer,关闭
+T_COLLECTOR_DESCRIPTION,Install a complete set.,Installieren Sie ein komplettes Set.,Instala un conjunto completo.,Installer un Set complet.,安装一套完整的设备。
+T_COLLECTOR,Collector,Sammler,Recolector,Collectionneur,收藏家
+T_COMMON_SENSE_DESCRIPTION,Beat level 1-25 using only common parts.,Besiege Level 1-25 nur mit gewöhnlichen Komponenten.,Completa el nivel 1-25 usando solo partes comunes.,Compléter les niveaux 1 à 25 en utilisant uniquement des équipements de rareté commune.,只用普通的零件就能击败第1-25关。
+T_COMMON_SENSE,Common Sense,Normal halt,Sentido común,Bon Sens,常识
+T_COMMUNITY,Community,Community,Comunidad,Communauté,社区
+T_COMPANION_CUBE,Companion Cube,Begleiterkubus,Cubo acompañante,Cube de compagnie,伴侣立方体
+T_COMPARE,Compare,Vergleichen,Comparar,Comparer,比较
+T_COMPLETIONIST_DESCRIPTION,Unlock every other achievement.,Schalte jede andere Errungenschaft frei.,Desbloquea todos los logros.,Déverrouiller tous les Succès.,解锁其他所有成就。
+T_COMPLETIONIST,Completionist,Vollendungsfanatiker,Completista,Complétiste,完成者
+T_CONTINUE,Continue,Weiter,Continuar,Continuer,继续
+T_COSMIC,Cosmic,Kosmische,del Cosmos,Cosmique,宇宙
+T_COUNTER_CHANCE_DESCRIPTION,Chance to counter attack in melee range.,Chance auf einen Konter in Nahkampfreichweite.,Probabilidad de ejecutar un contraataque cuerpo a cuerpo.,Chance de contrer les attaques de mêlée,有机会在近战范围内进行反击。
+T_COUNTER_CHANCE,Counter Chance,Konter-Chance,Probabilidad de contraataque,Chance de Riposte,反击的机会
+T_COUNTER,Counter,Konter,Contraataque,Riposte,反击
+T_CREDITS,Credits,Credits,Créditos,Crédits,分数
+T_CRIT_CHANCE_DESCRIPTION,Chance for a critical strike.,Chance auf einen kritischen Treffer.,Probabilidad de ejecutar un golpe crítico.,Chance de délivrer un coup critique lors d'une attaque,有机会获得致命一击。
+T_CRIT_CHANCE,Critical Chance,Kritische Treffer-Chance,Probabilidad de golpe crítico,Chance de Coup critique,关键机会
+T_CRITICAL_BIT,Critical Bit,Kritisches Bit,Golpe crítico,Bit Critique,关键位
+T_CRITICAL_BONUS_DESCRIPTION,Bonus damage for critical strikes.,Bonusschaden bei kritischen Treffern.,Bonificación de daño al asestar golpes críticos.,Dégât bonus pour les coups critiques,对致命一击有额外的伤害奖励。
+T_CRITICAL_BONUS,Critical Bonus,Kritischer Treffer-Bonus,Bonificación de golpe crítico,Bonus de Coup Critique,关键奖励
+T_DAMAGE_BONUS_DESCRIPTION,Increases the damage you deal.,Erhöht deinen verursachten Schaden.,Aumenta el daño infligido.,Augmente les dommages infligés.,增加你的伤害。
+T_DAMAGE_BONUS,Damage Bonus,Schadensbonus,Bonificación de daño,Bonus de dégâts,伤害奖励
+T_DAMAGE,Damage,Schaden,Daño,Dégâts,损害
+T_DARK,Dark,Dunkle,de la Oscuridad,Sombre,黑暗
+T_DARTH_SHADER,Darth Shader,Darth Shader,Sombra oscura,Dark Shader,达斯着色器
+T_DASH_AND_PUSH_DESCRIPTION,Dash to the target and push it.,Sprinte und schiebe das Ziel.,Lánzate contra el enemigo y empújalo.,Charge vers la cible et la repousse.,冲向目标并推动它。
+T_DASH_AND_PUSH,Dash and Push,Sprint und Schub,Lanzarse y empujar,Charge-télékinétique,冲刺和推动
+T_DASH_AND_SLASH_DESCRIPTION,Dash to the target and attack it.,Sprinte zum Ziel und attackiere es.,Lánzate contra el enemigo y atácalo.,Charge vers la cible et inflige des dommages.,冲向目标并攻击它。
+T_DASH_AND_SLASH,Dash and Slash,Sprintattacke,Lanzarse y atacar,Charge-attaque,冲刺与砍杀
+T_DASH,Dash,Sprint,Lanzarse,Charge,潇洒
+T_DEATH_DESCRIPTION,Die. That's it. That's the achievement.,Stirb. Das war's. Das ist die Errungenschaft.,Muere. Eso es todo. Ese es el logro.,Mourir. Tout simplement.,死亡。就这样而已。这就是成就。
+T_DEATH,Death,Tod,Muere,Mort,死亡
+T_DEMO,Demo,Demo,Demo,Démo,演示
+T_DEVICE,Device,Gerät,Dispositivo,Dispositif,设备
+T_DIFFICULTY,Difficulty,Schwierigkeitsgrad,Dificultad,Difficulté,难度
+T_DIODE_DESCRIPTION,Has two cycles per turn.,Hat zwei Zyklen pro Runde.,Tiene dos ciclos por turno.,Possède deux cycles par tour.,每回合有两个循环。
+T_DIODE,Diode,Diode,Diodo,Diode,二极管
+T_DISABLE_GRAYSCALE,Disable grayscale filter,Graustufenfilter deaktivieren,Desactivar filtro de escala de grises,Désactiver le filtre visuel gris,禁用灰度过滤
+T_DOUBLE_SHIELDS_DESCRIPTION,Double your current shields.,Verdoppelt deine aktuellen Schilde.,Duplica tus escudos actuales.,Double la valeur actuelles des boucliers.,将你目前的护盾翻倍。
+T_DOUBLE_SHIELDS,Double Shields,Schilde verdoppeln,Duplicar escudos,Amplificateur de boucliers,双面护盾
+T_DYE_HARD,Dye Hard,Dye Hard,Duro de pelar,Die Hard,生死由命
+T_EHMPERIAL_GUARD,Ehmperial Guard,Ehmperialer Wächter,Guardia ehmperial,Garde Ehmpérial,国民警卫队
+T_ELUSIVE_DESCRIPTION,Beat level 1-25 without getting hit.,"Schaffe Level 1-25, ohne getroffen zu werden.",Completa el nivel 1-25 sin que te golpeen.,Compléter les niveaux 1 à 25 sans être touché.,在不被击中的情况下击败第1-25关。
+T_ELUSIVE,Elusive,Ausweichend,Esquivo,Insaisissable,难以捉摸
+T_EMITTER,Emitter,Emitter,Emisor,Émetteur,发射器
+T_EMPTY_SLOT,Empty Slot,Leerer Steckplatz,Ranura vacía,Emplacement vide,空槽
+T_END_OF_THE_BEGINNING_DESCRIPTION,Clear level 50.,Schaffe Level 50.,Completa el nivel 50.,Compléter le niveau 50.,通关50级。
+T_END_OF_THE_BEGINNING,The End of the Beginning,Das Ende des Anfangs,El fin del principio,La Fin du Début,开始的结束
+T_ENEMIES,Enemies,Feinde,Enemigos,Ennemis,敌人们
+T_ENEMY,Enemy,Feind,Enemigo,Ennemi,敌人
+T_ENTER_NAME,Enter your name for the leaderboard.,Gib deinen Namen für die Rangliste ein.,Escribe tu nombre en la tabla de clasificación.,Entrez votre pseudo pour le Classement.,输入排行榜中显示的名称。
+T_ENTROPIC,Entropic,Entropisch,Entrópico,Entropique,熵
+T_EQUIP,Install,Installiere,Instalar,Installer,安装
+T_EVADE_DESCRIPTION,Chance to evade incoming attacks.,"Chance, eingehenden Angriffen auszuweichen.",Probabilidad de evadir los ataques que recibes.,Chance d'esquiver les attaques.,有机会躲避来袭的攻击。
+T_EVADE,Evade,Ausweichen,Evasión,Esquiver,避开
+T_FAILED_LOAD,Failed to load ladder.,Rangliste konnte nicht geladen werden.,Error al cargar el modo Carrera,Erreur lors du chargement des données du Ladder.,加载梯子失败。
+T_FASTBOOT,FastBoot,FastBoot,Reinicio rápido,Boot Rapide,快速启动
+T_FINDERS_KEEPERS_DESCRIPTION,Install a part.,Installiere eine Komponente.,Instala una parte.,Installer un composant.,安装一个零件。
+T_FINDERS_KEEPERS,Finders Keepers,Finderlohn,Guardianes del tesoro,Trouvé c'est trouvé,拾物者成了占有人
+T_FINISH,Finish,Beenden,Finalizar,Finir,完成
+T_FIRST_STEPS_DESCRIPTION,Install a part in every slot.,Installiere eine Komponente in jeden Steckplatz.,Instala una parte en cada ranura.,Installer un composant dans chaque emplacement disponible.,在每个插槽中安装一个零件。
+T_FIRST_STEPS,First Steps,Erste Schritte,Primeros pasos,Premiers pas,第一步
+T_FIRST_STRIKE_DESCRIPTION,Beat any level 25 or higher on your first turn.,Schaffe Level 25 oder höher in deiner ersten Runde.,Completa el nivel 25 o superior en tu primer turno.,Compléter 25 niveaux ou plus lors de votre premier run.,在你的第一个回合击败任何25级或更高的等级。
+T_FIRST_STRIKE,First Strike,Erster Schlag,Primer golpe,Première Frappe,第一击
+T_FLAG_BITSHIFT,Doubles your shields but reduces regeneration to zero.,"Verdoppelt deine Schilde, reduziert aber die Regeneration auf Null.",Duplica tus escudos pero reduce tu regeneración a 0.,Double vos boucliers mais réduit la régénération à zéro.,使你的护盾翻倍，但使再生能力降至零。
+T_FLAG_DRIVE_BY_RANGED,Without adjacent enemies attack one at range upon moving.,Greife beim Bewegen ohne benachbarte Feinde einen in Reichweite an.,"Si no tienes enemigos adyacentes, ataca a uno a distancia cuando te muevas.","Si aucun ennemi adjacent, vous déplace puis attaque à distance.",没有相邻的敌人情况下，在移动时攻击范围内的一个。
+T_FLAG_DRIVE_BY,Attack a random adjacent enemy after moving.,Greife beim Bewegen einen zufälligen benachbarten Feind an.,Ataca a un enemigo adyacente aleatorio tras moverte.,Vous déplace puis attaque un ennemi adjacent.,移动后随机攻击一个相邻的敌人。
+T_FLAG_FASTBOOT,Gain 3 cycles in the first turn of each combat.,Du erhältst 3 Zyklen in der ersten Runde jedes Kampfes.,Gana 3 ciclos en el primer turno de cada combate.,Confère 3 cycles au premier tour de chaque combat.,在每次战斗的第一回合获得3个循环。
+T_FLAG_PUSH_MINE,Leave a shock mine where you push.,Hinterlasse eine Schockmine wenn du schiebst.,Deja una mina de choque donde empujas.,Laissez une mine de choc où vous poussez.,留下一个震惊的地雷。
+T_FLAG_POWERDODGE,Attack all adjacent enemies upon evading.,"Greife alle benachbarten Feinde an, wenn du ausweichst.","Al evadir, ataca a todos los enemigos adyacentes.",Attaque tous les ennemis adjacent après une esquive.,躲避时攻击所有邻近的敌人。
+T_FLAG_SECUREBOOT,Gain 100% shields in the first turn of each combat.,Du erhältst in der ersten Runde jedes Kampfes 100% Schilde.,Gana un 100 % de escudos en el primer turno de cada combate.,Confère 100% de boucliers au premier tour de chaque combat.,在每次战斗的第一回合获得100%的护盾。
+T_SHIELDBURN,Shieldburn,Schildverbrenner,Quemaescudo,Perce-boucliers,"
+盾牌燃烧"
+T_FLAG_SHIELDBURN,Attacks remove shields before dealing damage.,Angriffe entfernen Schilde,Los ataques eliminan los escudos antes de infligir daño.,Les attaques réduisent les boucliers à 0 avant de causer des dommages.,攻击在造成伤害前会移除护盾。
+T_BULLSEYE,Bullseye,Volltreffer,Diana,Dans Le Mille,靶心
+T_FLAG_BULLSEYE,Both you and your enemies cannot evade attacks.,"Angriffe treffen immer, auch die der Gegner.",Ni tú ni tus enemigos podrán evadir los ataques.,Votre chance d'esquiver et celle des ennemis tombent à 0.,你和你的敌人都无法躲避攻击。
+T_FLAG_DOUBLE_EPIC,Doubles the chance of rolling epic parts on level 50+.,"Verdoppelt die Chance, epische Komponenten auf Stufe 50+ zu erhalten.",Duplica la probabilidad de conseguir partes épicas a partir del nivel 50.,Double les chances d'obtenir des composants légendaires dans les niveaux 50 +.,增加一倍50级以上的史诗部件的滚动机会。
+T_FULLSCREEN,Fullscreen,Vollbild,Pantalla completa,Plein écran,全屏
+T_GADGET,Gadget,Gadget,Artilugio,Gadget,小工具
+T_GAMBLE,Gamble,Komponenten-Lotterie,Apostar,Loterie,赌
+T_GAME,Game,Spiel,Juego,Jeu,游戏
+T_GAMES,Games,Spiele,Partidas,Parties,游戏
+T_GIGAGUN,Gigagun,Gigagewehr,Gigapistola,Giga-flingue,超级枪
+T_GIGASPRITE,Gigasprite,Gigasprite,Gigasprite,Gigasprite,超级精灵
+T_GIGASPRITE_BONUS,Gigasprite Bonus,Gigasprite-Bonus,Bonif. de Gigasprite,Bonus de Gigasprite,超级精灵奖励
+T_GLASS_CANNON,Glass Cannon,Glaskanone,Cañón de cristal,Canon de verre,玻璃炮
+T_GLITCH_DESCRIPTION,Has ranged attack.,Hat einen Fernkampfangriff.,Puede atacar a distancia.,Attaque à distance.,拥有远程攻击。
+T_GLITCH,Glitch,Glitch,Fallo,Glitch,突发事件
+T_GO_GO_GADGET,Go Go Gadget,Go Go Gadget,"Adelante, gadgeto",Go Go Gadget,加油！小工具
+T_GUARD,Guard,Wächter,Guardia,Gardien,警卫
+T_GUN,Gun,Kanone,Pistola,Fusil,枪
+T_HARDWARE,Hardware,Hardware,Hardware,Matériel,硬件
+T_HAT_TRICK_DESCRIPTION,Defeat three enemies with a single attack.,Besiege drei Gegner mit einem einzigen Angriff.,Derrota a 3 enemigos con un solo ataque.,Vaincre trois ennemis avec une seule attaque.,用一次攻击打败三个敌人。
+T_HAT_TRICK,Hat Trick,Hattrick,Triplete,Tour de Chapeau,帽子戏法
+T_HEALTH,Effective Health,Effektive Gesundheit,Curación efectiva,Santé actuelle,有效的健康
+T_HELP,Help,Hilfe,Ayuda,Aide,帮助
+T_HIDE_COMPLETED,Hide Completed,Abgeschlossene verstecken,Ocultar logros completados,Masquer les succès obtenus,隐藏已完成
+T_HOLD_TO_CONFIRM,Hold to confirm,Gedrückt halten,Mantener > Confirmar,Maintenir appuyé pour confirmer,按住以确认
+T_HOLY_GRAIL_DESCRIPTION,Find every legendary and set part.,Finde alle legendären und Set-Komponenten.,Encuentra todas las partes legendarias y de conjuntos.,Trouver tous les Composants Légendaires et de Set.,找到每一个传说中的和设定的部分。
+T_HOLY_GRAIL,Holy Grail,Heiliger Gral,Santo Grial,Saint Graal,圣杯
+T_HOLY_HAND_GRENADE,Holy Hand Grenade,Heilige Handgranate,Santa Granada,Sainte Grenade Sacrée,圣手榴弹
+T_HUETURAMA,Hueturama,Farborama,Hueturama,Colorama,惠图拉马
+T_IDLE,Idle,Leerlauf,Inactivo,Inactif,闲置
+T_INBOX,Inbox,Inventar,Bandeja,Inventaire,收件箱
+T_ITEMS,Parts,Komponenten,Partes,Composants,零件
+T_KILOBYTE_DESCRIPTION,Tanky thanks to shields.,Langlebig dank Schild.,"Es muy resistente, gracias a sus escudos",Très résistant grâce à ses boucliers.,由于有盾牌，所以很有战斗力。
+T_KILOBYTE,Kilobyte,Kilobyte,Kilobyte,Kilo-octet,千字节
+T_LADDER_DESCRIPTION,Start from scratch in a weekly online ladder.,Beginne von vorn in einer wöchentlichen Online-Rangliste.,Empieza el modo Carrera semanal en línea desde el principio.,Commencer de zéro dans le mode compétitif hebdomadaire en ligne.,在每周的在线阶梯中从头开始。
+T_LADDER_DONE,Replaying this ladder overwrites your progress.,Ein neues Spiel überschreibt deinen vorherigen Fortschritt in dieser Rangliste.,"Si vuelves a jugar esta Carrera, se sobreescribirá tu progreso. ",Rejouer dans cette Compétition efface votre progrès actuel.,重放这个梯子会覆盖你的进度。
+T_LADDER_EMPTY,No ladder entries yet. Be the first!,Noch keine Ranglisten-Einträge. Sei der Erste!,Aún no hay entrada en el modo Carrera. ¡Sé el primero!,Aucun classement de joueur enregistré. Soyez le premier !,还没有梯子。成为第一个!
+T_LADDER_LOCKED,Beat level 25 in normal to unlock.,Verfügbar nach Level 25 im Normal-Modus.,DESBLOQUEO: supera el nivel 25 en Normal,Compléter le niveau 25 en mode normal.,在正常情况下击败25级，即可解锁。
+T_LADDER,Ladder,Rangliste,Carrera,Compétitif,梯子
+T_LASER,Laser,Laser,Láser,Laser,激光
+T_LEGACY_DESCRIPTION,Save a part in the archive.,Lagere eine Komponente im Archiv.,Guarda una parte en el archivo.,Sauvegarder un composant dans l'Archive.,在档案中保存一个部分。
+T_LEGACY,Legacy,Vermächtnis,Legado,Héritage,遗产
+T_LEGENDARY_VARIABLE,Legendary Variable,Legendäre Variable,Variable legendaria,Variable Légendaire,传说中的变量
+T_LEVEL_BEATEN,Level Beaten,Level geschafft,Nivel completado,Niveau Complété,被打败的水平
+T_LEVEL_RECORD,Level Record,Level-Rekord,Récord del nivel,Record de niveau,等级记录
+T_LEVEL,Level,Level,Nivel,Niveau,级别
+T_LIGHTSUCKER,Lightsucker,Lichtsauger,Aspiraluz,Absorbeur de Lumière,灯光
+T_LOADING,Loading...,Laden...,Cargando...,Chargement ...,正在加载...
+T_LOOT_BONUS_DESCRIPTION,Increases the amount of loot found.,Erhöht die Menge an Beute.,Aumenta la cantidad de botines encontrados.,Augmente la quantité de butin.,增加发现的战利品的数量。
+T_LOOT_BONUS,Loot Bonus,Beute-Bonus,Bonif. de botín,Bonus de Butin,战利品奖励
+T_LOOT,Loot,Beute,Botín,Butin,掠夺
+T_MACRO_DESCRIPTION,Has a high chance to counter-attack.,Hohe Chance auf Konter-Angriffe.,Tiene una alta probabilidad de contraatacar.,Possède une chance de riposte élevée.,有很高的反击机会。
+T_MACRO,Macro,Makro,Macro,Macro,宏
+T_MATERIAL_BONUS_DESCRIPTION,Increases the amount of kernels gained.,Erhöht die Menge der gewonnenen Kerne.,Aumenta la cantidad de kernels encontrados.,Augmente la quantité de Kernels gagnés.,增加获得的内核数量。
+T_MATERIAL_BONUS,Kernel Gain Bonus,Kerne-Bonus,Bonif. de ganancia de kernels,Bonus de Kernels,内核增益奖励
+T_MATERIALS,Kernels,Kerne,Kernels,Kernels,内核
+T_MAX_AP_DESCRIPTION,Amount of cycles you have per turn. Rounded down. Capped at 10.,Anzahl der Zyklen pro Runde. Abgerundet. Begrenzt auf 10.,Cantidad de ciclos que tienes por turno (redondeado hacia abajo). Cantidad máxima: 10.,Quantité de cycles disponibles par tour. Arrondi à l'inférieur. Max 10.,你每回合的循环量。四舍五入。上限为10。
+T_MAX_AP,Cycles,Zyklen,Ciclos,Cycles,循环
+T_MAXED_DESCRIPTION,Augment a variable to the max.,Erhöht eine Variable auf das Maximum.,Aumenta una variable al máximo.,Augmenter une variable au maximum.,将一个变量扩增到最大。
+T_MAXED,Maxed,Maximal,Al máximo,Maximisé,最大
+T_MEGASPRITE_BONUS,Megasprite Bonus,Megasprit-Bonus,Bonif. de megasprite,Bonus de Mégasprite,巨型精灵奖金
+T_MEGASPRITE_DESCRIPTION,Grants random bonus to other enemies while alive.,Gewährt anderen Feinden einen zufälligen Bonus.,Concede una bonificación aleatoria a otros enemigos mientras estén vivos.,Confère un bonus aléatoire aux autres ennemis tant qu’il est en vie.,活着时对其他敌人给予随机奖励。
+T_MEGASPRITE,Megasprite,Megasprite,Megasprite,Mégasprite,巨型精灵
+T_MELEE_DIAGONAL,Diagonal,Diagonal,Diagonal,Diagonale,对角线
+T_MELEE_DIAGONAL_DESCRIPTION,Diagonal AOE attack.,Diagonaler Flächenschaden.,Ataque diagonal (área),Attaque de zone en diagonale.,对角线范围性攻击。
+T_MELEE_ANNIHILATION_DESCRIPTION,Damage pretty much everything around you.,Fügt so ziemlich allem um dich herum Schaden zu.,Inflige daño a todo lo a tu alrededor.,Endommage à peu près tout ce qui vous entoure.,破坏了你周围的几乎所有东西。
+T_MELEE_ANNIHILATION,Melee Annihilation,Nahkampf-Vernichtung,Aniquilación cuerpo a cuerpo,Annihilation de mêlée,近战歼灭战
+T_MELEE_BONUS_DESCRIPTION,Bonus damage for melee scripts.,Bonusschaden für Nahkampf-Skripte.,Bonificación de daño para scripts de ataques cuerpo a cuerpo.,Dégâts bonus pour les scripts de mêlée.,对近战脚本有额外的伤害。
+T_MELEE_BONUS,Melee Bonus,Nahkampf-Bonus,Bonif. cuerpo a cuerpo,Bonus de mêlée,近战奖励
+T_MELEE_CROSS_DESCRIPTION,Attack all cardinally adjacent enemies.,Greift alle kardinal benachbarten Gegner an.,Ataca en cruz a todos los enemigos cercanos.,Attaque tous les ennemis cardinalement adjacents.,攻击所有心形相邻的敌人。
+T_MELEE_CROSS,Melee Cross,Nahkampf-Kreuz,Cuerpo a cuerpo (cruz),Croix de mêlée,近战十字架
+T_MELEE_DOUBLE_DESCRIPTION,Attack two enemies in a line.,Greift zwei Feinde in einer Reihe an.,Ataca a dos enemigos en línea recta.,Attaque deux ennemis en ligne droite.,攻击一排的两个敌人。
+T_MELEE_DOUBLE,Melee Double,Nahkampf-Doppel,Línea doble,Double Mêlée,近战双倍
+T_MELEE_PUSH_DESCRIPTION,Push all cardinally adjacent enemies.,Stoße alle kardinal benachbarten Feinde.,Empuja a todos los enemigos adyacentes en cruz.,Pousse tous les ennemis cardinalement adjacents.,推动所有基质相邻的敌人。
+T_MELEE_PUSH,Melee Push,Nahkampf-Schub,Empuje cuerpo a cuerpo,Poussée de Mêlée,近战推动
+T_MELEE_ROUNDHOUSE_DESCRIPTION,Attack all adjacent enemies.,Greift alle benachbarten Feinde an.,Ataca a todos los enemigos adyacentes.,Attaque tous les ennemis adjacents.,攻击所有相邻的敌人。
+T_MELEE_ROUNDHOUSE,Melee Roundhouse,Nahkampf Roundhouse,Barrido cuerpo a cuerpo,Retournée acrobatique,近战回旋枪
+T_MELEE_TRIPLE_DESCRIPTION,Attack three enemies in a line.,Greift drei Feinde in einer Reihe an.,Ataca a tres enemigos en línea recta.,Attaque trois ennemis en ligne droite.,攻击一排的三个敌人。
+T_MELEE_TRIPLE,Melee Triple,Nahkampf Dreier,Línea triple,Triple de mêlée,近战三连击
+T_MENU,Menu,Menü,Menú,Menu,菜单
+T_META_MASTERY_DESCRIPTION,Reach the maximum amount of this meta bonus.,Erreiche den maximalen Wert dieses Meta-Bonus.,Alcanza la cantidad máxima de esta bonificación de metas.,Atteindre la quantité maximale de ce bonus de Méta-maîtrise.,达到这个元宝奖励的最高数额。
+T_META_GRANDMASTER,Meta Grandmaster,Meta-Großmeister,Gran maestro de metas,Grand-maître de Méta,元大师
+T_META_GRANDMASTER_DESCRIPTION,Unlock all meta mastery achievements.,Schalte alle Meta-Meisterschaft-Errungenschaften frei.,Desbloquea todos los logros de maestría de metas.,Déverrouiller tous les succès de Méta-maîtrise.,解锁所有的元老级成就。
+T_OVERCLOCKER,Overclocker,Übertakter,Pirateador,Overclockeur,超频者
+T_OVERCLOCKER_DESCRIPTION,Beat the game on the maximum overclock level.,Besiege das Spiel auf der maximalen Übertaktungsstufe.,Completa el juego en el nivel máximo de pirateo.,Compléter le jeu avec le niveau d'overclock maximum.,在最大超频水平上获胜。
+T_META_MASTERY_PUSH,Meta Mastery: Pushy,Meta-Meisterschaft: Schieber,Maestría de meta: Impaciente,Méta-maîtrise : Télékinétique,元老级：推动
+T_META_MASTERY_EVADE,Meta Mastery: Untouchable,Meta-Meisterschaft: Unberührbar,Maestría de meta: Intocable,Méta-maîtrise : Intouchable,元老级：碰不得
+T_META_MASTERY_CRIT,Meta Mastery: Critical,Meta-Meisterschaft: Kritisch,Maestría de meta: Crítico,Méta-maîtrise : Critique,元老级：关键
+T_META_MASTERY_COUNTER,Meta Mastery: Vengeful,Meta-Beherrschung: Rachsüchtig,Maestría de meta: Vengativo,Méta-maîtrise : Vengeur,元老级：复仇
+T_META_MASTERY_HIT,Meta Mastery: Impervious,Meta-Meisterschaft: Unerschütterlich,Maestría de meta: Impenetrable,Méta-maîtrise : Imperméable,元老级：不透光
+T_META_MASTERY_MOVE,Meta Mastery: Dashing,Meta-Beherrschung: Rasend,Maestría de meta: Lanzado,Méta-maîtrise : Fringant,元老级：冲刺
+T_META_MASTERY_AP,Meta Mastery: Expensive,Meta-Beherrschung: Teuer,Maestría de meta: Caro,Méta-maîtrise : Onéreux,元老级：昂贵的
+T_META_BONUS,Meta Bonus,Meta-Bonus,Bonif. por meta,Méta-bonus,元奖励
+T_META_RANDOM,Random,Zufällig,Aleatorio,Aléatoire,随机
+T_META_PUSH,Pushy,Schubser,Impaciente,Télékinétique,急躁
+T_META_PUSH_DESC,Gain kernels for every push script used.,Erhalte Kerne für jedes verwendete Schiebe-Skript.,Gana kernels por cada script de empuje utilizado.,Confère des Kernels pour chaque script de pousse utilisé.,为每个使用的推送脚本获得内核。
+T_META_EVADE,Untouchable,Unberührbar,Intocable,Intouchable,不可触摸
+T_META_EVADE_DESC,Gain kernels for every attack you evade.,"Erhalte Kerne für jeden Angriff, dem du ausweichst.",Gana kernels por cada ataque evadido.,Donne des Kernels pour chaque attaque que vous esquivez.,每躲避一次攻击，就能获得内核。
+T_META_CRIT,Critical,Kritisch,Crítico,Critique,关键
+T_META_CRIT_DESC,Gain kernels for every critical hit.,Erhält Kerne für jeden kritischen Treffer.,Gana kernels por cada golpe crítico infligido.,Donne des Kernels pour chaque coup critique délivré.,每一次致命一击都能获得内核。
+T_META_COUNTER,Vengeful,Rachsüchtig,Vengativo,Revanchard,复仇
+T_META_COUNTER_DESC,Gain kernels for every attack you counter.,"Erhalte Kerne für jeden Angriff, den du abwehrst.",Gana kernels por cada contraataque que hagas.,Donne des Kernels pour chaque riposte délivrée.,你每反击一次攻击，就能获得内核。
+T_META_HIT,Impervious,Unverwundbar,Impenetrable,Imperméable,防水的
+T_META_HIT_DESC,Gain kernels for every hit you take.,"Erhalte Kerne für jeden Treffer, den du einsteckst.",Gana kernels por cada golpe que recibas.,Donne des Kernels pour chaque coup qui vous est infligé.,每打一次就能获得内核。
+T_META_MOVE,Dashing,Rasend,Lanzado,Fringant,潇洒的
+T_META_MOVE_DESC,Gain kernels for every move script dealing damage.,"Erhalte Kerne für jedes Bewegungsskript, das Schaden verursacht.",Gana kernels por cada script de movimiento que inflija daño.,Donne des Kernels pour chaque script de mouvement infligeant des dégâts.,每一个造成伤害的动作脚本都会获得内核。
+T_META_AP,Expensive,Teuer,Caro,Onéreux,昂贵的
+T_META_AP_DESC,Gain kernels for every script using 2+ cycles.,"Erhält Kerne für jedes Skript, das 2+ Zyklen verbraucht.",Ganar kernels por cada script que use más de 2 ciclos.,Donne des Kernels pour chaque script utilisant 2 + cycles.,为每个使用2个以上循环的脚本获得内核。
+T_MICRO_DESCRIPTION,Has a high counter chance and high evade chance.,Hat eine hohe Konterchance und eine hohe Ausweichchance.,Tiene una alta probabilidad de contraatacar y de evadir ataques.,Possède une forte chance de riposte et d'esquive.,有很高的反击机会和很高的逃避机会。
+T_MICRO,Micro,Mikro,Micro,Micro,微
+T_MILESTONE_DESCRIPTION,Clear level 25.,Schaffe Level 25.,Completa el nivel 25.,Compléter le niveau 25.,通关25级。
+T_MINELAYER,Minelayer,Minenleger,Mouilleur de mines,Minador,布雷艇
+T_MINELAYER_DESCRIPTION,Leave a shock mine whenever you move.,Hinterlasse eine Schockmine bei jeder Bewegung.,Laissez une mine de choc chaque fois que vous déménagez.,Deja una mina de shock cada vez que te muevas.,每当您移动时，都会留下震惊的地雷。
+T_MILESTONE,Milestone,Meilenstein,Hito,Étape,里程碑
+T_MOBILITY_SHOOTER,Mobility Shooter,Mobilmacher,Tirador Móvil,,移动射手
+T_MODULE,Module,Modul,Módulo,Module,模块
+T_MOMENTUM_BONUS_DESCRIPTION,Damage bonus gained each time you move. Resets at the end of the turn.,Schadensbonus nach jeder Bewegung. Wird am Ende der Runde zurückgesetzt.,Ganas una bonif. de daño cada vez que te mueves. Se restablece al final del turno.,"Donne un bonus dégâts pour chaque déplacement, réinitialisé à chaque début de tour.",每次移动时获得的伤害奖励。在回合结束时重置。
+T_MOMENTUM_BONUS,Momentum Bonus,Momentum-Bonus,Bonificación de inercia,Bonus d'Impulsion,动量奖励
+T_MOMENTUM,Momentum,Momentum,Inercia,Impulsion,动量
+T_MOVE_ATTACK_DESCRIPTION,Default script. Move to a cardinally adjacent tile or attack the enemy on it.,Standard-Skript. Bewege dich auf ein benachbartes Feld oder greife den Feind auf diesem Feld an.,Script predeterminado. Muévete a una casilla en cruz adyacente o ataca al enemigo que esté en ella.,Script de base. Se déplacer ou attaquer un ennemi sur une case cardinalement adjacente.,默认脚本。移动到卡位相邻的牌，或攻击其上的敌人。
+T_MOVE_ATTACK,Move/Attack,Bewegen/Angreifen,Moverse/Atacar,Bouger/Attaquer,移动/攻击
+T_MUTE_IN_BACKGROUND,Mute in background,Stumm im Hintergrund,Silenciar al minimizar,Muet en arrière-plan,在背景中静音
+T_MY_LITTLE_FRIEND,My Little Friend,Mein kleiner Freund,Mi pequeño amigo,Mon Petit Ami,我的小伙伴
+T_MY_PRECIOUS,My Precious,Mein Schatz,Mi tesoro,Mon Précieux,我的宝贝儿
+T_NEW_GAME,New Game,Neues Spiel,Partida nueva,Nouvelle Partie,新游戏
+T_NORMAL_DESCRIPTION,Carry on loot between games.,Nimm Komponenten von Spiel zu Spiel mit.,Usa el botín de partidas anteriores,Conservez des composants d'une partie à l'autre.,在游戏之间携带战利品。
+T_NORMAL,Normal,Normal,Normal,Normal,正常
+T_NULLIFYING,Nullifying,Nullifiziernd,de Anulación,Annulant,无效的
+T_OBLITERATING,Obliterating,Auslöschend,de Obliteración,Oblitérant,湮灭
+T_OF_BALANCE,of Balance,des Gleichgewichts,del Equilibrio,d'Équilibre,平衡
+T_OF_DARKNESS,of Darkness,der Dunkelheit,de Oscuridad,d'Obscurité,黑暗
+T_OF_DEATH,of Death,des Todes,de Muerte,de la Mort,死亡
+T_OF_DESTRUCTION,of Destruction,der Zerstörung,de Destrucción,de Destruction,毁灭
+T_OF_DOOM,of Doom,des Verderbens,de Perdición,de Malheur,厄运
+T_OF_EMPTINESS,of Emptiness,der Leere,de la Nada,du Néant,虚空
+T_OF_INFINITY,of Infinity,der Unendlichkeit,de Infinidad,de l'Infini,无限
+T_OF_OBLITERATION,of Obliteration,der Auslöschung,de Devastación,d’Oblitération,湮灭
+T_OF_THE_VOID,of the Void,der Leere,del Vacío,du Vide,虚空
+T_OFFLINE,Offline,Offline,Desconectado,Hors ligne,离线
+T_ONE_HIT_WONDER_DESCRIPTION,Defeat an enemy with a single attack in level 25 or higher.,Besiege einen Gegner mit einem einzigen Angriff auf Level 25 or höher.,Derrota a un enemigo con un solo golpe en el nivel 25 o superior.,Vaincre un ennemi en une seule attaque dans les niveaux 25 ou plus.,在25级或更高等级时，用一次攻击击败一个敌人。
+T_ONE_HIT_WONDER,One Hit Wonder,One Hit Wonder,Un golpe maravilloso,One-Hit-Wonder,一鸣惊人
+T_ONLY_ALPHANUMERIC,Only alphanumeric characters allowed.,Nur alphanumerische Zeichen erlaubt.,Solo se permiten caracteres alfanuméricos.,Seuls les caractères alphanumériques sont autorisés.,只允许使用字母数字字符。
+T_ORDNANCE,Ordnance,Geschütz,Ordenanza,Ordonnance,军械
+T_OVERCLOCK,Overclock,Übertakten,Pirateo,Overclocker,超频
+T_PACIFIST_DESCRIPTION,Beat level 1-25 without using damage scripts.,Besiege Level 1-25 ohne Schadensskripte zu benutzen.,Completa el nivel 1-25 sin usar scripts de daño.,Battre le niveau 1-25 sans utiliser de scripts de dégâts.,在不使用伤害脚本的情况下完成1-25级。
+T_PACIFIST,Pacifist,Pazifist,Pacifista,Pacifiste,和平主义者
+T_PATCH,Patch,Patch,Parche,Patch,补丁
+T_PERFECTIONIST_DESCRIPTION,Fully augment every variable on a part.,Steigere jede Variable einer Komponente bis zum Limit.,Aumenta completamente cada variable de una parte.,Augmenter toutes les variables d'un composant au maximum.,充分扩增零件上的每个变量。
+T_PERFECTIONIST,Perfectionist,Perfektionist,Perfeccionista,Perfectionniste,完美主义者
+T_PILE_OF_CRAP_DESCRIPTION,Salvage 1000 parts.,Verwerte 1000 Komponenten.,Desmonta 1000 partes.,Recycler 1000 composants.,打捞出1000个零件。
+T_PILE_OF_CRAP,Pile of Junk,Ein Haufen Schrott,Pila de basura,Tas de Ferraille,一堆废品
+T_PITCH_BLACK,Pitch Black,Pechschwarz,Oscuro como la noche,Noir Absolu,沥青黑
+T_PIXEL_PUSHER,Pixel Pusher,Pixel-Schieber,Empujapíxeles,Pousse-Pixels,像素推器
+T_PLAY,Play,Spielen,Jugar,Jouer,玩
+T_PLUMBUS,Plumbus,Plumbus,de Plomo,Plumbus,普朗普斯
+T_PRISMATIC,Prismatic,Prismatisch,de Prisma,Prismatique,棱柱形
+T_PROCESSOR,Processor,Prozessor,Procesador,Processeur,处理器
+T_PUSH,Push,Schieben,Empuje,Pousser,推
+T_QUANTUM,Quantum,Quanten,de Cuantos,Quantique,量子
+T_QUANTUM_GATE,Quantum Gate,Quantentor,Puerta cuántica,Porte quantique,量子门
+T_QUANTUM_GATE_DESCRIPTION,State uncertain. Input required.,Status unklar. Benötige Eingabe.,Estado incierto. Se requiere entrada.,État incertain. Entrée requise.,状态不确定。需要输入。
+T_QUIT,Quit,Beenden,Salir,Quitter,退出
+T_RANDOM_SCRIPT,Random Script,Zufälliges Skript,Script aleatorio,Script Aléatoire,随机脚本
+T_RANDOM_VARIABLES,Random Variables,Zufällige Variablen,Variables aleatorias,Variables Aléatoires,随机变量
+T_RANGED_ANNIHILATION_DESCRIPTION,Massive ranged area attack.,Massiver Fernkampf-Flächenangriff.,Ataque a distancia de gran área de efecto.,Attaque massive à distance et de zone.,大规模远程区域攻击。
+T_RANGED_ANNIHILATION,Ranged Annihilation,Fernkampf-Vernichtung,Aniquilación a distancia,Annihilation de portée,远程歼灭
+T_RANGED_BONUS_DESCRIPTION,Bonus damage for ranged scripts.,Bonusschaden für Fernkampfskripte.,Bonificación de daño para los scripts de daño a distancia.,Dégâts bonus pour les scripts de distance.,对范围内的脚本进行奖励伤害。
+T_RANGED_BONUS,Ranged Bonus,Fernkampf-Bonus,Bonificación a distancia,Bonus de portée,远程攻击奖励
+T_RANGED_CROSS_DESCRIPTION,Attack one and all cardinally adjacent enemies at range.,Greift einen und alle kardinal benachbarten Gegner aus der Ferne an.,Ataca a un enemigo a distancia y a todos los enemigos adjacentes en cruz a él.,Attaque un ennemi à distance et tous les ennemis cardinalement adjacents à la cible.,攻击范围内的一个和所有基质相邻的敌人。
+T_RANGED_CROSS,Ranged Cross,Fernkampf-Kreuz,A distancia (cruz),Croix à distance,远程十字架
+T_RANGED_DESCRIPTION,Attack one enemy at range.,Greift einen Gegner aus der Ferne an.,Ataca un enemigo a distancia.,Attaque un ennemi à distance.,攻击范围内的一个敌人。
+T_RANGED_LIGHTNING_DESCRIPTION,Damage an enemy at range. Jumps to cardinally adjacent enemies.,Fügt einem Feind aus der Ferne Schaden zu. Springt auf kardinal benachbarte Feinde.,Ataca un enemigo a distancia. Salta a enemigos adyacentes en cruz.,"Endommage un ennemi à distance, puis tous les ennemis cardinalement adjacents.",伤害一个范围内的敌人。跳到基质相邻的敌人。
+T_RANGED_LIGHTNING,Ranged Lightning,Fernkampf-Blitz,Relámpago a distancia,Éclair à distance,远程闪电
+T_RANGED_PUSH_DESCRIPTION,Push an enemy at range.,Schiebe einen Feind aus der Ferne.,Empuja a un enemigo a distancia.,Pousse un ennemi à distance.,将敌人推到范围内。
+T_RANGED_PUSH,Ranged Push,Fernkampf-Schub,Empuje a distancia,Télékinésie,远程推开
+T_RANGED_ROUNDHOUSE_DESCRIPTION,Attack one and all adjacent enemies at range.,Greift einen und alle benachbarten Feinde in Reichweite an.,Ataca a un enemigo a distancia y a todos los enemigos adjacentes a él.,Attaque un ennemi à distance et tous les ennemis adjacents à la cible.,在范围内攻击一个和所有相邻的敌人。
+T_RANGED_ROUNDHOUSE,Ranged Roundhouse,Fernkampf-Rundschlag,Barrido a distancia,Retournée à distance,远程攻击圆舞曲
+T_RANGED,Ranged,Fernkampf,A distancia,À distance,远程攻击
+T_RARITY_COMMON_DESCRIPTION,Rolls 1 random variable.,Hat 1 zufällige Variable.,Carga 1 variable aleatoria.,Ajoute une variable aléatoire.,轧制1个随机变量。
+T_RARITY_COMMON,Common,Gewöhnlich,Común,Commun,常见的
+T_RARITY_LEGENDARY_DESCRIPTION,Rolls 3 random or legendary variables.,Hat 3 zufällige oder legendäre Variablen.,Carga 3 variables aleatorias o legendarias,Ajoute 3 variables aléatoires.,轧制3个随机或传说中的变量。
+T_RARITY_LEGENDARY,Legendary,Legendär,Legendario,Légendaire,传说中的
+T_RARITY_RARE_DESCRIPTION,Rolls 2 random variables.,Hat 2 zufällige Variablen.,Carga 2 variables aleatorias.,Ajoute 2 variables aléatoires.,轧制2个随机变量。
+T_RARITY_RARE,Rare,Selten,Raro,Rare,罕见的
+T_RARITY_SET_DESCRIPTION,Rolls 3 random variables and grants set bonuses.,Würfelt 3 Zufallsvariablen und gewährt Set-Boni.,Carga 3 variables aleatorias y concede bonificaciones de conjunto.,Ajoute 3 variables aléatoires et confère un bonus de Set.,轧制3个随机变量，并给予设定的奖励。
+T_RARITY_SET,Set,Set,Conjunto,Set,设置
+T_RARITY_EPIC,Epic,Episch,Épica,Épique,史诗级
+T_RARITY_EPIC_SET,Epic Set,Episches Set,Conjunto épico,Set Épique,史诗级套装
+T_REACH_GATE_IN,Reach the gate,Erreiche das Tor,Llega a la puerta,Atteignez le portail,到达大门
+T_REGENERATE_DESCRIPTION,Instantly regain some of your lost health. Only one use per level.,Gewinnt sofort einen Teil eurer verlorenen Gesundheit zurück. Nur einmal pro Level einsetzbar.,Recupera al instante parte de tu salud perdida. Solo puede usarse una vez por nivel.,Rend instantanément une partie des points de vie perdus. Une seule utilisation par niveau.,瞬间恢复你失去的部分健康。每个级别只能使用一次。
+T_REGENERATE,Regenerate,Regenerieren,Regenerar,Régénération,再生
+T_REGENERATION_DESCRIPTION,Amount of health you regain upon starting a level.,"Die Menge an Gesundheit, die du bei Beginn eines Levels wiedererlangst.",Cantidad de salud que recuperas al iniciar un nivel.,Quantité de points de vie récupérée au début d'un niveau.,你在开始一个级别时恢复的健康量。
+T_REGENERATION,Regeneration,Regeneration,Regeneración,Régénération,再生
+T_RELIABILITY_DESCRIPTION,Reduces the target's evade chance.,Verringert die Ausweichchance des Ziels.,Reduce la probabilidad de evasión del objetivo.,Réduit la chance d'esquiver de la cible.,减少目标的闪避机会。
+T_RELIABILITY,Reliability,Verlässlichkeit,Fiabilidad,Fiabilité,可靠性
+T_REPLACE,Replace,Ersetzen,Reemplazar,Remplacer,替换
+T_REROLL_DESCRIPTION,Replace an variable with a random new one.,Ersetzt eine Variable durch eine zufällige neue Variable.,Sustituye una variable por otra aleatoria.,Remplace une variable par une nouvelle variable aléatoire.,用一个随机的新变量替换一个变量。
+T_REROLL,Reroll,Austauschen,Reintento,Relancer,重新布局
+T_RESISTANCE_DESCRIPTION,Reduces incoming damage. Increases damage if negative.,Verringert den eingehenden Schaden. Kann negativ sein und Schaden erhöhen.,Reduce el daño recibido. Lo aumenta si es negativo.,"Réduit les dommages reçus. Si négatif, les dommages reçus augmentent.",减少外来的伤害。如果是负面的，则增加伤害。
+T_RESISTANCE_REDUCTION_DESCRIPTION,Flat reduction of the enemy's resistance.,Reduziert den gegnerischen Widerstand.,Reducción total de la resistencia del enemigo.,Réduction directe des résistances de l'ennemi.,扁平化减少敌人的防御力。
+T_RESISTANCE_REDUCTION,Resistance Reduction,Widerstandsreduzierung,Reducción de resistencia,Réduction de Résistance,减少防御
+T_RESISTANCE,Resistance,Widerstand,Resistencia,Résistance,防御
+T_RICH_BITCH_DESCRIPTION,Start a run fully equipped from the archive.,Beginne ein Spiel mit voller Ausrüstung aus dem Archiv.,Juega una partida completamente equipado con elementos de tu archivo.,Commencer une partie en étant totalement équipé de composants issus de l'Archive.,从档案中启动完全配备的运行。
+T_RICH_BITCH,Rich Glitch,Krösus,Ricachón,Crésus,富婆
+T_ROGUELIKER_DESCRIPTION,Play 100 runs.,Spiele 100 Spiele.,Juega 100 partidas,Jouer 100 parties.,玩100次。
+T_ROGUELIKER,Rogueliker,Rogueliker,Amante bandido,Roguelikeur,盗贼
+T_ROLL_VALUE,Roll Value,Wert,Recargar valor,Valeur,轧制值
+T_SALVAGE_LOOT,Auto-Salvage,Auto-Verwerten,Autodesmontar,Tout Recycler,汽车救援
+T_SALVAGE,Salvage,Verwerten,Desmontar,Recycler,救援
+T_SAVE_QUIT,Save & Quit,Speichern & Beenden,Guardar y salir,Sauver et Quitter,保存并退出
+T_SCRIPT,Script,Skript,Script,Script,脚本
+T_SCRIPTS,Scripts,Skripte,Scripts,Scripts,脚本
+T_SCROOGE_DESCRIPTION,Save 25k kernels.,Spare 25k Kerne.,Almacena 25k de kernels.,Économiser 25000 Kernels.,保存25000个内核。
+T_SCROOGE,Scrooge,Dagobert,Tacaño,Picsou,吝啬鬼
+T_SECUREBOOT,SecureBoot,SecureBoot,Arranque seguro,Démarrage Sécurisé,安全启动
+T_SET_BONUS,Set Bonus,Set-Bonus,Bonificación por conjunto,Bonus de Set,设定奖励
+T_SETTINGS,Settings,Einstellungen,Ajustes,Options,设置
+T_SEVEN_AT_ONE_BLOW_DESCRIPTION,Hit seven enemies with one damage script.,Triff sieben Gegner mit einem Schadensskript.,Golpea a 7 enemigos con un solo script de daño.,Toucher sept ennemis en un script d'attaque.,用一个伤害脚本击中七个敌人。
+T_SEVEN_AT_ONE_BLOW,Seven at One Blow,Sieben auf einen Streich,El 7 de la suerte,Sept d'un coup,七个一击即中
+T_SHIELDS_DESCRIPTION,"Reduces incoming damage, refreshes at the start of each turn.","Verringert eingehenden Schaden, wird zu Beginn jeder Runde aufgefrischt.",Reduce el daño recibido. Se reinicia al comienzo de cada turno.,"Réduit les dommages reçus, se réinitialise à chaque début de tour.",减少外来伤害，在每个回合开始时刷新。
+T_SHIELDS_FULL_DESCRIPTION,Charge your shields to 100% capacity.,Lädt Schilde auf 100% Kapazität auf.,Carga tus escudos al 100 % de su capacidad.,Charge vos boucliers à 100% de capacité.,将你的护盾充电到100%的容量。
+T_SHIELDS_FULL,Shields Full,Volle Schilde,Escudos al máximo,Boucliers Complets,全护盾
+T_SHIELDS_HALF_DESCRIPTION,Charge your shields to 50% capacity.,Lädt Schilde auf 50% Kapazität auf.,Carga tus escudos al 50 % de su capacidad.,Charge vos boucliers à une capacité de 50%.,给你的护盾充电到50%的容量。
+T_SHIELDS_HALF,Shields Half,Halbe Schilde,Escudos a la mitad,Demi Boucliers,半护盾
+T_SHIELDS,Shields,Schilde,Escudos,Boucliers,护盾
+T_SHINY_HINEY_DESCRIPTION,Install a legendary or set part in every slot.,Installiere eine legendäre oder Set-Komponente in jedem Steckplatz.,Instala una parte o conjunto legendario en cada ranura.,Installer un composant Légendaire ou de Set dans chaque emplacement.,在每个插槽中安装一个传说中的或成套的零件。
+T_SHINY_HINEY,Shiny Hiney,Vollmontur,Tan brillante,Étincelant,闪亮的海尼
+T_SHOP,Shop,Shop,Tienda,Marchand,店铺
+T_SKIP,Skip,Überspringen,Saltar,Sauter,跳过
+T_SKIP_CONFIRMATION_BUTTONS,Skip confirmation buttons,Bestätigungs-Buttons überspringen,Saltar botones de confirmación,Désactiver les boutons de confirmation,跳过确认按钮
+T_SKIP_LEVEL_CLEAR,Skip level clear screen,Level-Abschluss-Bildschirm überspringen,Saltar pantalla de nivel completado,Sauter les écrans de fin de niveau,跳过级别清除屏幕
+T_SLOT,Slot,Steckplatz,Ranura,Emplacement,槽位
+T_START_RUN,Start Run,Spiel starten,Iniciar ejecución,Démarrer la partie,开始运行
+T_STATIONARY_BONUS_DESCRIPTION,Damage bonus gained each turn you stay on the spot. Resets upon moving. Capped at 3 turns.,"Schadensbonus pro Runde, die du auf der Stelle bleibst. Wird bei Bewegung zurückgesetzt. Begrenzt auf 3 Runden.",Bonificación de daño obtenida por cada turno que estés quieto (hasta un máx.de 3 turnos). Se reinicia al moverte.,Bonus de dégâts obtenus pour chaque tour sans aucun déplacement. Se réinitialise après un déplacement. Limité à 3 tours.,在原地停留的每一回合获得伤害奖励。移动时重置。上限3个回合。
+T_SOLO_INTRO,"This game is mostly made by one person. 
+Please help me make it the best it can be!
+
+Join the Discord community to get help, report bugs and share your ideas for the game.","Dieses Spiel wird fast nur von einer Person entwickelt. Hilf mir, es besser zu machen!
+
+Tritt der Discord-Community bei um Bugs zu melden, Hilfe zu bekommen und deine Ideen zu teilen!","Este juego ha sido desarrollado principalmente por una sola persona.
+Por favor, ayúdame a que sea lo mejor posible.
+
+Únete a la comunidad de Discord para recibir ayuda, informar de errores y compartir tus ideas sobre el juego.","Ce jeu est le fruit du labeur d'une seule personne ou presque.
+
+Aidez-moi à l'améliorer et à en faire le meilleur jeu possible !
+
+Rejoignez la communauté sur Discord pour recevoir de l'aide, soumettre un rapport de bug et partagez vos idées pour le jeu !
+","这个游戏主要由独立开发者制作。
+请帮助我使它成为最好的游戏!
+
+加入Discord社区，获得帮助、举报错误并分享你对游戏的想法。"
+T_STATIONARY_BONUS,Stationary Bonus,Unbeweglich-Bonus,Bonif. estacionaria,Bonus Stationnaire,固定奖金
+T_STATIONARY_DESCRIPTION,Beat a level without moving.,"Schaffe ein Level, ohne dich zu bewegen.",Completa un nivel sin moverte.,Compléter un niveau sans vous déplacer.,不动声色地完成关卡。
+T_STATIONARY,Stationary,Unbeweglich,Estacionario,Stationnaire,固定
+T_STORY,Story,Story,Historia,Histoire,故事
+T_STORY_UNREAD,Unread,Ungelesen,No leídas,Non lu,未读
+T_STORY_EVERYTHING,Everything,Alles,Todo,Tout,一切
+T_STYGIAN,Stygian,Unterweltlich,de Estigia,Stygien,冥界
+T_SUPREME,Supreme,Oberstes,de Supremacía,Suprême,最高
+T_SURVIVE_FOR,Survive for,Überlebe für,Sobrevive durante,Survivre pendant,生存
+T_SWITCHEROO_DESCRIPTION,Reroll variables on a single item 25 times.,Reroll-Variablen auf einen einzigen Gegenstand 25 Mal.,Recarga las variables de un solo objeto 25 veces.,Relancer les variables 25 fois sur un même objet.,在一个项目上重掷变量25次。
+T_SWITCHEROO,Switcheroo,Feintuning,Trueque,Magouille,突变
+T_TALION,Talion,Talion,del Talión,Talion,塔利昂
+T_TANKY_DESCRIPTION,Survive 10 hits in one turn.,Überlebe 10 Treffer in einer Runde.,Sobrevive a 10 ataques en un solo turno.,Surviver à 10 attaques en un seul tour.,在一个回合中生存10次命中。
+T_TANKY,Tanky,Langlebig,Tanque,Blindé,坦克
+T_TELEPORT_DESCRIPTION,Instantly move to any free tile on the map.,Bewege dich sofort auf ein beliebiges freies Feld auf der Karte.,Muévete instantáneamente a cualquier casilla libre del mapa.,Vous déplace instantanément sur n’importe quelle case vide du niveau.,瞬间移动到地图上的任何空瓷砖。
+T_TELEPORT,Teleport,Teleportieren,Teletransporte,Téléporter,传送
+T_TELEPUSH_DESCRIPTION,Teleport and push all cardinally adjacent enemies.,Teleportiere und schiebe alle kardinal benachbarten Feinde.,Te teletransporta y empuja a todos los enemigos adyacentes en cruz.,Vous téléporte sur une case vide et repousse tous les ennemis cardinalement adjacents.,瞬移并推动所有有卡位的相邻敌人。
+T_TELEPUSH,Telepush,Teleschub,Telempuje,Télé-push,遥遥领先
+T_TELESTOMP_DESCRIPTION,Teleport and attack all adjacent enemies.,Teleportiere und greift alle benachbarten Feinde an.,Te teletransporta y ataca a todos los enemigos adyacentes.,Vous téléporte et attaque tous les ennemis adjacents.,瞬移并攻击所有邻近的敌人。
+T_TELESTOMP,Telestomp,Telestampf,Teleataque,Télé-stomp,瞬移敌人
+T_TRANSMITTER_DESCRIPTION,Installing a transmitter grants you a new script.,Durch die Installation eines Transmitters erhältst du ein neues Skript.,"Al instalar un transmisor, ganarás un nuevo script.",Installer un émetteur vous confère un nouveau script.,安装一个发射器可以获得一个新的脚本。
+T_TRANSMITTER,Transmitter,Transmitter,Transmisor,Émetteur,发射器
+T_TREASURE_HUNTER_DESCRIPTION,Find 100 legendary or set parts.,Finde 100 legendäre oder Set-Komponenten.,Encuentra 100 partes legendarias o de conjunto.,Trouver 100 composants Légendaires ou de Set.,找到100个传奇或设定零件。
+T_TREASURE_HUNTER,Treasure Hunter,Schatzjäger,Cazatesoros,Chasseur de Trésor,宝藏猎人
+T_TRINITY_FORCE,Trinity Force,Stärke der Dreieinigkeit,Fuerza de la Trinidad,Force de la Trinité,三位一体力量
+T_TRIODE_DESCRIPTION,Has three cycles per turn.,Hat drei Zyklen pro Runde.,Tiene tres ciclos por turno.,Possède trois cycles par tour.,每轮有三个循环。
+T_TRIODE,Triode,Triode,Triodo,Triode,三极管
+T_TURN,Turn,Runde,Turno,Tour,转向
+T_TURNS,Turns,Runden,Turnos,Tours,转弯
+T_UNLOCK_CODE,Enter Unlock Code,Freischaltcode eingeben,Código de desbloqueo,Entrez le code de déverrouillage,输入解锁码
+T_UNLOCKED_ITEM_TYPE,New part type,Neuer Komponenten-Typ,Nuevo tipo de parte,Nouveau type de composant,新零件类型
+T_UNLOCKED_RARITY,New part rarity,Neue Seltenheit,Nueva rareza de parte,Nouveau niveau de rareté de composant,新零件的稀有性
+T_UNLOCKED_SCRIPT,New script,Neues Skript,Nuevo script,Nouveau script,新脚本
+T_UNLOCKED_VARIABLE,New variable,Neue Variable,Nueva variable,Nouvelle variable,新变量
+T_UNLOCKS_AT_10,Beat Level 5 to unlock,Schaffe Level 5,DESBLOQUEO: completa el Nivel 5,Compléter le niveau 5 pour déverrouiller,击败第5关以解锁
+T_UNLOCKS_AT_80,Beat Level 50 to unlock,Schaffe Level 50,DESBLOQUEO: completa el Nivel 50,Compléter le niveau 50 pour déverrouiller,击败第50关以解锁
+T_VARIABLE_SUMMARY,Variable Summary,Variablenübersicht,Resumen de variables,Résumé de Variables,变量摘要
+T_VARIABLES,Variables,Variablen,Variables,Variables,变量
+T_VAULT_SLOTS,Archive Keys,Archiv-Schlüssel,Claves de archivo,Clés de l'Archive,档案钥匙
+T_VAULT,Archive,Archiv,Archivo,Archive,档案
+T_VOID,Void,Leere,del Vacío,Vide,虚空
+T_VOLUME_MASTER,Master Volume,Master-Lautstärke,Volumen general,Volume principal,主音量
+T_VOLUME_MUSIC,Music Volume,Musik-Lautstärke,Volumen de música,Musique,音乐量
+T_VOLUME_SOUND,Sound Volume,Ton-Lautstärke,Volumen de sonidos,Volume des effets,音量
+T_WARNING,Warning,Warnung,Aviso,Avertissement,警告
+T_WEATHER_WARNING,Grid Overload,Raster-Überladung,Sobrecarga de matriz,Surcharge d'Anti-matrice,电网过载
+T_YOUR,Your,Deine,Tu,Votre,你的
+T_STORY_DEMO,"They were all like, “don’t end with a sales pitch, that’s cringe!” And I was like, “dude, you put mad work into this game, what are you talking about?!” Then they were like, “I don’t know if I’m comfortable with blah blah blah” so I was like, “OMG I’ll do it!” 
+
+So if you like, enjoyed this and want more then go and buy it or whatever. Did I mention the developer has a young kid? Totally don’t buy it if you don’t want their kid to have, like, food and stuff. Hold on, I have to go, they’re yelling at me or something. What?! It’s called business! Then you do it next time!","Und er so: ""Beende das nicht mit Kaufaufforderung, das ist zum Kotzen!"" Und ich so: ""Alter, du hast wahnsinnig viel Arbeit in dieses Spiel gesteckt, wovon redest du?!"" Dann er so: ""Ich weiß nicht, ob ich mich damit wohl fühle blah blah blah"", also ich so: ""OMG, ich mach's!"" 
+
+Also, wenn du mehr willst, dann kauf es halt. Habe ich schon erwähnt, dass der Entwickler ein kleines Kind hat? Wenn du nicht willst, dass sein Kind etwas zu essen bekommt, dann kauf's halt nicht, keine Ahnung ... Warte, ich werde gerade angeschrien. Was?! Das nennt man Business! Ja dann mach's das nächste Mal halt selber!""","Me dijo ""No termines con un discurso de ventas, es deprimente"". Y yo le dije ""Oye, que hemos puesto mucho empeño en este juego, ¿sabes?"". Y entonces me dijo ""No me gusta mucho el bla, bla, bla"". Así que, al final, le dije ""Madre mía. ¡ Pues lo haré!"". 
+
+Así que si te ha gustado, si lo has disfrutado y si quieres más, entonces ve y compra el juego... o lo que sea. ¿He mencionado que el desarrollador tiene un hijo pequeño? Si quieres que su hijo no tenga, por ejemplo, comida y demás, pues no lo compres. Espera, tengo que irme, que me están gritando. ¿¿Qué?? ¡ Se llaman ""negocios""! ¡ Entonces hazlo tú la próxima vez!","Le dev était là à se dire : ""Oulah, ne finis pas avec un truc trop commercial, c'est nul ! En plus j'suis pas trop confortable avec blablabla."" mais moi je lui réponds : ""Mec, tu as bossé comme un dingue sur ce jeu, de quoi tu parles ? !"". Donc finalement, je vais le faire !
+
+Du coup on y est, si vous aimez le jeu et que vous vous êtes fait plaisir et voulez en savoir plus, alors allez acheter la version complète ou j'sais pas moi. Est-ce que je vous ai déjà raconté que le Dev a une petite fille ? Surtout n'achetez pas le jeu si vous voulez qu'elle crève de faim et tout ! Attends, attends, faut que j'y aille... j'suis en train de me faire engueuler. Mais quoi ? ! C'est du business ! Ouais ben la prochaine fois tu t'en occupes !
+","他们都说，""不要以销售的方式结束，那会让人厌恶！""我就说：""伙计，你在这个游戏中投入了大量的工作，你为什么说这个？""然后他们说，""我不知道我对这样的方式是否觉得舒服""，所以我就说，""我的天啊，那让我来吧！""
+
+所以，如果你喜欢或想要更多，那么就去买吧或者随便。我有没有提到开发商有一个年轻的孩子？如果你不希望他们的孩子有，比如，食物和玩具，就完全不要买。等等，我得走了，他们在对我大喊大叫什么的。什么？这叫生意！那你下次再做吧！"
+T_STORY_1_LEVEL_A,"Hey you! Get over here and help before these parasprites null me! Not sure what kind of TRANSMITTER you shipped with, but if it lets you slide and slash it’ll do the trick!","Hey du! Komm her und hilf mir, bevor diese Parasprites mich umbringen! Ich bin mir nicht sicher, was für einen TRANSMITTER du hast, aber du solltest dich bewegen und angreifen können!","¡Oye tú! ¡Ven aquí y ayúdame antes de que estos zombípixeles me anulen! No estoy seguro de qué tipo de TRANSMISOR tienes, pero si te deja deslizarte y golpear será suficiente.","Psst ! Ho, vous ! Venez par ici et aidez-moi avant que ces parasprites m'annulent ! Je ne sais pas quel genre d'émetteurs vous avez été monté avec mais si ça vous permet de glisser et trancher ça devrait faire l'affaire !",嘿，对就是你！在这些小型精灵弄死我之前快过来帮忙!不知道你用的是哪种传输器，但如果它能让你滑行和劈砍，那就行了!
+T_STORY_1_LEVEL_B,"Pace yourself though, moving and fighting use cycles and once you run three cycles you’ll need to IDLE. I’d hate to see you get stuck in a vulnerable position!","Aber Obacht: Bewegungen und Attacken verbrauchen Zyklen, und nach drei Zyklen hast du Leerlauf. Bleib nicht an einer gefährlichen Stelle stehen!","Pero no te preocupes, ya que al moverte y combatir utilizarás ciclos. Tras ejecutar tres ciclos, tendrás que PARAR. ¡No me gustaría que quedaras atrapado en una posición vulnerable!",Allez-y mollo quand même... vous consommez des cycles en vous déplaçant ou en attaquant et après en avoir utilisé trois vous allez devoir vous mettre en IDLE ! Ce ne serait vraiment pas cool de vous voir coincé dans une situation difficile !,不过要注意节奏，移动和战斗都需要循环，一旦你运行了三个循环，你就需要进入空闲状态。我不希望看到你被困在一个脆弱状态。
+T_STORY_1_LEVEL_C,"If you’ve got any questions just point me at them, but for the love of DOS, hurry!","Wenn du Fragen hast, frag, beeile Dich, um DOSes willen!","Si tienes alguna pregunta, házmela, pero por el amor de DOS, ¡ date prisa!","Si vous avez des questions, pointez-moi juste vers eux. Mais pour l'amour de DOS, grouillez-vous !","如果你有任何问题，就快问我，但看在DOS的份上，赶快吧！""。"
+T_STORY_1_LOOT,"Thanks for your help back there, that was close.
+
+This place? What kind of logic board raised you?!
+
+Sorry, it’s been a really draining time and I’m in bad need of a recharge. Here’s where you install TRANSMITTERS and CIRCUITS. Let’s go see if we can find some more, you’ll need a good collection to survive this journey.","Danke für deine Hilfe, das war knapp.
+
+Das hier? Was für ein Logikbrett hat dich aufgezogen?!
+
+Sorry, ich bin alle und brauche dringend eine Aufladung. Hier installiert man TRANSMITTER und SCHALTKREISE. Lass uns noch mehr finden, du brauchst eine gute Ausrüstung, um diese Reise zu überleben.","Gracias por la ayuda ahí atrás, ha estado cerca.
+
+¿Que qué es este lugar? ¡¿Qué clase de placa lógica te crió?!
+
+Perdón... Son tiempos realmente agotadores y necesito una recarga urgentemente. Aquí es donde se instalan los TRANSMISORES y los CIRCUITOS. Veamos si podemos encontrar más, ya que te hará falta una buena colección para sobrevivir a este viaje.","Merci pour le coup de main là-bas... on a eu chaud !
+
+Cet endroit ? Quel genre de carte mère vous a élevé ? !
+
+Désolé... journée crevante et faudrait vraiment que je recharge un peu mes batteries. C'est ici que vous installez les émetteurs et circuits. Allez, on y va. On va voir si on peut en trouver d'autres ! Vous en aurez besoin pour le voyage.
+","谢谢你刚才的帮助，差一点就结束了。
+
+这个地方？你是在什么逻辑板上长大的啊！？
+
+对不起，这段时间真的很累人，我很需要充电。这里是你安装传输器和电路的地方。我们去看看能不能找到更多的东西，这段旅程你需要好装备。"
+T_STORY_2_LEVEL_A,"I’m Chip by the way, what’s your filename?
+
+Not big on sharing data, huh? Alright, keep your secrets.","Ich bin übrigens Chip, wie lautet dein Dateiname?
+
+Du gibst nicht gerne Daten weiter, was? Na gut, behalte deine Geheimnisse für dich.","Por cierto, soy Chip. ¿Cuál es tu nombre de archivo?
+
+No te gusta compartir datos, ¿eh? Muy bien, guárdate tus secretos.","Au fait, je suis Chip. C'est quoi ton nom de fichier ?
+
+Pas très versé dans le partage de données, hein ? OK, alors reste en mode incognito.
+","顺便说一下，我是芯片，你的文件名是什么？
+
+不太喜欢分享数据，是吧？好吧，保持你的秘密。"
+T_STORY_2_LEVEL_B,"Ah, there’s a TEMP_FILE, just what we were looking for! Grab it before it times out!","Ah, eine TEMPÖRÄRE DATEI, genau was wir gesucht haben. Schnapp sie bevor sie ausläuft.","Ah, mira, un TEMP_FILE. ¡ Justo lo que estábamos buscando! Recógelo antes de que se agote el tiempo.","Ah, un fichier temporaire... c'est justement ce dont on avait besoin ! Choppe-le avant qu'il ne disparaisse !",啊，这有一个临时文件，正是我们要找的。在它失效之前抓住它!
+T_STORY_2_LOOT,"Install that and we’ll get going, or if you don’t want to you could run a SALVAGE subroutine and break it down into KERNELS. 
+
+Not many places to spend kernels these days as most shops have run shutdown sequences since Gigasprite showed up. Still, better to have a pocket full of kernels than an unused transmitter gathering dust!","Installiere die Komponente und weiter geht's! Du könnest aber auch eine VERWERTUNGS-Subroutine laufen lassen und sie in KERNE verwandeln. 
+
+Heutzutage gibt es nicht mehr viele Orte, an denen man Kerne ausgeben kann, da die meisten Shops seit dem Auftauchen von Gigasprite heruntergefahren wurden. Aber besser eine Tasche voller Kerne als einen ungenutzten TRANSMITTER, der Staub ansetzt!","Instálalo y nos pondremos en marcha; o si no quieres hacerlo, ejecuta una subrutina de DESMONTAJE y descomponlo en KERNELS. 
+
+Hoy en día no hay muchos lugares donde usar kernels, ya que la mayoría de las tiendas ejecutaron secuencias de apagado desde que apareció Gigasprite. Aun así, ¡ es mejor tener un bolsillo lleno de kernels que un transmisor sin uso acumulando polvo!","Installe ça et on y va ! Si tu préfères t'en débarrasser tu peux exécuter une commande de RECYCLAGE pour récupérer les Kernels.
+
+Il n’y a pas des masses d'endroits ou dépenser les Kernels ces temps-ci car la plupart ont été déconnectés depuis que Gigasprite est apparu. Il vaut toujours mieux en avoir plein les poches que de laisser un émetteur s'oxyder pour rien !
+","安装好这个，我们就可以开始了，如果你不愿意，你可以运行一个抢救子程序，把它分解成内核。
+
+现在没有多少地方可以花钱买内核，因为自从超级精灵出现后，大多数商店都在运行关闭序列。不过，有一个装满内核的口袋总比有一个未使用的发射机积满灰尘要好。"
+T_STORY_3_LEVEL,"Who is Gigasprite? Sigh, goooood question. One day they showed up out of the bluescreen with their grid and started draining sectors one by one. So many have gone totally dark…
+
+Look, I don’t expect you to help me, but we need to get out of this sector before it goes dark too. There’s a node not too many levels from here, it’s dangerous but that’s our only pathway out.","Wer ist Gigasprite? Seufz, was für eine gute Frage. Eines Tages tauchte er mit seinem Raster aus dem Nichts auf und begann, einen Sektor nach dem anderen leerzusaugen. So viele haben wir schon verloren...
+
+Hör zu, ich erwarte nicht, dass du mir hilfst, aber wir müssen aus diesem Sektor raus, bevor er auch geleert wird. Es gibt einen Knotenpunkt nicht allzu viele Ebenen von hier entfernt, es ist gefährlich, aber das ist unser einziger Weg nach draußen.","¿Que quién es Gigasprite? <suspira> Buena pregunta. Un día salió de un pantallazo azul junto con su matriz y empezó a drenar sectores uno por uno. Muchos se han vuelto totalmente oscuros...
+
+Mira, no espero que me ayudes, pero tenemos que salir de este sector antes de que también se vuelva oscuro. Hay un nodo a no muchos niveles de aquí, es peligroso pero es nuestra única ruta de escape","Qui est Gigasprite ? Pfiou, bonne question. Un jour ils sont juste apparus avec leur Anti-matrice à la suite d’un crash et ont commencé à liquider les secteurs un à un. Beaucoup sont tombés dans l’obscurité...
+
+Écoute, je n’attends pas de toi que tu m'aides, mais il faut qu'on s'échappe de ce secteur avant qu'il ne soit déconnecté aussi. Il y a une Node à quelques niveaux d'ici... C'est dangereux mais c'est notre seule porte de sortie.
+","谁是超级精灵？诶，好问题。有一天，他们带着他们的网从蓝屏中出现，并开始一个接一个地耗尽分区。许多人已经完全变黑暗...
+
+听着，我不指望你能帮我，但我们必须在这个分区变黑暗之前离开它。离这里不远处有一个节点，很危险，但这是我们唯一的出路。"
+T_STORY_10_LEVEL,"That node is our way out of this dying sector, but it’ll get more dangerous once we’re through. Inside are quantum gates where valuable lost data and parts sometimes collect, so feel free to ‘borrow’ anything you think might be useful.
+
+Nodes are only open for a limited amount of time, so stay online and stay focused!","Dieser Knotenpunkt ist unser Weg aus diesem sterbenden Sektor, aber wenn wir erst einmal durch sind, wird es noch gefährlicher. Im Inneren befinden sich Quantentore, in denen sich manchmal wertvolle verlorene Daten und Komponenten sammeln, also nimm ruhig mit was du kriegen kannst!
+
+Die Knotenpunkte sind nur für eine begrenzte Zeit geöffnet, also sei vorsichtig und beeile dich!","Ese nodo es nuestra salida de este moribundo sector, pero se todo se pondrá más peligroso cuando lo hayamos atravesado. Dentro hay puertas cuánticas donde a veces se acumulan valiosos datos y partes perdidas, así que no dudes en 'tomar prestado' todo lo que creas que pueda ser útil.
+
+Los nodos sólo están abiertos durante un tiempo limitado, ¡así que mantente en línea y concéntrate!","Cette node est notre porte de sortie de ce secteur, mais les choses vont se corser une fois qu'on est dehors. À l’intérieur, on trouve des portails quantiques dans lesquels des données perdues importantes et autres composants s'agrègent parfois ensemble donc n'hésite pas à te servir.
+
+Les nodes ne restent ouvertes que pour un temps limité, alors reste connecté et concentré !
+","那个节点是我们离开这个濒临死亡的分区的途径，但一旦我们通过，它将变得更加危险。里面有量子门，有价值的丢失的数据和零件有时会被收集起来，所以请随意 ""借用 ""你认为可能有用的东西。
+
+节点只在有限的时间内开放，所以要保持在线，并保持专注!"
+T_STORY_10_LEVEL_GATE,"Holy sweet motherboard, look at this! It’s an ARCHIVE with an old backup routine installed! Judging by the output on your interface you have no idea what I’m talking about. Right, so say we find ourselves, uh, nulled. This baby will activate and restore the entire system! The downside is it’s read only, and it looks like the system restore point is set to right around when you arrived, so we might experience a bit of deja vu. You know, that’d make a good video game…","Heiliges Mainboard, sieh dir das an! Es ist ein ARCHIV mit einer alten Backuproutine! Nach der Ausgabe auf deinem Interface zu urteilen, hast du keine Ahnung, wovon ich rede. Also, sagen wir, wir sind, äh, genullt. Dieses Baby wird das gesamte System wiederherstellen! Der Nachteil ist, dass es nicht schreibbar ist, und es sieht so aus, als ob der Systemwiederherstellungspunkt auf den Zeitpunkt eingestellt ist, an dem du angekommen bist, also könnten wir ein kleines Déjà-vu erleben. Ha, das wäre ein gutes Videospiel...","¡Santa placa madre, mira esto! ¡Es un ARCHIVO con una vieja rutina de respaldo instalada! A juzgar por la salida de tu interfaz, no tienes ni idea de lo que estoy hablando. Bien, imagina que... emm... que nos borran. ¡Este pequeño activaría y restauraría todo el sistema! La desventaja es que es de solo lectura, y parece que el punto de restauración del sistema está establecido justo cuando llegaste. Podríamos experimentar algo de ""déjà vu"". ¿Sabes? Esto sería buen material para un videojuego...","Nom d'une carte mère, regarde ça ! C'est une ARCHIVE avec une vieille routine de sauvegarde ! À en juger par ton interface, tu n'as pas l'air de capter un mot de ce que je raconte. Bon, imagine qu'on se retrouve, hum, oblitéré... Ce bébé va se lancer automatiquement et restaurer tout le système ! Le problème c'est qu'il est uniquement en mode lecture et on dirait que le point de restauration de système correspond à peu près au moment de ton arrivée... on risque d'avoir une impression de déjà-vu. Ça ferait un bon jeu vidéo...
+",神圣可爱的主板，看看这个!这是一个安装了旧的备份程序的档案库!从你界面上的输出来看，你不知道我在说什么。对了，我们发现自己，呃，被清零了。这个宝贝会激活并恢复整个系统，缺点是它是只读的，而且看起来系统还原点被设置为你来的时候，所以我们可能会遇到一点似曾相识的感觉。这将成为一个很好的视频游戏...
+T_STORY_10_LOOT,"The ARCHIVE has a few other tricks up its port! Your kernels are stashed in it and they’ll come along for the reboot. Even better, if you find any archive keys you can unlock slots to store transmitters and circuits to send back too! Technology these days, what’ll they dial up next?","Das ARCHIV hat noch ein paar andere Tricks auf Lager! Deine Kerne sind darin verstaut und werden für den Neustart mitgenommen. Und noch besser: Wenn du einen Archiv-Schlüssel findest, kannst du Slots freischalten, um Transmitter und Schaltkreise zu speichern! Die Wunder der Technik!","¡El ARCHIVO tiene algunos trucos en su puerto! Tus kernels están escondidos en su interior, y los seguirás teniendo al reiniciar. Y lo que es mejor: si encuentras alguna llave de archivo, ¡ podrás desbloquear ranuras para almacenar transmisores y circuitos y enviarlos de vuelta! La tecnología de hoy en día es increíble. ¿Qué será lo próximo que hagan?","L'ARCHIVE a quelques astuces supplémentaires dans son programme ! Tes Kernels y sont aussi sauvegardés et récupérable au redémarrage. Encore mieux, si tu trouves des Clés d'Archive tu vas pouvoir déverrouiller des emplacements pour y sauvegarder des émetteurs et circuits !",档案里还有一些其他的招数!你的内核就藏在里面，它们会随着重启而来。更妙的是，如果你找到任何档案馆的钥匙，你可以解锁插槽，以储存发射器和电路，也可以送回!现在的技术，他们接下来会拨出什么？
+T_STORY_11_LEVEL,"New sector, new us! No not actually, I’m just… 
+
+You really don’t have much of a sense of humor, do you? Anyways, it seems you’re sticking with me so I should probably fill you in on my plan. An old friend from my home sector who goes by Patch recently sent out an encrypted ping looking for anyone who wanted to fight back. It’s a bit of a trek to the purple sector where they are, but Patch has a lot of antivirus training so they’re our best shot!","Neuer Sektor, neues Wir! Nein, eigentlich nicht, ich bin nur... 
+
+Du hast wirklich nicht viel Sinn für Humor, oder? Wie auch immer, es scheint, als würdest du dich an mich halten, also sollte ich dich wohl in meinen Plan einweihen. Ein alter Freund aus meinem Heimatsektor, der sich Patch nennt, hat vor kurzem einen verschlüsselten Ping verschickt und nach jemandem gesucht, der sich wehren will. Es ist ein weiter Weg in den lila Sektor, aber Patch hat eine Menge Antivirus-Training, das ist unsere beste Chance!","¡ Nuevo sector, nuevos aspectos! No, en realidad no. Solo estoy... 
+
+No tienes mucho sentido del humor, ¿cierto? De todos modos, parece que debes quedarte conmigo, así que debería ponerte al corriente de mi plan. Un viejo amigo de mi sector natal que se hace llamar Patch hace poco envió un ping encriptado en busca de alguien que quisiera contraatacar. Está un poco lejos del sector púrpura en donde están ubicados, pero Patch tiene mucho entrenamiento en antivirus, así que es nuestra mejor opción.","Nouveau secteur, nouveaux nous ! En fait, non... je suis juste...
+
+Tu n’as vraiment pas beaucoup le sens de l'humour, hein ? Bref, on dirait que tu as décidé de rester donc je devrais probablement te donner plus de détails sur mon plan. Un vieil ami de mon secteur d'origine, Patch, a récemment envoyé un appel aux armes encrypté pour rallier ceux qui ne veulent pas se laisser faire. On a pas mal de chemin devant nous pour rejoindre le secteur violet où ils sont, mais Patch a un sacré bagage d'antivirus donc c'est notre meilleure chance !
+","新的分区，新的我们!不，实际上不是，我只是...
+
+你真的没有什么幽默感，是吗？不管怎么说，看起来你坚持和我在一起，所以我也许应该让你了解我的计划。我家乡的一个老朋友，名字叫 ""补丁""，最近发出了一个加密信号，寻找任何想要反击的人。去他们所在的紫色区有点远，但补丁有很多反病毒训练，所以他们是我们最好的机会！"
+T_STORY_15_LEVEL,"What the flop?! Well we’ve definitely got Gigasprite’s attention, they’re overloading the grid to stop us! They don’t even care that their parasprites could be damaged, what a glitch of a boss. Maybe we can use this to our advantage, just don’t idle in the wrong spot!","Ach du grüne Null?! Wir haben definitiv die Aufmerksamkeit von Gigasprite, es überlädt das Raster, um uns zu stoppen! Es kümmert sich nicht einmal, dass seine Parasprites beschädigt werden könnten, was für ein Depp von einem Chef. Vielleicht können wir das zu unserem Vorteil nutzen, nur nicht an der falschen Stelle leerlaufen!","¡¿Qué cd-emonios...?! Bueno, definitivamente tenemos la atención de Gigasprite. ¡ Está sobrecargando la matriz para detenernos! Ni siquiera le importa que sus zombipíxeles sufran daño. Vaya fallo de jefe. Tal vez podamos usar eso a nuestro favor, ¡pero no te quedes en el lugar equivocado!","Nom d'une carte mère ! Bon, on a vraiment capté l'attention de Gigasprite et ils sont en train de surcharger l'Anti-matrice afin de nous arrêter ! Ils se fichent éperdument que leurs parasprites puissent être endommagés, quelle espèce de glitch de patron. Peut-être qu'on peut utiliser ça à notre avantage à condition de ne pas rester immobile !
+",什么是翻盘？好吧，我们肯定已经引起了超级精灵的注意，他们正在超负荷运转网来阻止我们!他们甚至不在乎他们的小型精灵可能被损坏，真是个脑残老板。也许我们可以利用这个优势，只是不要在错误的地方空转!
+T_STORY_20_LEVEL,"Okay, time for our next node, keep an eye for any good loot while- 
+
+Wait a sec, it looks like someone is stuck in there, is that… Beeper?! They used to run a shop but disappeared amidst all the chaos. Beeper is… what’s a nice way to say this… on a different bandwidth than most, but their processor is in the right place. Let’s help!","Okay, Zeit für unseren nächsten Knotenpunkt, halte Ausschau nach Beute, während... 
+
+Moment mal, es sieht so aus, als ob jemand da drin feststeckt, ist das... Beeper?! Der hatte mal einen Shop, ist aber in dem ganzen Chaos verschwunden. Beeper ist... wie soll ich sagen... auf einer anderen Bandbreite als die meisten, aber sein Prozessor ist am rechten Fleck. Lass uns helfen!","Vale, es hora de ir al siguiente nodo. Estáte atento a cualquier buen botín mient- 
+
+Espera un segundo... Parece que hay alguien atascado ahí. ¿Ese no es... Beeper? Solía tener una tienda pero desapareció en medio de todo el caos. Beeper está... cómo decirlo... en un ancho de banda diferente al de la mayoría, pero su procesador está en el lugar correcto. ¡Vamos a ayudarlo!","OK, il est temps de passer à la prochaine node, garde les yeux ouverts pour dénicher des trucs intéressants pendant que …
+
+Attends une seconde, on dirait que quelqu'un est coincé là-dedans... on dirait... Beeper ? ! Ils avaient un magasin mais ont disparu quand tout ce chaos a démarré. Beeper, est... j'essaye de trouver une manière aimable de le dire... sur une différente longueur d'onde que la plupart, mais ils ont le processeur au bon endroit. Aidons-les !
+","好了，下一个节点的时间到了，请注意任何好的战利品，同时------。
+
+等一下，看起来有人被困在那里了，那是......哔哔声？他们曾经经营一家商店，但在所有的混乱中消失了。哔哔机......怎么说好呢......和大多数人的带宽不同，但他们的处理器在正确的地方。让我们来帮忙!"
+T_STORY_20_LOOT,"Whoaaaa… uh, so, like, thanks? Nodes are, like, uh, super bugged or whatever. The cut and paste job is most appreciated, you and me are the same chips from another motherboard for life now. Wait, isn’t your name Chip? Lol, sweet.
+
+Hey, either of you ever wonder if there are other systems out there? Like, I don’t believe in an admin or whatever, but if there’s one system then why couldn’t there be, like, uh, a hundred systems?
+
+Oh, uh, wanna buy something? I’ve got this stuff…","Whoaaaa... äh, also, wie, danke? Knotepunkte sind, wie, äh, super verbugged oder was. Danke für's Ausschneiden und Einfügen, du und ich sind jetzt lebenslang die gleichen Chips von einem anderen Mainboard. Warte, ist dein Name nicht Chip? Lol, wie cool.
+
+Hey, hat sich einer von euch jemals gefragt, ob es andere Systeme da draußen gibt? Ich glaube zwar nicht an einen Admin oder so, aber wenn es ein System gibt, warum kann es dann nicht hundert Systeme geben?
+
+Oh, äh, willst du was kaufen? Ich habe so viel Zeug...","Buaaaaa... Uh, pues, entonces... ¿gracias, supongo? Los nodos están, eh, llenos de errores o algo parecido. Se agradece el trabajo de cortar y pegar. Ahora, tú y yo somos chips de la misma placa base para siempre. Espera... ¿Acaso no te llamas Chip? Jaja, genial.
+
+Ey, ¿alguna vez te has preguntado si hay otros sistemas ahí afuera? Es que... no creo en un administrador o similar, pero si hay algún sistema en alguna parte, entonces... ¿por qué no podría haber... pues, no sé... un centenar de sistemas?
+
+Oh, eh, ¿quieres comprar algo? Tengo algunas cosas...","Waouh... hum... comment dire... merci ? Les Nodes sont comme super buggées ou je ne sais pas. Merci pour le boulot de couper / coller magistral, j’apprécie le geste, toi et moi on est comme deux barrettes de rames sur la même carte mère pour la vie maintenant. Attends, est-ce que ton nom c’est pas Chip ? LOL, cool.
+
+Heho, l’un de vous s’est déjà demandé s’il y avait d’autres systèmes ? Genre, je ne crois pas qu’il y a un admin ou je ne sais pas quoi, mais s’il y a un système pourquoi il n’y en aurait pas d’autres ? Genre... hum... des centaines ?
+
+Ho, hum, tu veux acheter quelque chose ? Jette un œil à mon stock...
+","哇。。。。。。呃，那么，谢谢？节点是，像，呃，超级漏洞或什么。剪切和粘贴的工作是最受人感激的，我们来自不同主板但现在一辈子要待在同一块芯片了。等等，你的名字不就是芯片？真是可爱。
+
+嘿，你们中的任何一个人有没有想过，还有其他的系统存在？就像，我不相信有管理员之类的东西，但如果有一个我们这样的系统，那么为什么不能有，比如，呃，一百个其他系统？
+
+哦，呃，想买点东西吗？我有这个东西..."
+T_STORY_25_LEVEL,"Whoa, is that a megasprite? Scary! They make the parasprites around them stronger, so be cautious. Plus from what I’ve heard they’re usually jerks, and who has the energy for that? I guess we can take it as a compliment that Gigasprite is sending their elite troops.","Whoa, ist das ein Megasprite? Schrecklich! Sie machen die Parasprites um sie herum stärker, also sei vorsichtig. Aber ich denke, wir können es als Kompliment ansehen, dass Gigasprite seine Elitetruppen schickt.","Vaya, ¿eso es un megasprite? ¡Da miedo! Hace más fuertes a los zombipíxeles que lo rodean, así que ten cuidado. Además, por lo que he oído, suelen ser unos imbéciles, ¿y quién tiene energía para aguantarlos? Supongo que podemos considerar un halago que Gigasprite nos envíe a sus tropas de élite.","Waouh, c'est un mégasprite ? Effrayant ! Ils rendent les parasprites autour d'eux plus forts, alors fais attention. En plus, d'après ce que j'ai entendu dire ce sont des vrais caïds. On peut prendre ça pour un compliment que Gigasprite nous envoie ses troupes d'élite.
+",哇，那是一只巨型精灵吗？吓死人了!它们会使周围的小型精灵变得更强大，所以要小心谨慎。另外，据我所知，他们通常都是混蛋，谁有精力去做这个？我想我们可以把它看作是对超级精灵派来的精英部队。
+T_STORY_30_LEVEL,"Man, these battles are getting intense! I really couldn’t have done this on my own, but I’m feeling a bit guilty having dragged and dropped you into this. There is something I should probably tell you… 
+
+Actually, nevermind, now’s not the time. I’ve been working on a device to help boost our transmitters and circuits, but I’m lacking the subroutines to make it work. Let’s keep an eye open for any in this node.","Mann, diese Kämpfe werden immer intensiver! Alleine hätte ich das nicht geschafft, aber ich habe ein schlechtes Gewissen, weil ich dich da mit hineingezogen und fallen gelassen habe. Es gibt etwas, das ich dir vielleicht sagen sollte... 
+
+Ach, vergiss es, das ist nicht der richtige Zeitpunkt. Ich habe an einem Gerät gearbeitet, das unsere Transmitter und Schaltkreise verstärken soll, aber mir fehlen die Subroutinen, damit es funktioniert. Halten wir die Augen offen, ob es in diesem Knotenpunkt welche gibt!","¡Santos bits, estas batallas se están volviendo intensas! Realmente no podría haberlo hecho yo solo, pero también me siento un poco culpable por haberte arrastrado hasta aquí. De hecho, hay algo que probablemente debería contarte... 
+
+Bueno, no importa, aún no es el momento. A ver, he estado trabajando en un dispositivo que ayuda a potenciar nuestros transmisores y circuitos, pero me faltan las subrutinas para hacerlo funcionar. Estemos atentos por si hay alguna en este nodo.","Houla, ces bastons deviennent intenses ! Je n’aurais vraiment pas pu me débrouiller seul, mais je me sens un peu coupable de t'avoir copié/collé dans ce grabuge. Il y a quelque chose que je devrais probablement te dire...
+
+En fait, laisse tomber, ce n’est pas le bon moment. J’ai bossé sur un dispositif pour t’aider à amplifier tes émetteurs et circuits, mais il me manque le sous-programme pour le faire fonctionner. Voyons voir si on peut en trouver dans cette node.
+","天啊，这些战斗越来越激烈了！我真的无法独自完成这个任务，但我感到有点愧疚，因为我把你拖进了这个圈子。我真的无法独自完成这个任务，但我感到有点内疚，因为我把你拖入了这个泥潭。有件事我也许应该告诉你......
+
+事实上，没关系，现在还不是时候。我一直在研究一个装置，以帮助提升我们的发射器和电路，但我缺乏使其发挥作用的子程序。让我们留意一下这个节点上的任何东西。"
+T_STORY_30_LOOT,"Perfect, a REROLL subroutine! That’ll work nicely, now any variable on a transmitter or circuit can be swapped, just feed it some kernels and bam! Totally different variable! If you don’t get one you like you can always reroll again, but it’ll consume more kernels each time. 
+
+No, I don’t get the kernels! Like I said, it consumes them. 
+
+I don’t know, it’s just how it works!","Perfekt, eine AUSTAUSCH-Subroutine! Das wird gut funktionieren, jetzt kann jede Variable eines Transmitters oder Schaltkreises ausgetauscht werden, füttere sie einfach mit ein paar Kernen und bam! Eine völlig andere Variable! Wenn du keine findest, die dir gefällt, kannst du immer wieder neu tauschen, aber braucht mit jedem Mal mehr Kerne. 
+
+Nein, ich bekomme die Kerne nicht! Wie ich schon sagte, die sind weg. 
+
+Ich weiß nicht, so funktioniert es halt!","Perfecto, ¡una subrutina REROLL! Funcionará muy bien, ahora cualquier variable de un transmisor o circuito puede ser intercambiada, sólo tienes que alimentarlo con algunos kernels y ¡bam! Variable totalmente diferente! Si no consigues una que te guste siempre puedes volver a relanzar, pero consumirá más y más kernels. 
+
+¡No, no me robé tus kernels! Como digo, se los consume.
+
+No sé, ¡así es como funciona!","Parfait, un sous-programme de RELANCE ! Ce sera utile pour changer n'importe quelle variable sur un émetteur ou circuit, tu as juste à y ajouter quelques kernels et vlan ! Une nouvelle variable complètement différente ! Si tu en obtiens une qui ne t'es pas utile, tu peux toujours faire une nouvelle relance, mais ça coûte plus de kernels à chaque coup.
+
+Nooooon, ce n’est pas moi qui me mets les kernels dans les poches ! Elles sont consumées par le système !
+
+Je sais pas moi, c'est juste comme ça que ça fonctionne !
+","很好，一个轧制子程序!这将很有效，现在发射器或电路上的任何变量都可以被交换，只要给它一些内核，砰！完全不同的变量。如果你不喜欢，你总是可以再重新轧制，但每次都会消耗更多的内核。
+
+不，我没有得到内核!就像我说的，它消耗了它们。
+
+我不知道，这就是它的工作原理!"
+T_STORY_35_LEVEL,"Holy bit, this is bad! Looks like the grid has broken through into the local network and there are countless parasprites pouring through. See those conduits? Try and block them or null the parasprites that come out until I can create a fix. It shouldn’t take more than a few idles, but in the meantime hang in there!","Heiliges Mainboard, das ist schlimm! Es sieht so aus, als wäre das Raster in das lokale Netzwerk eingedrungen und unzählige Parasprites strömen hindurch. Siehst du diese Leitungen? Versuch sie zu blockieren oder die Parasprites zu eliminieren, die herauskommen, bis ich eine Lösung gefunden habe. Es sollte nicht länger als ein paar Leerläufe dauern, aber bis dahin halte durch!","¡Circuito santo, esto es malo! Parece que la matriz se ha infiltrado en la red local y hay innumerables zombipíxeles atravesándola. ¿Ves esos conductos? Intenta bloquearlos o anular los zombipíxeles que salgan hasta que pueda solucionarlo. No debería llevar más que unos pocos ralentíes, pero mientras tanto, ¡ aguanta!","Nom d'un... ça c'est mauvais ! On dirait que l'Anti-matrice a percé dans le réseau local et qu’une horde de parasprites sont en train de s'y engouffrer. Tu vois ces conduits ? Essaye de les bloquer ou bien détruis les parasprites qui en sortent jusqu’à ce que je trouve un fix. Je n’en ai pas pour longtemps, mais ça risque de chauffer alors tiens bon !
+",神圣的比特，这很糟!看起来网已经突破了本地网络，有无数的小型精灵涌入。看到那些管道了吗？试着堵住它们，或者让出来的寄生虫无效，直到我创造一个修复方法。它不应该超过几个空闲时间，但在此期间，请坚持下去!
+T_STORY_40_LEVEL,"Wow, one node away from the purple sector. This is by far the furthest I’ve ever been from home. Sure makes you feel like an insignificant little sprite in a big system.
+
+My home? It’s… long gone. My sector was one of the first drained by Gigasprite’s stupid grid, and I’ve been on the run since. One sector goes dark so you jump to the next, then that one goes dark, and on like that for a while.","Wow, ein Knotenpunkt vom lila Sektor entfernt. So weit war ich noch nie von zu Hause weg. Da kommt man sich vor wie ein unbedeutender kleiner Sprite in einem großen System.
+
+Mein Zuhause? Es ist... schon lange weg. Mein Sektor war einer der ersten, der durch Gigasprites dummes Raster entleert wurde, und seitdem bin ich auf der Flucht. Ein Sektor wird dunkel, also springt man zum nächsten, dann wird dieser dunkel, und so geht immer weiter.","Guau, estamos a solo un nodo del sector púrpura. Esta es sin duda la vez que más lejos he estado de casa. Me siento como un píxel pequeño e insignificante dentro de un enorme sistema.
+
+¿Mi hogar? Hace tiempo que... desapareció. Mi sector fue uno de los primeros en ser drenado por la estúpida matriz de Gigasprite, y he estado huyendo desde entonces. Un sector se oscurece y saltas al siguiente, y luego ese se oscurece y lo repites, y así una y otra vez.","Waouh, c'est le plus loin que je n'ai jamais été de mon secteur d'origine. Ça vous fait sentir minuscule dans un immense système.
+
+Chez moi ? C'est... détruit depuis longtemps. Mon secteur a été l'un des premiers à être siphonné par la stupide Anti-matrice de Gigasprite et je suis fugitif depuis tout ce temps. Quand un secteur disparaît, tu sautes au prochain, et ainsi de suite.
+","哇，离紫色区还有一个节点。这是迄今为止我离家最远的一次。当然，这让你觉得自己是一个大系统中微不足道的小精灵。
+
+我的家？家......早就没了。我的区是最早被超级精灵的愚蠢网吸干的区之一，从那以后我就一直在逃亡。一个区变黑了，你就跳到下一个区，然后那个区又变黑了，就这样好一阵子了。"
+T_STORY_40_LOOT,"You found a new subroutine in there? Let’s take a look.
+
+An AUGMENT subroutine! So you know how the reroll subroutine lets you use kernels to change variables? This works similarly, except now you can use kernels to boost a variable you like. Nice find, that’s quite an upgrade.","Du hast da drin eine neue Subroutine gefunden? Lass mal sehen!
+
+Eine STEIGERN-Subroutine! Du weißt doch, dass du mit der Austausch-Routine Kerne verwenden kannst, um Variablen zu ändern? Das hier funktioniert ähnlich, nur dass man jetzt Kerne verwenden kann, um eine Variable zu steigern. Ein guter Fund, das wird uns helfen!","¿Has encontrado una nueva subrutina? Echémosle un vistazo.
+
+¡Vaya, una subrutina de AUMENTO! ¿Recuerdas que la subrutina Reintento te permite usar kernels para cambiar variables? Pues esta funciona de forma similar, salvo que ahora puedes usar kernels para aumentar una variable que te guste. Buen hallazgo, es toda una mejora.","Tu as trouvé un nouveau sous-programme là-dedans ? Jetons un œil.
+
+Un sous-programme d'AMELIORATION ! Tu te souviens du sous-programme de RELANCE qui te permet d'échanger des kernels contre de nouvelles variables ? Ça marche pareil, sauf qu'avec ça tu utilises les kernels pour améliorer une variable existante. Belle trouvaille !
+","你在里面发现了一个新的子程序？让我们看一看。
+
+一个扩增子程序!所以你知道轧制子程序是如何让你使用内核来改变变量的？这个工作原理类似，只是现在你可以用内核来提升你喜欢的变量。不错的发现，这是个相当大的升级。"
+T_STORY_41_LEVEL,"Well blimey, is that little Chippy entering the sector? Quite certain it is, what a jolly face to see in a time of such uncertainty! Oh, and you’ve brought a friend I see. Hmmm, well I suppose my invitation wasn’t that specific, we shall adjust accordingly. My dear old friend, do come join me at the furthest node in the sector post haste, we have much to discuss!","Ja isch des ned der kloane Chippy? Des is ja a nette Überraschung! Oh und an Freund host a mitbracht. Des kriag ma scho hi. Mei alter Freund, kimsch fix zum Knotenpunkt hintre, mir ham viel zu klärn! Husch husch!","Vaya, ¿ese que entra en el sector es el pequeño Chippy? Parece que sí. ¡ Qué cara más alegre se le ve en un momento de tanta incertidumbre! Oh, y veo que trae a un amigo. Mmmm... Bueno, supongo que mi invitación no era tan específica, así que haremos los ajustes necesarios. Mi querido y viejo amigo, ven al nodo más lejano del sector. ¡ Tenemos mucho de lo que hablar!","Eh bien ça alors, est-ce le petit Chippy qui entre dans le secteur ? Bien certain que oui, quelle bonne nouvelle par les temps qui courent ! Ha, tu es venu avec un ami à ce que je vois. Hum, bon, je suppose que mon invitation n'était pas très précise, on va faire avec. Mon vieil ami, viens vite me rejoindre dans la node la plus éloignée du secteur, on a beaucoup de choses à discuter !",哦，天哪，那个小芯片正在进入这个分区吗？非常肯定，在这样一个不确定的时期，看到这样一张快乐的面孔，真让人心动!哦，我看你还带了个朋友。嗯，我想我的邀请并不那么具体，我们会相应地调整。我亲爱的老伙计，快来加入我，在这个区最远的节点上，我们有很多事情要讨论！
+T_STORY_45_LEVEL,"Are you still making your way? Did I neglect to say post haste? I feel quite certain I did. No dilly dallying, time is of the essence!",Kimsch jetz allmählich oder wird des nix mehr? Hab I ned gsogt du sollsch an Zahn zuleng?,¿Aún sigues en camino? ¿Me olvidé de decirte que hay que darse prisa? Estoy seguro de que sí. Pues eso... Que no hay que perder el tiempo. ¡ El tiempo es esencial!,"Vous êtes toujours en chemin ? Est-ce que j'ai oublié de vous préciser de vous grouiller ? Hum, je pense que non. Arrêtez de vous traîner, il y a le feu ici !
+","你还在赶路吗？我是不是忘了说 ""匆忙""？我觉得很肯定我说了。不要磨磨蹭蹭，时间是最重要的!"
+T_STORY_50_LEVEL,"My stars, there you are Chippy, you’ve actually made it. I wish our reunion could be under less dire circumstances, but this is the frightful hand we’ve been dealt. Don’t dawdle, Gigasprite knows we’re here so hop hop! Onward through the node! I shall be hot on your heels.
+
+And Chippy, I… I’m sorry.","Da bisch ja endlich Chippy! I wünscht die Umstände wärn andre, aber so isch es halt. Steh da ned rum, weiter geht's, des Gigasprite woaß wo mer sind. Rein in den Knotenpunkt, I komm glei nach.
+
+Und Chippy: es ... tut mer leid.","Por mis estrellas... Aquí estás, Chippy. Lo has conseguido. Desearía que nuestro reencuentro fuera en circunstancias mejores, pero esto es lo que nos ha tocado. No te entretengas, Gigasprite sabe que estamos aquí, así que... ¡ vamos, vamos! ¡ Hora de ir hacia el nodo! Te sigo.
+
+Y Chippy, yo... lo siento.","Tu es enfin là Chippy, t'as vraiment réussi ! J'aurais aimé que nos retrouvailles se fassent dans des circonstances moins sombres, mais c'est comme ça. Te tortille pas trop, Gigasprite sait qu'on est là alors hop ! En avant à travers la node !
+","我的明星，你在这里，芯片，你真的做到了。我希望我们的重逢能在不那么糟糕的情况下进行，但这是我们所面临的可怕的命运之手。别磨蹭了，超级精灵知道我们在这里，所以跳吧!穿过节点，继续前进!我将紧随你的脚步。
+
+还有芯片，我。。。我很抱歉。"
+T_STORY_50_LEVEL_GATE,"74R637 C0N741N3D...
+B361N 7R4N5F3R...
+PR3P4R3 NULL1F1C4710N...","74R637 C0N741N3D...
+B361N 7R4N5F3R...
+PR3P4R3 NULL1F1C4710N...","08J371V0 K0N73N1D0...
+1N1C14R 7R4N5F3R3NC14...
+PR3P4R4R 4NUL4C10N...","74R637 C0N741N3D ...
+B361N 7R4N5F3R ...
+PR3P4R3 NULL1F1C4710N ...","74R637 C0N741N3D...
+B361N 7R4N5F3R...
+PR3P4R3 NULL1F1C4710N..."
+T_STORY_51_LEVEL,"Well old chap, you must think me a proper heel. I won’t quibble with you on that. If it helps, I am truly sorry. Gigasprite’s malware is within me and I am sadly not myself, ever further overwritten with each passing nanosecond. But I want to undo the damage I’ve wrought, I no longer wish to exist as a siren’s song drawing my dearest to their doom. I know you have no reason to believe me, but I am going to save Chippy, I swear. And if you care to join me, I… well I could use your help.","Mei alter Freund, du denksch jetz wohl I bin a rechter Depp, und ja, da hasch wohl recht. Mir tuts leid, wenn des was hilft. Des Gigasprite is in mir drin und I bin ned mehr wer I war, mit jeder Nanosekunde werd I mehr und mehr überschrieben. Aber I wui den Schaden wiada guad machn. I woaß du hast koan Grund mir zu gloam, aber I werd di rettn, Chippy. Und wenn du mir helfa mogsch, I könnt Hilfe brauchn.","Bueno, viejo amigo, debes pensar que soy un verdadero canalla. No te lo discutiré. Si ayuda, de verdad que lo siento. El malware de Gigasprite está dentro de mí y desgraciadamente no soy yo mismo. Sobrescribe más de mi código a cada nanosegundo que pasa. Pero quiero deshacer el daño que he causado, y no quiero seguir siendo como un canto de sirena que atrae a mis seres queridos hacia su perdición. Sé que no tienes razones para creerme, pero voy a salvar a Chippy. Es una promesa. Y si quieres ayudarme, pues... bueno, me vendría bien tu ayuda.","Eh bien, le vieux gars, vous devez me penser un talon approprié. Je ne chicanerai pas avec toi là-dessus. Si cela aide, je suis vraiment désolé. Les logiciels malveillants de Gigasprite sont en moi et je ne suis malheureusement pas moi-même, toujours plus écrasé de chaque nanoseconde qui passe. Mais je veux annuler les dégâts que j'ai causés, je ne souhaite plus exister en tant que chanson d'une sirène qui attire mon cher à leur destin. Je sais que vous n'avez aucune raison de me croire, mais je vais sauver Chippy, je le jure. Et si vous voulez me rejoindre, je… Eh bien je pourrais utiliser votre aide.
+",好吧，老伙计，你一定认为我是合格的。我不会在这一点上与你争论。如果有帮助的话，我真的很抱歉。超级精灵的恶意软件在我体内，我很遗憾地不是我自己，每过一纳秒就被进一步覆盖。但我想消除我所造成的伤害，我不再希望像海妖之歌一样存在，吸引我最亲爱的人走向他们的末日。我知道你没有理由相信我，但我要去拯救芯片，我发誓。如果你愿意加入我，我......我可以需要你的帮助。
+T_STORY_60_LEVEL,"Here we are, and I must say it feels sooner than I was ready, but so goes life. I’ll have few spare moments to exact my plan before Gigasprite discerns my treachery, but by then I hope to have overcharged the node enough that there shan’t be more than a smoking crater. An exciting way to go out indeed, and the explosion will drop the defenses long enough for you to spirit Chippy away. I despair at not being present to apologize myself, but alas, life is but a series of compromises. Do pass along my love and a most sincere apology, and my goodbye. Now forthwith, into the breach!","Da simmer. Es isch zu früh, aber so isch des Lebm. Mi ham nur an Moment bevor des Gigasprite merkt was los isch, aber bis dahin ist der Knotenpunkt ned mehr als a Rauchwolke. Ned der schlechteste Weg zu gehn, und die Explosion lässt dir gnug Zeit um Chippy da rauszuholen. I finds echt schad, dass I mi ned selbst entschuldigen kann, aber so isch es. Sagsch 'm Chippy Bscheid, ge? Und jetz rein da, ins Verderben!","Ya hemos llegado, y debo decir que antes de lo que pensaba, pero así es la vida. Tengo poco tiempo para ejecutar mi plan antes de que Gigasprite descubra mi traición, pero para entonces espero haber sobrecargado el nodo lo suficiente como para que no quede de él nada más que un cráter humeante. Sin duda una forma emocionante de salir de aquí, y la explosión bajará las defensas el tiempo suficiente como para que te lleves a Chippy. Siento no estar para disculparme, pero la vida es una serie de compromisos. Transmítele mi cariño, mis disculpas... y mi despedida. ¡ Ahora rápido, a la brecha!","Nous y voici, et je dois dire que c'est arrivé plus vite que je ne pensais... c'est la vie. J'aurai quelques instants libres pour peaufiner mon plan avant que Gigasprite ne se rende compte de l'entourloupe, mais d'ici là j'espère avoir assez surchargé la node pour qu'il n'en reste plus qu'un cratère fumant. Une manière bien excitante d'en finir et l'explosion devrait désactiver les défenses assez longtemps pour te permettre d'extirper Chippy. Navré de ne pas être présent pour m'excuser moi même, mais la vie est une série de compromis. Transmet mes excuses les plus sincère, et mes adieux, veux-tu ? Et maintenant, en avant ! Dans la brèche !",我们到了，我必须说，这感觉比我准备的要早，但生活就是这样。在超级精灵发现我的背叛之前，我没有多少时间来实施我的计划，但到那时我希望已经给节点充满了电，以至于不会有更多的冒烟的坑。这的确是一个令人兴奋的结束方式，而且爆炸会让防御系统下降足够长的时间，让你可以把芯片带走。我对不能亲自到场道歉感到绝望，但唉，生活只是一系列的妥协。请转达我的爱和最真诚的道歉，以及我的告别。现在，请立即行动起来吧!
+T_STORY_60_LEVEL_GATE,"H-hello? Where… where am I? You came for me… 
+
+Wait, where is that Trojan horse piece of shell?! I’m going tear them a whole new set of sockets when I…
+
+Oh. I see.
+
+Poor Patch…","H-Hallo? Wo... wo bin ich? Du bist wegen mir gekommen... 
+
+Warte, wo ist dieses trojanische Pferd?! Ich werde ihnen ein ganzes Set neuer Steckplätze verpassen, wenn ich...
+
+Oh... Ach so, ich verstehe.
+
+Armer Patch...","¿H-hola? ¿Dónde... dónde estoy? Volviste a por mí... 
+
+Espera... ¿dónde está ese pedazo de virus troyano? Voy a llenarlo de toda una nueva serie de conectores cuando le...
+
+Oh. Ya veo.
+
+Pobre Patch...","S-salut ? Où… Où suis-je ? Tu es venu pour moi…
+
+Attends, où est ce bon sang de cheval de Troie ? ! Je vais leur faire passer un sale quart d'heure quand...
+Oh. Je vois.
+
+Mauvais patch…
+","你。。你好?我在哪...在哪？你来找我...
+
+等等，那特洛伊木马在哪里？我要把他们撕成一个全新的碎片套筒，当我... ...
+
+哦。我明白了。
+
+可怜的芯片..."
+T_STORY_61_LEVEL,"Before we go any further there’s something I need to upload to you, and I hope you don’t hate me for it, but I may be responsible for you being here… 
+
+I didn’t mean to! You know I don’t believe in an admin, but when I was almost out of hope I got down on my rotors, closed my LEDs, and sent out a hail mary support ticket. A short time later, you appeared! I’m really sorry if it was my fault you were dragged into this, but to me you’re my guardian sprite and together I know we can do this!","Bevor wir weitermachen – ich hoffe, du hasst mich nicht dafür, aber ich bin vielleicht dafür verantwortlich, dass du hier bist... 
+
+Das wollte ich nicht! Du weißt, dass ich nicht an einen Admin glaube, aber als ich fast keine Hoffnung mehr hatte, habe ich mich auf die Socken gemacht, meine LEDs geschlossen und ein Support-Ticket ins Nichts verschickt. Kurze Zeit später bist du aufgetaucht! Es tut mir wirklich leid, wenn es meine Schuld war, dass du in diese Sache hineingezogen wurdest, aber für mich bist du mein Beschützer, und ich weiß, dass wir es gemeinsam schaffen können!","Antes de seguir adelante, hay algo que debo subirte a tu sistema, y espero que no me odies por ello, pero puede que yo sea el responsable de que estés aquí... 
+
+No era mi intención. Sabes que no creo en un administrador, pero cuando ya casi no tenía esperanzas, me agaché, cerré mis LEDs y envié un ticket de soporte ""Ave María"". Poco después, ¡ apareciste tú! Lo siento mucho si es culpa mía que estés aquí, pero eres mi píxel guardián, ¡ y juntos sé que podremos con esto!","Avant d'aller plus loin il y a quelque chose qu'il faut que je te dise, et j'espère que tu ne vas pas me détester après, mais il est possible que ce soit moi qui t'ai fait venir ici...
+
+Je n’ai pas fait exprès ! Tu sais, je n’ai pas envie de croire en un Admin, mais quand tout semblait perdu, j'ai coupé toutes mes LEDs et j'ai envoyé un message SOS au service client. Quelques instants plus tard, tu étais apparu ! Si c'est vraiment de ma faute, j'en suis navré, mais pour moi tu es un vrai ange gardien et je sais qu'ensemble on peut réussir !
+","在我们进一步讨论之前，我需要向你上传一些东西，我希望你不要因此而讨厌我，但我可能要为你在这里负责......
+
+我不是故意的!你知道我不相信有管理员，但当我几乎没有希望的时候，我趴在我的回转轴上，关闭了我的LED，并发出了一个万福的支持票。过了不久，你就出现了!如果是我的错，我真的很抱歉，你被拖入了这个泥潭，但对我来说，你是我的守护精灵，我知道我们可以做到！"
+T_STORY_70_LEVEL,"After what happened with Patch I’m really starting to feel the gravity of our runtime. We’re getting close to Gigasprite’s heavily protected sectors, past this node there’s no turning back. 
+
+Let’s go erase Gigasprite and its grid from our system once and for all! ","Nach dem, was mit Patch passiert ist, fange ich wirklich an, die Schwere unserer Laufzeit zu spüren. Wir nähern uns den schwer geschützten Sektoren von Gigasprite, hinter diesem Knoten gibt es kein Zurück mehr. 
+
+Lasst uns Gigasprite und sein Raster ein für alle Mal aus unserem System löschen!","Después de lo ocurrido con Patch, estoy empezando a darme cuenta de la gravedad de nuestra ejecución. Nos estamos acercando a los sectores de Gigasprite fuertemente protegidos. Una vez pasemos este nodo, no habrá vuelta atrás. 
+
+¡Vamos a borrar a Gigasprite y a su matriz de nuestro sistema de una vez por todas! ","Après ce qui s'est passé avec Patch, je commence vraiment à ressentir la gravité de notre runtime. Nous nous approchons des secteurs fortement protégés de Gigasprite, après cette node, on ne pourra plus faire marche arrière.
+
+Allons effacer Gigasprite et son Anti-matrice de notre système une fois pour toutes !
+","在发生了 ""补丁 ""事件后，我真的开始感觉到我们运行时间的严重性。我们正在接近超级精灵的严密保护区，过了这个节点就没有回头路了。
+
+让我们去把超级精灵和它的网从我们的系统中彻底清除掉吧!"
+T_STORY_71_LEVEL,"P4R45PR1735 3N6463...
+CRU5H...
+K1LL...
+D357R0Y...
+P47CH 3N717Y NULL3D...
+CH1P 3N717Y PR10R17Y 74R637...
+4N0M4LY 3N717Y PR10R17Y 74R637...","P4R45PR1735 3N6463...
+CRU5H...
+K1LL...
+D357R0Y...
+P47CH 3N717Y NULL3D...
+CH1P 3N717Y PR10R17Y 74R637...
+4N0M4LY 3N717Y PR10R17Y 74R637...","20M8IPIX3L2 AL A7AKW3...
+4PL4574R...
+3L1M1NAR...
+D3S7RUIR...
+3N71D4D P47CH 4NUL4D0...
+3N71D4D CH1P 0BJ371V0 PR10R174R10...
+ENT1D4D 4N0M4L4 08JET1V0 PR10R1T4R10...","P4R45PR1735 3N6463 ...
+Cru5h ...
+K1ll ...
+D357r0y ...
+P47CH 3N717Y NULL3D ...
+CH1P 3N717Y PR10R17Y 74R637 ...
+4N0M4LY 3N717Y PR10R17Y 74R637 ...","P4R45PR1735 3N6463...
+CRU5H...
+K1LL...
+D357R0Y...
+P47CH 3N717Y NULL3D...
+CH1P 3N717Y PR10R17Y 74R637...
+4N0M4LY 3N717Y PR10R17Y 74R637..."
+T_STORY_80_LEVEL_G,"4LL Y0UR 53C70R 4R3 B3L0N6 70 U5...
+R351574NC3 15 FU71L3...
+1. 4M. 1N3V174BL3...","4LL Y0UR 53C70R 4R3 B3L0N6 70 U5...
+R351574NC3 15 FU71L3...
+1. 4M. 1N3V174BL3...","70D0 7U 53C70R 3S N0S P3R73N3C3...
+R3S1S71RS3 3S 1NÚ71L...
+Y0... S0Y... 1N3V17A8L3...","4LL Y0UR 53C70R 4R3 B3L0N6 70 U5 ...
+R351574NC3 15 FU71L3 ...
+1. 4m. 1N3V174BL3 ...","4ll y0ur 53c70r 4r3 b3l0n6 70 u5...
+R351574NC3 15 FU71L3...
+1.4M.1N3V174BL3..."
+T_STORY_80_LEVEL_C,"Wow, terrible banter, Gigasprite. I wonder if they’re opening themselves up to litigation with such clear IP theft. I doubt anyone will care in a small indie system like ours though. Anyways, it sounds like they’re feeling threatened so we’re doing something right!","Wow, schreckliches Geplänkel, Gigasprite. Ich frage mich, ob die sich mit einem so offensichtlichen Diebstahl von geistigem Eigentum einem Rechtsstreit aussetzen. Ich bezweifle allerdings, dass das in einem kleinen Indie-System wie dem unseren jemanden interessiert. Wie auch immer, es klingt, als ob es sich bedroht fühlt, also machen wir irgendetwas richtig!","Guau, menuda broma pesada, Gigasprite. Me pregunto si se están exponiendo a un litigio con un robo de IP tan obvio. Aunque dudo que a alguien le importe un pequeño sistema indie como el nuestro. De todos modos, parece que se sienten amenazados, ¡ así que algo estamos haciendo bien!","Waouh, quelle plaisanterie affligeante, Gigasprite. Je me demande s'ils s'exposent à des représailles avec un cas de vol d'IP aussi bâtant. En revanche, je pense que les gens se fichent pas mal d'un petit système indé comme le nôtre. De toute façon, on dirait que Gigasprite se sent menacé donc on doit tenir le bon fil !
+",哇，可怕的戏谑，超级精灵。我想知道他们是否会因为如此明显的知识产权盗窃而使自己面临诉讼。不过我怀疑在我们这样的小型独立系统中是否有人会在意。不管怎么说，听起来他们感觉受到了威胁，所以我们做得很好！
+T_STORY_90_LEVEL_G,"570P...
+3ND FUNC710N...
+73RM1N473...","570P...
+3ND FUNC710N...
+73RM1N473...","DE7ENER...
+FUNC10N F1NAL...
+7ERMINAR...","570P...
+3ND FUNC710N...
+73RM1N473...","570P...
+3ND FUNC710N...
+73RM1N473..."
+T_STORY_90_LEVEL_C,"Nope. We’re coming for you Gigaloser. Last node before we meet sprite to sprite, you should be stack overflowing your pants! No more dead sectors, no more lost homes.","Nö. Wir kommen dich holen, Gigaloser. Der letzte Knotenpunkt, bevor wir uns von Sprite zu Sprite treffen. Keine toten Sektoren mehr, keine verlorene Heimat mehr.","No. Vamos a por ti, Gigaperdedor. Solo queda un último nodo antes de que nos encontremos píxel a píxel, ¡ así que prepara tus pantalones para que se sobrecarguen! No más sectores muertos, no más hogares perdidos.","Nope. On arrive pour toi, Gigaloser. Dernière node avant que nous nous retrouvions face à face, tu devrais te préparer ! Terminés les secteurs morts !
+",不，不。我们是来找你的，超级倒霉蛋。在我们见面之前的最后一个节点，你应该裤子里吓到全是x！你的裤子是什么？不再有死亡的分脉，不再有失去的家园。
+T_STORY_100_LEVEL,"Well this is it. Hey, if we don’t make it, I want to, well… thank you. After being on my own for so long I forgot what it feels like to have someone in my corner. When you’re just trying to survive it’s easy to lose sight of how important it is to have other sprites to share both the good and bad times with. Even if we do get nulled, at least I’m doing it with a true friend. I’m terribly grateful for that. 
+
+Now let’s kick some Gigabutt!","Das ist es. Hey, wenn wir es nicht schaffen, möchte ich sagen, naja... danke. Nachdem ich so lange auf mich allein gestellt war, habe ich vergessen, wie es sich anfühlt, jemanden in meiner Ecke zu haben. Selbst wenn wir jetzt genullt werden, werde ich es wenigstens mit einem echten Freund. Dafür bin ich dankbar. 
+
+Und jetzt lasst uns ein bisschen Gigahintern treten!","Bueno, aquí estamos. Oye, si no lo logramos, quería, bueno... darte las gracias. Después de estar solo durante tanto tiempo, olvidé lo que se siente teniendo a alguien cerca. Cuando solo intentas sobrevivir, es fácil perder de vista lo importante que es tener otros píxeles con los que compartir buenos y malos momentos. Incluso si me anulan, al menos será acompañado de un verdadero amigo. No sabes cuánto te agradezco esa oportunidad. 
+
+¡Ahora vamos a patear un gigatrasero!","Eh bien, ça y est. Hé, si on ne s'en sort pas, je veux juste dire, eh bien… Merci. Après avoir été seul depuis si longtemps, j'ai oublié ce que ça fait d'avoir quelqu'un de mon côté. Quand on essaye juste de survivre, c'est facile de perdre de vue à quel point il est important d'avoir d'autres programmes pour partager les bons et les mauvais moments. Même si nous sommes nullés, au moins je le fais avec un véritable ami. J'en suis terriblement reconnaissant.
+
+Maintenant, allons lui botter le Gigaderrière !
+","好了，就是这样。嘿，如果我们没有成功，我想，谢谢你。。。。。。在我独自生活了这么久之后，我忘记了有人在我身边是什么感觉。当你只想生存下去的时候，很容易忽略了有其他同伴一起分享美好的和糟糕的时光是多么重要。即使我们真的被淘汰了，至少我是和一个真正的朋友一起做的。我对此非常感激。
+
+现在，让我们踢一些超级屁股吧!"
+T_STORY_100_LEVEL_GATE,"We… we did it!! I can’t believe the Gigasprite nightmare is over! Now that the grid is gone I can finally start rebuilding my home sector, I can’t wait to show you-
+
+Yes, there are more parasprites out there to stop, but don’t you want to take a rest, even for a bit? Ha, I suppose that isn’t really your style. But, uh, don’t die, because when the archive brings you back it’s bringing Gigasprite back with you! 
+
+I’m really going to miss you, but I’m always just a click away. See you around, my friend. And thank you.","Wir... wir haben es geschafft!! Ich kann nicht glauben, dass der Gigasprite-Albtraum vorbei ist! Jetzt, wo das Raster weg ist, kann ich endlich mit dem Wiederaufbau meines Heimatsektors beginnen, ich kann es kaum erwarten, ihn dir zu zeigen...
+
+Ja, es gibt noch mehr Parasprites da draußen, die es zu stoppen gilt, aber willst du nicht eine Pause einlegen, wenn auch nur für eine Weile? Ha, das ist wohl nicht dein Stil. Aber, äh, stirb nicht, denn wenn das Archiv dich zurückbringt, dann kommt Gigasprite mit dir zurück! 
+
+Ich werde dich wirklich vermissen, aber ich bin immer nur einen Klick entfernt. Wir sehen uns wieder, mein Freund. Und danke.","¡ Lo... lo hemos logrado! ¡ No puedo creer que la pesadilla de Gigasprite se haya terminado! Ahora que la matriz ha desaparecido, por fin puedo empezar a reconstruir mi sector. Tengo ganas de mostrártelo...
+
+Sí, lo sé, hay más zombipíxeles que detener, pero... ¿no quieres descansar, aunque sea un poco? Ja, supongo que no es tu estilo. Pero no te mueras, porque cuando el archivo te traiga de vuelta, ¡ traerá a Gigasprite contigo!
+
+Te voy a echar de menos, pero siempre estoy a un clic de distancia. Nos vemos, amigo mío. Y gracias.","On... on a réussi ! J'ai du mal à croire que le cauchemar Gigastprite est terminé ! Maintenant que l'Anti-matrice a disparu, je peux enfin commencer à reconstruire mon secteur d'origine. J'ai hâte de te montrer —
+
+Oui, il y a plus de parasprites à arrêter, mais tu ne veux pas faire une pause, même pour un moment ? Ha, j’imagine que ce n’est pas vraiment ton style. Mais, hum, ne meurt pas, car quand l’Archive te ramène, elle va aussi ramener Gigasprite !
+
+Tu vas vraiment me manquer, mais je reste dans le secteur. On se dit à bientôt alors, mon ami. Et merci.
+","我们......我们成功了！!我无法相信超级精灵的噩梦已经结束了!现在网消失了，我终于可以开始重建我的家园了，我迫不及待地想让你看看......
+
+是的，还有更多的小型精灵要阻止，但你不想休息一下吗，哪怕是一会儿？哈，我想这并不是你的风格。但是，呃，不要死，因为当档案馆把你带回来的时候，就是把超级精灵也带回来了!
+
+我真的会想念你，但我永远只是一个点击的距离。再见，我的朋友。谢谢你。"
+T_STORY_LADDER_TEASER,"Hey, Chip. Aren’t you Chip? You’re both named Chip?! Oh, just the other one. Uh, alright, that’s fine. Anyways, congrats on doing that thing with like saving the system and stuff, but I kind of found something I think you’ll dig. Back at the title screen of the game- 
+
+This game. The one we’re in. Yes we are. Duuuude, stop arguing and let me get this out!
+
+Right, so there’s this like place called the LADDER, and every week there’s a fresh system where you compete with a whole multiverse of other versions of you to see who can get the furthest. You should check it out since you’re all in love with saving systems or whatever.","Hey, Chip. Bist du nicht Chip? Ihr heißt beide Chip?! Oh, nur der andere. Äh, in Ordnung, das ist in Ordnung. Wie auch immer, ich gratuliere dir, dass du das System gerettet hast und so, aber ich habe etwas gefunden, das dir gefallen wird. Zurück zum Titelbildschirm des Spiels... 
+
+Dieses Spiel. Das, in dem wir sind. Ja, das sind wir. Maaaaan, hör auf zu streiten und lass mich zuende reden!
+
+Also, es gibt da so einen Ort namens RANGLISTE, und jede Woche gibt es ein neues System, bei dem du gegen ein ganzes Multiversum von anderen Versionen von dir antrittst, um zu sehen, wer am weitesten kommt. Solltest du dir mal anschauen, echt jetzt!","Ey, Chip. ¿Eres Chip? ¡¿Los dos se llaman Chip?! Oh, solo el otro. Uh, de acuerdo, vale. De todas formas, felicidades por todo eso de intentar salvar al sistema y demás, pero creo haber encontrado algo que te gustará. Vuelve a la pantalla principal del juego...
+
+De este juego, sí. En el que estamos. Sí, en el que estamos ahora. Amiiiiigo, ¡para ya con la discusión y déjame terminar!
+
+Pues bien, hay un lugar llamado CARRERA en el que cada semana hay un nuevo sistema en el que competir contra todo un multiverso de otras versiones de ti, para ver quién llega más lejos. Deberías echarle un vistazo, ya que le has cogido el gusto a eso de salvar sistemas o lo que sea que hagas.","Hé, Chip. Vous n'êtes pas Chip ? Quoi ? Vous vous appelez tous les deux Chip ? ! Ho, juste l'autre. Eu, bien, ce n’est pas grave. Bref, félicitations pour avoir genre... sauver le système et tout, mais j'ai trouvé un truc qui devrait t'intéresser dans le menu principal du jeu-…
+
+Ce jeu. Celui dans lequel on est. Oui, oui. Mec, arrête de tergiverser et laisse-moi parler !
+
+OK, donc il y a cet endroit qui s'appelle le LADDER, et chaque semaine il y a comme un nouveau système dans lequel tu te bats au classement avec tout un multivers d'autres versions de toi pour voir qui arrive le plus loin. Tu devrais jeter un œil vu que tu as un penchant pour sauver les systèmes !
+","嘿，芯片。你不是芯片吗？你们都叫芯片？哦，只是其中一个人。呃，好吧，这很好。总之，恭喜你完成了拯救系统之类的事情，但我发现了一些东西，我想你会喜欢。回到游戏的标题屏幕上。。。
+
+这个游戏。我们所处的这个游戏。。老伙计，别吵了，让我把这个说出来吧!
+
+是这样，有一个叫“天梯”的地方，每周都有一个新的系统，你和整个多元宇宙的其他版本的你竞争，看谁能走得最远。你应该去看看，因为你都爱上了存档系统或其他什么。"
+T_STORY_REVIEW_PROMPT,TBD,,Próximamente,TBD,TBD
+T_STORY_REVIEW_RESPONSE,TBD,,Próximamente,TBD,TBD
+T_STORE_ONELINER,A tactical RPG where you create powerful builds to save a retro computer system.,Ein taktisches RPG. Erschaffe mächtige Builds aus einer Fülle an Items!,Un RPG táctico con poderosas combinaciones de equipo usadas para salvar un sistema informático retro.,Une RPG tactique dans lequel vous créez des builds puissants pour sauver un système informatique corrompu.,这是一款战术性RPG游戏，你要创造强大的装备来拯救一个复古的计算机系统。
+T_STORE_SHORT_DESCRIPTION,"A tactical roguelite RPG where the items you choose define your character. Create powerful builds from an abundance of loot as you try to save a corrupted retro computer system in bite-sized tactical puzzles.
+","Ein taktisches RPG, in dem die Gegenstände, die du wählst, deinen Charakter bestimmen. Erstelle mächtige Builds aus Unmengen von Beute und versuche in taktischen Puzzle-Happen ein korruptes Retro-Computersystem zu retten.","Un juego de rol táctico en el que los objetos que eliges definen a tu personaje. Crea poderosas combinaciones descubriendo gran cantidad de objetos, mientras intentas salvar un sistema informático corrupto y retro en un juego de puzles tácticos.",Un RPG rogue lite tactique où les objets que vous choisissez définissent votre personnage. Créez des builds puissants à partir d’une abondance de loot tout en essayant de sauver un système informatique corrompu à travers des puzzles tactiques.,"这是一款战术性的RPG游戏，你选择的物品决定了你的角色。从大量的战利品中创造出强大的装备，同时你要在一点一滴的战术谜题中试图拯救一个被破坏的复古计算机系统。
+"
+T_STORE_LONG_DESCRIPTION,"A tactical RPG fusing the best of roguelikes, turn-based tactics and hack and slash games – made by a solo developer with a penchant for minimalist designs.
+
+- Fight through bite-sized tactical puzzles
+- Create powerful builds from a plethora of items which grant you skills and can change gameplay mechanics
+- Carry on your favorite items between runs in normal mode
+- Start from scratch each week and compete with other players in the online ladder mode
+- Try various playstyles and hunt for challenging achievements
+- Enjoy a lovingly crafted story of ridiculous computer nostalgia and a blast of a retro soundtrack","Ein taktisches RPG, das das Beste aus Roguelikes, rundenbasierten Taktik- und Hack-and-Slash-Spielen vereint - entwickelt von einem Solo-Entwickler mit einer Vorliebe für minimalistisches Design.
+
+- Kämpfe dich durch kleine taktische Puzzles
+- Erstelle mächtige Builds aus einer Fülle von Gegenständen, die dir Fähigkeiten verleihen und die Spielmechanik verändern können
+- Nimm deine Lieblingsgegenstände mit von Spiel zu Spiel im normalen Modus
+- Fange jede Woche von vorne an und messe dich mit anderen Spielern im Online-Ranglisten-Modus
+- Probiere verschiedene Spielstile aus und jage nach herausfordernden Errungenschaften
+- Genieße eine liebevoll gestaltete Geschichte voller lächerlicher Computernostalgie und einen fetzigen Retro-Soundtrack","Un RPG táctico que mezcla lo mejor de los roguelikes, los juegos tácticos por turnos y los ""hack and slash"", y creado por un único desarrollador con predilección por los diseños minimalistas.
+
+- Combate a través de puzles tácticos de tamaño reducido.
+- Crea poderosas combinaciones de equipo, gracias a multitud de objetos con habilidades que pueden cambiar las mecánicas del juego.
+- Completa ejecuciones con tus objetos favoritos en el modo Normal.
+- Empieza desde cero cada semana y compite contra otros jugadores en el modo Carrera en línea.
+- Prueba varios estilos de juego y consigue logros desafiantes.
+- Disfruta de una historia hecha con cariño y con ridícula nostalgia informática, acompañada de una banda sonora de estilo retro.","Un RPG tactique fusionnant le meilleur des jeux rogue like, tour par tour et ""hack and slash"" - développé en solo par un indé ayant un penchant pour les conceptions minimalistes.
+
+- Combattez dans des puzzles tactiques minimalistes
+- Créez des builds puissants grâce à une grande quantité d'équipements divers et variés, vous conférant des stats et compétences uniques
+- Conservez vos objets préférés d'un run à l'autre en mode Normal
+- Recommencez de zéro et concourez chaque semaine dans le mode Ladder en ligne
+- Débloquez de nombreux succès en variant les styles de jeu
+- Suivez l'histoire amusante des protagonistes à travers un univers et une musique rétro
+","这是一款融合了roguelikes、回合制战术和砍杀游戏的优点的战术性RPG游戏--由一个喜欢极简主义设计的独立开发者制作。
+
+- 通过一点一点的战术谜题进行战斗
+- 从大量的物品中创建强大的建筑，授予你技能，并能改变游戏机制。
+- 在正常模式下，在游戏间携带使用你最喜欢的物品。
+- 每周从头开始，在线天梯模式中与其他玩家竞争。
+- 尝试各种玩法，寻找具有挑战性的成就。
+- 享受一个精心制作的荒谬的电脑怀旧故事和复古的爆炸性背景音乐。"
+T_BEEPER_SHOP_1,It's dangerous to go alone! Take this deal!,Es ist gefährlich allein da draußen! Nimm dieses Angebot!,"¡ Es peligroso ir por ahí solo! ¡ Toma, llévate esto! Está de oferta, ¿sabes?",C'est dangereux de partir seul ! Prends donc ce deal !,独自一人是很危险的！接受这笔交易！
+T_BEEPER_SHOP_2,These prices are so good man I'm basically paying you to buy my stuff.,"Meine Preise sind so gut, ich bezahl dich quasi dafür mein Zeug zu kaufen.","Estos precios son tan buenos que casi te estoy pagando yo por que te los lleves, ¿sabes?",Tu ne trouveras pas de meilleur prix ! C'est presque moi qui te paye pour acheter mes trucs !,这些价格太好啦，我基本上是付钱给你买我的东西。
+T_BEEPER_SHOP_3,Blackened Friday every day! Prices slashed forever!,Schwarzer Freitag jeden Tag! Für immer zerschlagene Preise!,"¡ Aquí siempre es ""Blacken"" Friday! ¡ Rebajas de precios, todo un ""Slash""! ","Ici, c'est tous les jours Black Friday ! Toujours en soldes !",每天都有黑色星期五!价格永无止境的减少!
+T_BEEPER_SHOP_4,"I've seen you before, right? Sorry, my memory is corrupted. But stay awhile and listen or whatever?","Ich hab dich schonmal gesehen, oder? Sorry, mein Speicher ist defekt. Aber bleib ein Weilchen und hör zu...","Te he visto antes, ¿verdad? Lo siento, mi memoria está dañada. Pero quédate un rato. Podemos hablar, ¿sabes?","Je t’ai déjà vu, non ? Désolé, ma mémoire est corrompue. Mais reste un moment et écoute ou je ne sais pas ?",我以前见过你，对吗？对不起，我的记忆被破坏了。但是，待一会听我说？
+T_BEEPER_SHOP_5,"My memory is faulty. All those thoughts, lost in time, like tears in rain, man.","Mein Speicher ist fehlerhaft, all diese Gedanken, verloren in der Zeit, wie Tränen im Regen, Alter!","Mi memoria está defectuosa. Todos esos pensamientos, perdidos en el tiempo, como lágrimas en la lluvia, ¿sabes?","J'ai la mémoire défectueuse. Toutes ses pensées, perdues dans le temps, comme des gouttes dans un océan mec.",我的记忆是错位的。所有这些想法，在时间中丢失，就像雨中的泪水，老伙计。
+T_BEEPER_SHOP_6,"Is all this going somewhere? I sometimes feel like we're parked, man.",Wo führt das alles hin? Ich fühl mich manchmal als wären wir geparkt.,"¿Acaso va todo esto a algún lado? A veces siento que estamos completamente atrapados aquí, ¿sabes? ","Est-ce que tout ça nous mène vraiment quelque part ? Parfois, j'ai l'impression qu'on tourne en rond.",这些都是要去哪儿？我有时觉得我们被停下来了，伙计。
+T_BEEPER_SHOP_7,I'm not saying we live in a computer game. But it's totally possible. Imagine that.,Ich sag nicht wir leben in einem Computerspiel – aber das wäre total möglich. Stell dir das mal vor!,"No digo que estemos dentro de un videojuego, pero... bueno, es posible. Imagínatelo, ¿sabes?",Je ne suis pas en train de dire qu'on vit dans un jeu vidéo. Mais c'est possible... imagine ça.,我不是说我们生活在一个电脑游戏中。但这是完全可能的。想象一下吧。
+T_FEEDBACK_PROMPT,"Thanks again for your help with, uh, saving me and the store or whatever. Thought I could say thanks with some Kernels, all yours, on the house, no catches. That being said, business has been a bit slow with this whole ‘end of the system as we know it’ thing going on, so if you did want to leave a review it would really help a bot out. Whaddya say?",Danke nochmal dass du mich und meinen Laden gerettet hast! Voll nett von dir. Hier haste ein paar Kerne zum Dank. Und da wir schon dabei sind: mit all dem Weltuntergangskram könnte das etwas Geschäft belebt werden. Würdest du eine Bewertung abgeben? Das würde total helfen!,"Gracias de nuevo por ayudar a... estooo... salvarme y salvar la tienda, y esas cosas. Pensé que podría agradecértelo con un puñado de kernels, así que son tuyos. Invita la casa. No, no hay truco. Y después de esto, hablemos de lo lento que han ido los negocios con todo este tema del ""fin del sistema tal y como lo conocemos"". Así que si te apetece dejar una reseña, nos ayudará mucho. ¿Qué dices, te animas?","Encore merci pour ton aide avec, hum, me sortir de la galère et sauver le magasin. Bref, voilà quelques Kernels pour tout le grabuge, c’est la maison qui régale, sans contrepartie. Enfin... le business est un peu en berne avec les temps de fin du système qui courent ! Du coup, imaginons que tu souhaites nous dépanner à nouveau, tu pourrais laisser un avis pour les autres. Histoire qu’ils sachent qu’on est de bonne compagnie et qu’ils nous rendent une petite visite. T’en penses quoi ?
+","再次感谢你的帮助，呃，拯救我和商店之类的。我想我可以用一些内核来表示感谢，都是你的，免费的，不收钱。话虽如此，但由于整个 ""我们所知道的系统的终结 ""的事情发生，生意一直有点缓慢，所以如果你想留下评论，这将真正帮助机器人。怎么样？"
+T_WRITE_REVIEW,Write Review,Bewertung abgeben,Escribir reseña,Laisser un Avis,写评论

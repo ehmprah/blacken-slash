@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://shaders/retro_shader.tres" type="Material" id=1]
+[ext_resource path="res://assets/scanlines.svg" type="Texture" id=2]
+
+[node name="FilterRetro" type="CanvasLayer"]
+layer = 128
+
+[node name="Retro" type="ColorRect" parent="."]
+visible = false
+material = ExtResource( 1 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Tint" type="ColorRect" parent="Retro"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+color = Color( 1, 1, 1, 0.0196078 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+texture = ExtResource( 2 )
+stretch_mode = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}

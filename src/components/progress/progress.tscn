@@ -1,0 +1,208 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://assets/font/Rubik-BoldItalic.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://shaders/rainbow_shader.tres" type="Material" id=2]
+[ext_resource path="res://assets/icons/icon_gear.svg" type="Texture" id=3]
+[ext_resource path="res://components/progress/progress.gd" type="Script" id=4]
+[ext_resource path="res://assets/font/NotoSansSC-Regular.otf" type="DynamicFontData" id=5]
+
+[sub_resource type="StyleBoxFlat" id=22]
+content_margin_left = 4.0
+content_margin_right = 4.0
+content_margin_top = 4.0
+content_margin_bottom = 4.0
+bg_color = Color( 0.188235, 0.239216, 0.407843, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 1
+corner_radius_top_right = 1
+corner_radius_bottom_right = 1
+corner_radius_bottom_left = 1
+
+[sub_resource type="StyleBoxFlat" id=23]
+bg_color = Color( 0, 0, 0, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="DynamicFont" id=24]
+size = 24
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 1 )
+fallback/0 = ExtResource( 5 )
+
+[node name="Container" type="VBoxContainer"]
+margin_left = 1.0
+margin_right = 411.0
+margin_bottom = 31.0
+mouse_filter = 2
+size_flags_horizontal = 5
+custom_constants/separation = 8
+script = ExtResource( 4 )
+
+[node name="Progress" type="PanelContainer" parent="."]
+margin_right = 410.0
+margin_bottom = 18.0
+mouse_filter = 2
+size_flags_horizontal = 4
+custom_styles/panel = SubResource( 22 )
+
+[node name="Border" type="PanelContainer" parent="Progress"]
+margin_left = 4.0
+margin_top = 4.0
+margin_right = 406.0
+margin_bottom = 14.0
+mouse_filter = 2
+custom_styles/panel = SubResource( 23 )
+
+[node name="Bar" type="HBoxContainer" parent="Progress/Border"]
+margin_left = 1.0
+margin_top = 1.0
+margin_right = 401.0
+margin_bottom = 9.0
+mouse_filter = 2
+size_flags_horizontal = 4
+custom_constants/separation = 0
+alignment = 1
+
+[node name="ColorRect" type="ColorRect" parent="Progress/Border/Bar"]
+modulate = Color( 0.666667, 0.666667, 0.666667, 1 )
+margin_right = 40.0
+margin_bottom = 8.0
+rect_min_size = Vector2( 40, 8 )
+mouse_filter = 2
+color = Color( 0, 0, 0, 1 )
+
+[node name="ColorRect2" type="ColorRect" parent="Progress/Border/Bar"]
+modulate = Color( 0.666667, 0.666667, 0.666667, 1 )
+margin_left = 40.0
+margin_right = 80.0
+margin_bottom = 8.0
+rect_min_size = Vector2( 40, 8 )
+mouse_filter = 2
+color = Color( 0.129412, 0.85098, 0.294118, 1 )
+
+[node name="ColorRect3" type="ColorRect" parent="Progress/Border/Bar"]
+modulate = Color( 0.666667, 0.666667, 0.666667, 1 )
+margin_left = 80.0
+margin_right = 120.0
+margin_bottom = 8.0
+rect_min_size = Vector2( 40, 8 )
+mouse_filter = 2
+color = Color( 0.0862745, 0.678431, 1, 1 )
+
+[node name="ColorRect4" type="ColorRect" parent="Progress/Border/Bar"]
+modulate = Color( 0.666667, 0.666667, 0.666667, 1 )
+margin_left = 120.0
+margin_right = 160.0
+margin_bottom = 8.0
+rect_min_size = Vector2( 40, 8 )
+mouse_filter = 2
+color = Color( 0.203922, 0.231373, 0.898039, 1 )
+
+[node name="ColorRect5" type="ColorRect" parent="Progress/Border/Bar"]
+modulate = Color( 0.666667, 0.666667, 0.666667, 1 )
+margin_left = 160.0
+margin_right = 200.0
+margin_bottom = 8.0
+rect_min_size = Vector2( 40, 8 )
+mouse_filter = 2
+color = Color( 0.756863, 0.0862745, 1, 1 )
+
+[node name="ColorRect6" type="ColorRect" parent="Progress/Border/Bar"]
+modulate = Color( 0.666667, 0.666667, 0.666667, 1 )
+margin_left = 200.0
+margin_right = 240.0
+margin_bottom = 8.0
+rect_min_size = Vector2( 40, 8 )
+mouse_filter = 2
+color = Color( 1, 0.0862745, 0.564706, 1 )
+
+[node name="ColorRect7" type="ColorRect" parent="Progress/Border/Bar"]
+modulate = Color( 0.666667, 0.666667, 0.666667, 1 )
+margin_left = 240.0
+margin_right = 280.0
+margin_bottom = 8.0
+rect_min_size = Vector2( 40, 8 )
+mouse_filter = 2
+color = Color( 0.819608, 0.0666667, 0.0666667, 1 )
+
+[node name="ColorRect8" type="ColorRect" parent="Progress/Border/Bar"]
+modulate = Color( 0.666667, 0.666667, 0.666667, 1 )
+margin_left = 280.0
+margin_right = 320.0
+margin_bottom = 8.0
+rect_min_size = Vector2( 40, 8 )
+mouse_filter = 2
+color = Color( 0.92549, 0.478431, 0, 1 )
+
+[node name="ColorRect9" type="ColorRect" parent="Progress/Border/Bar"]
+modulate = Color( 0.666667, 0.666667, 0.666667, 1 )
+margin_left = 320.0
+margin_right = 360.0
+margin_bottom = 8.0
+rect_min_size = Vector2( 40, 8 )
+mouse_filter = 2
+color = Color( 0.827451, 0.85098, 0.129412, 1 )
+
+[node name="ColorRect10" type="ColorRect" parent="Progress/Border/Bar"]
+modulate = Color( 0.666667, 0.666667, 0.666667, 1 )
+margin_left = 360.0
+margin_right = 400.0
+margin_bottom = 8.0
+rect_min_size = Vector2( 40, 8 )
+mouse_filter = 2
+
+[node name="Needle" type="Node2D" parent="Progress/Border/Bar"]
+
+[node name="GearIcon" type="TextureRect" parent="Progress/Border/Bar/Needle"]
+material = ExtResource( 2 )
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -20.0
+margin_top = -7.0
+margin_right = 20.0
+margin_bottom = 33.0
+rect_min_size = Vector2( 40, 40 )
+texture = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Text" type="HBoxContainer" parent="."]
+visible = false
+modulate = Color( 0.666667, 0.666667, 0.666667, 1 )
+margin_top = 26.0
+margin_right = 410.0
+margin_bottom = 55.0
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_constants/separation = 8
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level" type="Label" parent="Text"]
+margin_left = 131.0
+margin_right = 239.0
+margin_bottom = 29.0
+custom_colors/font_color = Color( 0.47451, 0.596078, 0.933333, 1 )
+custom_fonts/font = SubResource( 24 )
+text = "T_LEVEL"
+
+[node name="Number" type="Label" parent="Text"]
+margin_left = 247.0
+margin_right = 278.0
+margin_bottom = 29.0
+custom_colors/font_color = Color( 0.47451, 0.596078, 0.933333, 1 )
+custom_fonts/font = SubResource( 24 )
+text = "50"

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Chip06.mp3-ab4292672d0391dec1d716e167050a38.mp3str"
+
+[deps]
+
+source_file="res://assets/voice/Chip06.mp3"
+dest_files=[ "res://.import/Chip06.mp3-ab4292672d0391dec1d716e167050a38.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

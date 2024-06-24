@@ -1,0 +1,198 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://theme.tres" type="Theme" id=1]
+[ext_resource path="res://components/button_base/button_base.tscn" type="PackedScene" id=2]
+[ext_resource path="res://assets/icons/icon_left.svg" type="Texture" id=3]
+[ext_resource path="res://components/compare/compare.gd" type="Script" id=4]
+[ext_resource path="res://assets/icons/icon_right.svg" type="Texture" id=5]
+[ext_resource path="res://assets/icons/icon_tool.svg" type="Texture" id=6]
+[ext_resource path="res://assets/icons/icon_close.svg" type="Texture" id=7]
+[ext_resource path="res://assets/icons/icon_augment.svg" type="Texture" id=8]
+
+[sub_resource type="StyleBoxFlat" id=1]
+content_margin_left = 8.0
+content_margin_right = 8.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+bg_color = Color( 0.0705882, 0.0839844, 0.0941176, 1 )
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+content_margin_left = 8.0
+content_margin_right = 8.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+bg_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="Animation" id=2]
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3, 0.5 ),
+"transitions": PoolRealArray( 1, 2, 1 ),
+"update": 0,
+"values": [ Vector2( 0, 700 ), Vector2( 0, -50 ), Vector2( 0, 0 ) ]
+}
+
+[node name="Compare" type="HBoxContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 700.0
+margin_bottom = 700.0
+mouse_filter = 0
+theme = ExtResource( 1 )
+alignment = 1
+script = ExtResource( 4 )
+
+[node name="M" type="MarginContainer" parent="."]
+margin_right = 700.0
+margin_bottom = 776.0
+rect_min_size = Vector2( 700, 700 )
+size_flags_horizontal = 4
+size_flags_vertical = 3
+custom_constants/margin_top = 76
+
+[node name="Highlight" type="Control" parent="M"]
+margin_top = 76.0
+margin_right = 700.0
+margin_bottom = 776.0
+
+[node name="Button" parent="M/Highlight" instance=ExtResource( 2 )]
+margin_left = 76.0
+margin_top = -68.0
+margin_right = 137.0
+margin_bottom = -8.0
+rect_pivot_offset = Vector2( -724, 124 )
+focus_mode = 0
+mouse_filter = 2
+size_flags_horizontal = 3
+toggle_mode = true
+pressed = true
+enabled_focus_mode = 0
+icon = ExtResource( 6 )
+prevent_doubleclick = false
+
+[node name="Triangle" type="Control" parent="M/Highlight/Button"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -10.0
+margin_top = -20.0
+margin_right = 10.0
+
+[node name="Polygon2D" type="Polygon2D" parent="M/Highlight/Button/Triangle"]
+position = Vector2( 0, 18 )
+polygon = PoolVector2Array( 0, 0, 20, 0, 10, 10 )
+
+[node name="Panel" type="PanelContainer" parent="M"]
+margin_top = 76.0
+margin_right = 700.0
+margin_bottom = 776.0
+rect_min_size = Vector2( 700, 700 )
+size_flags_horizontal = 5
+size_flags_vertical = 3
+custom_styles/panel = SubResource( 1 )
+
+[node name="V" type="VBoxContainer" parent="M/Panel"]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 692.0
+margin_bottom = 692.0
+custom_constants/separation = 8
+
+[node name="Upper" type="MarginContainer" parent="M/Panel/V"]
+margin_right = 684.0
+margin_bottom = 338.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="V" type="VBoxContainer" parent="M/Panel/V/Upper"]
+margin_right = 684.0
+margin_bottom = 338.0
+custom_constants/separation = 0
+
+[node name="Scroll" type="ScrollContainer" parent="M/Panel/V/Upper/V"]
+margin_right = 684.0
+margin_bottom = 262.0
+size_flags_vertical = 3
+scroll_horizontal_enabled = false
+
+[node name="Items" type="HBoxContainer" parent="M/Panel/V/Upper/V/Scroll"]
+margin_right = 684.0
+margin_bottom = 262.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_constants/separation = 8
+alignment = 1
+
+[node name="Compare" type="PanelContainer" parent="M/Panel/V/Upper/V"]
+margin_top = 262.0
+margin_right = 684.0
+margin_bottom = 338.0
+size_flags_vertical = 8
+custom_styles/panel = SubResource( 4 )
+
+[node name="H" type="HBoxContainer" parent="M/Panel/V/Upper/V/Compare"]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 676.0
+margin_bottom = 68.0
+size_flags_vertical = 8
+custom_constants/separation = 8
+
+[node name="Back" parent="M/Panel/V/Upper/V/Compare/H" instance=ExtResource( 2 )]
+margin_right = 60.0
+margin_bottom = 60.0
+icon = ExtResource( 7 )
+
+[node name="Replace" parent="M/Panel/V/Upper/V/Compare/H" instance=ExtResource( 2 )]
+margin_left = 68.0
+margin_right = 532.0
+margin_bottom = 60.0
+size_flags_horizontal = 3
+text = "T_REPLACE"
+icon = ExtResource( 8 )
+
+[node name="Prev" parent="M/Panel/V/Upper/V/Compare/H" instance=ExtResource( 2 )]
+margin_left = 540.0
+margin_right = 600.0
+margin_bottom = 60.0
+icon = ExtResource( 3 )
+
+[node name="Next" parent="M/Panel/V/Upper/V/Compare/H" instance=ExtResource( 2 )]
+margin_left = 608.0
+margin_right = 668.0
+margin_bottom = 60.0
+icon = ExtResource( 5 )
+
+[node name="Lower" type="ScrollContainer" parent="M/Panel/V"]
+margin_top = 346.0
+margin_right = 684.0
+margin_bottom = 684.0
+size_flags_vertical = 3
+scroll_horizontal_enabled = false
+
+[node name="Replacement" type="PanelContainer" parent="M/Panel/V/Lower"]
+margin_right = 684.0
+margin_bottom = 338.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_styles/panel = SubResource( 3 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+reset_on_save = false
+anims/Enter = SubResource( 2 )
+
+[connection signal="button_down" from="M/Panel/V/Upper/V/Compare/H/Back" to="." method="hide"]
+[connection signal="button_down" from="M/Panel/V/Upper/V/Compare/H/Replace" to="." method="_on_Replace_button_down"]
+[connection signal="button_down" from="M/Panel/V/Upper/V/Compare/H/Prev" to="." method="_on_Prev_button_down"]
+[connection signal="button_down" from="M/Panel/V/Upper/V/Compare/H/Next" to="." method="_on_Next_button_down"]

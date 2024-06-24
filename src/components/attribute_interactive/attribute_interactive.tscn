@@ -1,0 +1,89 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://components/attribute_base/attribute_base.tscn" type="PackedScene" id=1]
+[ext_resource path="res://components/attribute_interactive/attribute_interactive.gd" type="Script" id=2]
+[ext_resource path="res://components/button_base/button_base.tscn" type="PackedScene" id=3]
+[ext_resource path="res://assets/icons/icon_augment.svg" type="Texture" id=4]
+[ext_resource path="res://assets/icons/icon_reroll.svg" type="Texture" id=5]
+[ext_resource path="res://assets/ui/vertical_progress_progress.svg" type="Texture" id=6]
+[ext_resource path="res://assets/ui/vertical_progress_under.svg" type="Texture" id=7]
+
+[node name="Attribute" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="Text" parent="Container/Top" index="0"]
+margin_right = 529.0
+
+[node name="Labels" parent="Container/Top/Text" index="0"]
+margin_right = 525.0
+
+[node name="Name" parent="Container/Top/Text/Labels" index="1"]
+margin_right = 525.0
+
+[node name="Value" parent="Container/Top/Text" index="1"]
+margin_left = 529.0
+margin_right = 529.0
+
+[node name="Progress" type="TextureProgress" parent="Container/Top" index="1"]
+margin_left = 539.0
+margin_right = 544.0
+margin_bottom = 60.0
+max_value = 1.0
+step = 0.01
+value = 1.0
+texture_under = ExtResource( 7 )
+texture_progress = ExtResource( 6 )
+fill_mode = 3
+
+[node name="Reroll" parent="Container/Top" index="2" instance=ExtResource( 3 )]
+modulate = Color( 1, 1, 1, 1 )
+margin_left = 554.0
+margin_right = 614.0
+margin_bottom = 60.0
+hint_tooltip = "T_REROLL"
+icon = ExtResource( 5 )
+sound = "ITEM_AUGMENT"
+prevent_doubleclick = false
+
+[node name="Cost" type="Label" parent="Container/Top/Reroll" index="2"]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -66.0
+margin_top = 2.0
+margin_right = -6.0
+margin_bottom = 32.0
+rect_scale = Vector2( 0.55, 0.55 )
+rect_pivot_offset = Vector2( 60, 0 )
+text = "20"
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Augment" parent="Container/Top" index="3" instance=ExtResource( 3 )]
+modulate = Color( 1, 1, 1, 1 )
+margin_left = 624.0
+margin_right = 684.0
+margin_bottom = 60.0
+hint_tooltip = "T_AUGMENT"
+icon = ExtResource( 4 )
+sound = "ITEM_AUGMENT"
+prevent_doubleclick = false
+
+[node name="Cost" type="Label" parent="Container/Top/Augment" index="2"]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -66.0
+margin_top = 2.0
+margin_right = -6.0
+margin_bottom = 32.0
+rect_scale = Vector2( 0.55, 0.55 )
+rect_pivot_offset = Vector2( 60, 0 )
+text = "20"
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="button_down" from="Container/Top/Reroll" to="." method="_on_Reroll_button_down"]
+[connection signal="button_down" from="Container/Top/Augment" to="." method="_on_Augment_button_down"]

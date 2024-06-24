@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/BS-011-Off.mp3-561e6a7f5d027c0c5b1860063905dfab.mp3str"
+
+[deps]
+
+source_file="res://assets/music/BS-011-Off.mp3"
+dest_files=[ "res://.import/BS-011-Off.mp3-561e6a7f5d027c0c5b1860063905dfab.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,34 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/chip.png" type="Texture" id=1]
+[ext_resource path="res://components/level_base/level_base.tscn" type="PackedScene" id=2]
+[ext_resource path="res://theme.tres" type="Theme" id=3]
+
+[node name="Level" instance=ExtResource( 2 )]
+level_type = 8
+difficulty_min = 100
+difficulty_max = 100
+
+[node name="Sprite" type="Sprite" parent="." index="0"]
+modulate = Color( 0.211765, 0.803922, 0.768627, 1 )
+position = Vector2( 391, -176 )
+scale = Vector2( 0.4, 0.4 )
+texture = ExtResource( 1 )
+
+[node name="Floor" parent="." index="1"]
+tile_data = PoolIntArray( -393213, 0, 0, -327677, 0, 0, -262141, 0, 0, -196608, 0, 0, -196607, 0, 0, -196606, 0, 0, -196605, 0, 0 )
+
+[node name="Entities" parent="." index="2"]
+tile_data = PoolIntArray( -393213, 1, 0, -196608, 0, 0 )
+
+[node name="Label" type="Label" parent="." index="3"]
+modulate = Color( 0.211765, 0.803922, 0.768627, 1 )
+margin_left = 189.0
+margin_top = -429.0
+margin_right = 589.0
+margin_bottom = -368.0
+rect_min_size = Vector2( 400, 0 )
+theme = ExtResource( 3 )
+text = "T_FINAL_THANK_YOU"
+align = 1
+autowrap = true

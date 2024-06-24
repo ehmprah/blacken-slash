@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   inkscape:export-ydpi="24.000002"
+   inkscape:export-xdpi="24.000002"
+   inkscape:export-filename="/home/ehmprah/dev/paint-it-black/assets/particle.png"
+   sodipodi:docname="controller_cursor.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 33.866666 33.866668"
+   height="128"
+   width="128"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#999999"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4.4691359"
+     inkscape:cx="49.11464"
+     inkscape:cy="69.252761"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="2560"
+     inkscape:window-height="963"
+     inkscape:window-x="0"
+     inkscape:window-y="387"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid7161"
+       dotted="true"
+       spacingx="2.1166667"
+       spacingy="2.1166667" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <g
+       id="g2142"
+       transform="matrix(0.81373173,0.40686586,-0.81373173,0.40686586,16.934923,3.154143)">
+      <circle
+         style="display:inline;opacity:0.998;fill:#c85eff;fill-opacity:0.6;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2034-7"
+         cx="-32.230061"
+         cy="31.518488"
+         r="0"
+         inkscape:export-xdpi="94.523079"
+         inkscape:export-ydpi="94.523079" />
+      <circle
+         style="display:inline;opacity:0.998;fill:#c85eff;fill-opacity:0.6;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2034-5"
+         cx="-32.230061"
+         cy="31.518488"
+         r="0"
+         inkscape:export-xdpi="94.523079"
+         inkscape:export-ydpi="94.523079" />
+      <circle
+         style="display:inline;opacity:0.998;fill:#c85eff;fill-opacity:0.6;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2034-3"
+         cx="-32.230061"
+         cy="31.518488"
+         r="0"
+         inkscape:export-xdpi="94.523079"
+         inkscape:export-ydpi="94.523079" />
+      <path
+         id="path1290"
+         style="color:#000000;fill:#ffffff;stroke-linecap:square;stroke-linejoin:round;-inkscape-stroke:none"
+         d="m 3.4831383,16.18431 v 1.5 h 0.75 6.3496087 0.75 v -1.5 h -0.75 -6.3496087 z m 19.0488277,0 v 1.5 h 0.75 6.351562 0.75 v -1.5 h -0.75 -6.351562 z m -6.34961,6.349609 v 0.75 6.349609 0.75 h 1.5 v -0.75 -6.349609 -0.75 z m 0,-19.0507807 v 0.75 6.3515617 0.75 h 1.5 v -0.75 -6.3515617 -0.75 z m -8.4667967,4.234375 v 0.75 17.6835937 H 26.149153 V 7.7175133 Z m 1.5,1.5 H 24.649153 V 24.651107 H 9.2155593 Z" />
+      <rect
+         style="font-variation-settings:normal;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.06299;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         id="rect1859"
+         width="1.5"
+         height="1.5"
+         x="16.183332"
+         y="16.183332" />
+    </g>
+  </g>
+</svg>

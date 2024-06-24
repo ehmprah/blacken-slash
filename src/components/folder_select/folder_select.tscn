@@ -1,0 +1,90 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://theme.tres" type="Theme" id=1]
+[ext_resource path="res://components/button_base/button_base.tscn" type="PackedScene" id=2]
+[ext_resource path="res://components/folder_select/folder_select.gd" type="Script" id=3]
+
+[sub_resource type="StyleBoxFlat" id=13]
+bg_color = Color( 0, 0, 0, 0.196078 )
+
+[sub_resource type="StyleBoxFlat" id=14]
+content_margin_left = 16.0
+content_margin_right = 16.0
+content_margin_top = 16.0
+content_margin_bottom = 16.0
+bg_color = Color( 0, 0, 0, 1 )
+
+[node name="FolderSelect" type="PanelContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 1 )
+custom_styles/panel = SubResource( 13 )
+script = ExtResource( 3 )
+
+[node name="Panel" type="PanelContainer" parent="."]
+margin_left = 34.0
+margin_top = 266.0
+margin_right = 666.0
+margin_bottom = 434.0
+rect_min_size = Vector2( 600, 0 )
+size_flags_horizontal = 4
+size_flags_vertical = 4
+custom_styles/panel = SubResource( 14 )
+
+[node name="V" type="VBoxContainer" parent="Panel"]
+margin_left = 16.0
+margin_top = 16.0
+margin_right = 616.0
+margin_bottom = 152.0
+rect_min_size = Vector2( 600, 0 )
+custom_constants/separation = 16
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Folder" type="OptionButton" parent="Panel/V"]
+modulate = Color( 0.47451, 0.596078, 0.933333, 1 )
+margin_right = 600.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 0, 60 )
+focus_neighbour_left = NodePath(".")
+focus_neighbour_top = NodePath(".")
+focus_neighbour_right = NodePath(".")
+focus_neighbour_bottom = NodePath("../Name")
+
+[node name="Name" type="LineEdit" parent="Panel/V"]
+visible = false
+margin_top = 121.0
+margin_right = 600.0
+margin_bottom = 182.0
+focus_neighbour_left = NodePath(".")
+focus_neighbour_top = NodePath("../Folder")
+focus_neighbour_right = NodePath(".")
+focus_neighbour_bottom = NodePath("../Save")
+align = 1
+max_length = 16
+
+[node name="OnlyAlphanumeric" type="Label" parent="Panel/V"]
+visible = false
+modulate = Color( 1, 0.0862745, 0.564706, 1 )
+margin_top = 121.0
+margin_right = 600.0
+margin_bottom = 150.0
+text = "T_ONLY_ALPHANUMERIC"
+align = 1
+
+[node name="Save" parent="Panel/V" instance=ExtResource( 2 )]
+margin_top = 76.0
+margin_right = 600.0
+margin_bottom = 136.0
+focus_neighbour_left = NodePath(".")
+focus_neighbour_top = NodePath("../Name")
+focus_neighbour_right = NodePath(".")
+focus_neighbour_bottom = NodePath(".")
+text = "T_CONTINUE"
+sound = "ITEM_DROP"
+
+[connection signal="item_selected" from="Panel/V/Folder" to="." method="_on_Folder_item_selected"]
+[connection signal="text_changed" from="Panel/V/Name" to="." method="_on_Name_text_changed"]
+[connection signal="text_entered" from="Panel/V/Name" to="." method="_on_Name_text_entered"]
+[connection signal="button_down" from="Panel/V/Save" to="." method="save"]

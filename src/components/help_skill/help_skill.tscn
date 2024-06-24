@@ -1,0 +1,79 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://theme.tres" type="Theme" id=1]
+[ext_resource path="res://components/help_skill/help_skill.gd" type="Script" id=2]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0, 0, 0, 1 )
+border_color = Color( 0.113725, 0.141176, 0.219608, 1 )
+
+[sub_resource type="StyleBoxLine" id=2]
+color = Color( 0.2, 0.2, 0.2, 1 )
+
+[node name="Skill" type="PanelContainer"]
+margin_right = 468.0
+margin_bottom = 74.0
+mouse_filter = 2
+theme = ExtResource( 1 )
+custom_styles/panel = SubResource( 1 )
+script = ExtResource( 2 )
+
+[node name="Container" type="VBoxContainer" parent="."]
+margin_right = 468.0
+margin_bottom = 94.0
+custom_constants/separation = 0
+
+[node name="Name" type="MarginContainer" parent="Container"]
+margin_right = 468.0
+margin_bottom = 45.0
+mouse_filter = 2
+custom_constants/margin_right = 8
+custom_constants/margin_top = 8
+custom_constants/margin_left = 8
+custom_constants/margin_bottom = 8
+
+[node name="Label" type="Label" parent="Container/Name"]
+modulate = Color( 1, 0.0862745, 0.564706, 1 )
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 460.0
+margin_bottom = 37.0
+size_flags_horizontal = 3
+text = "Skill Name"
+uppercase = true
+
+[node name="Separator" type="HSeparator" parent="Container"]
+modulate = Color( 0.47451, 0.596078, 0.933333, 1 )
+margin_top = 45.0
+margin_right = 468.0
+margin_bottom = 49.0
+custom_styles/separator = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Description" type="MarginContainer" parent="Container"]
+margin_top = 49.0
+margin_right = 468.0
+margin_bottom = 94.0
+mouse_filter = 2
+custom_constants/margin_right = 8
+custom_constants/margin_top = 8
+custom_constants/margin_left = 8
+custom_constants/margin_bottom = 8
+
+[node name="Label" type="Label" parent="Container/Description"]
+modulate = Color( 0.952941, 0.752941, 0.368627, 1 )
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 460.0
+margin_bottom = 37.0
+text = "Description"
+autowrap = true
+
+[node name="SkillEffects" type="VBoxContainer" parent="Container"]
+modulate = Color( 0.47451, 0.596078, 0.933333, 1 )
+margin_top = 94.0
+margin_right = 468.0
+margin_bottom = 94.0
+custom_constants/separation = 0

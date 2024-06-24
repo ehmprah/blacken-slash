@@ -1,0 +1,71 @@
+[gd_scene load_steps=15 format=2]
+
+[ext_resource path="res://components/user_interface/user_interface.gd" type="Script" id=1]
+[ext_resource path="res://components/difficulty_select/difficulty_select.tscn" type="PackedScene" id=2]
+[ext_resource path="res://components/help_overlay/help_overlay.tscn" type="PackedScene" id=3]
+[ext_resource path="res://components/hud/hud.tscn" type="PackedScene" id=12]
+[ext_resource path="res://components/title_game_over/title_game_over.tscn" type="PackedScene" id=13]
+[ext_resource path="res://components/title_level_clear/title_level_clear.tscn" type="PackedScene" id=14]
+[ext_resource path="res://components/title_title/title_title.tscn" type="PackedScene" id=15]
+[ext_resource path="res://components/menu/menu.tscn" type="PackedScene" id=16]
+[ext_resource path="res://components/inventory/inventory.tscn" type="PackedScene" id=17]
+[ext_resource path="res://components/boss_reward/boss_reward.tscn" type="PackedScene" id=18]
+[ext_resource path="res://components/compare/compare.tscn" type="PackedScene" id=19]
+[ext_resource path="res://components/ladder/ladder.tscn" type="PackedScene" id=20]
+[ext_resource path="res://components/notification/notification.tscn" type="PackedScene" id=21]
+
+[sub_resource type="StyleBoxFlat" id=22]
+bg_color = Color( 0, 0, 0, 0.74902 )
+
+[node name="UI" type="CanvasLayer"]
+layer = 2
+script = ExtResource( 1 )
+
+[node name="SafeArea" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+
+[node name="Inventory" parent="SafeArea" instance=ExtResource( 17 )]
+visible = false
+
+[node name="HUD" parent="SafeArea" instance=ExtResource( 12 )]
+
+[node name="Title" parent="SafeArea" instance=ExtResource( 15 )]
+visible = false
+
+[node name="LevelClear" parent="SafeArea" instance=ExtResource( 14 )]
+visible = false
+
+[node name="GameOver" parent="SafeArea" instance=ExtResource( 13 )]
+visible = false
+
+[node name="BossReward" parent="SafeArea" instance=ExtResource( 18 )]
+visible = false
+
+[node name="Overlays" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+
+[node name="DifficultySelect" parent="Overlays" instance=ExtResource( 2 )]
+
+[node name="Compare" parent="Overlays" instance=ExtResource( 19 )]
+visible = false
+margin_bottom = 776.0
+
+[node name="Ladder" parent="Overlays" instance=ExtResource( 20 )]
+visible = false
+margin_top = 0.0
+margin_bottom = 0.0
+
+[node name="Menu" parent="Overlays" instance=ExtResource( 16 )]
+visible = false
+custom_styles/panel = SubResource( 22 )
+
+[node name="Notification" parent="Overlays" instance=ExtResource( 21 )]
+visible = false
+
+[node name="HelpOverlay" parent="Overlays" instance=ExtResource( 3 )]
+
+[connection signal="replace" from="Overlays/Compare" to="SafeArea/Inventory" method="_on_Compare_replace"]

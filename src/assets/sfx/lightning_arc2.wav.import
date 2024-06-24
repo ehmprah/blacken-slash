@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/lightning_arc2.wav-6d7726bc725718cef52042ba15739303.sample"
+
+[deps]
+
+source_file="res://assets/sfx/lightning_arc2.wav"
+dest_files=[ "res://.import/lightning_arc2.wav-6d7726bc725718cef52042ba15739303.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

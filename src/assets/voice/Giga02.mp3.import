@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Giga02.mp3-a56bba8214f11c865949c2b1846c8dd9.mp3str"
+
+[deps]
+
+source_file="res://assets/voice/Giga02.mp3"
+dest_files=[ "res://.import/Giga02.mp3-a56bba8214f11c865949c2b1846c8dd9.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

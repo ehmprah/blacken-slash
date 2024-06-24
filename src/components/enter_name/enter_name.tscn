@@ -1,0 +1,76 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://theme.tres" type="Theme" id=1]
+[ext_resource path="res://components/button_base/button_base.tscn" type="PackedScene" id=2]
+[ext_resource path="res://components/enter_name/enter_name.gd" type="Script" id=3]
+
+[sub_resource type="StyleBoxFlat" id=13]
+bg_color = Color( 0, 0, 0, 0.196078 )
+
+[sub_resource type="StyleBoxFlat" id=14]
+content_margin_left = 16.0
+content_margin_right = 16.0
+content_margin_top = 16.0
+content_margin_bottom = 16.0
+bg_color = Color( 0, 0, 0, 1 )
+
+[node name="EnterName" type="PanelContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 1 )
+custom_styles/panel = SubResource( 13 )
+script = ExtResource( 3 )
+
+[node name="Panel" type="PanelContainer" parent="."]
+margin_left = 34.0
+margin_top = 220.0
+margin_right = 666.0
+margin_bottom = 479.0
+rect_min_size = Vector2( 600, 0 )
+size_flags_horizontal = 4
+size_flags_vertical = 4
+custom_styles/panel = SubResource( 14 )
+
+[node name="V" type="VBoxContainer" parent="Panel"]
+margin_left = 16.0
+margin_top = 16.0
+margin_right = 616.0
+margin_bottom = 243.0
+rect_min_size = Vector2( 600, 0 )
+custom_constants/separation = 16
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Panel/V"]
+modulate = Color( 0.47451, 0.596078, 0.933333, 1 )
+margin_right = 600.0
+margin_bottom = 29.0
+text = "T_ENTER_NAME"
+align = 1
+
+[node name="Name" type="LineEdit" parent="Panel/V"]
+margin_top = 45.0
+margin_right = 600.0
+margin_bottom = 106.0
+align = 1
+max_length = 16
+
+[node name="OnlyAlphanumeric" type="Label" parent="Panel/V"]
+modulate = Color( 1, 0.0862745, 0.564706, 1 )
+margin_top = 122.0
+margin_right = 600.0
+margin_bottom = 151.0
+text = "T_ONLY_ALPHANUMERIC"
+align = 1
+
+[node name="SaveName" parent="Panel/V" instance=ExtResource( 2 )]
+margin_top = 167.0
+margin_right = 600.0
+margin_bottom = 227.0
+disabled = true
+text = "T_CONTINUE"
+
+[connection signal="text_changed" from="Panel/V/Name" to="." method="_on_Name_text_changed"]
+[connection signal="text_entered" from="Panel/V/Name" to="." method="_on_Name_text_entered"]
+[connection signal="button_down" from="Panel/V/SaveName" to="." method="save_name"]

@@ -1,0 +1,161 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://components/title_base/title_base.tscn" type="PackedScene" id=1]
+[ext_resource path="res://components/button_base/button_base.tscn" type="PackedScene" id=2]
+[ext_resource path="res://components/title_game_over/title_game_over.gd" type="Script" id=3]
+[ext_resource path="res://theme.tres" type="Theme" id=4]
+[ext_resource path="res://assets/music/voice_game_over.mp3" type="AudioStream" id=5]
+[ext_resource path="res://assets/font/RubikItalicSmallest.tres" type="DynamicFont" id=6]
+[ext_resource path="res://assets/game_over.png" type="Texture" id=9]
+
+[node name="GameOver" instance=ExtResource( 1 )]
+script = ExtResource( 3 )
+
+[node name="TextureRect" parent="Text" index="0"]
+texture = ExtResource( 9 )
+
+[node name="Margin" type="MarginContainer" parent="UI" index="0"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -210.0
+margin_top = -256.0
+margin_right = 210.0
+rect_min_size = Vector2( 420, 0 )
+theme = ExtResource( 4 )
+custom_constants/margin_bottom = 16
+
+[node name="Container" type="VBoxContainer" parent="UI/Margin" index="0"]
+margin_right = 420.0
+margin_bottom = 240.0
+custom_constants/separation = 40
+alignment = 1
+
+[node name="Grid" type="GridContainer" parent="UI/Margin/Container" index="0"]
+margin_top = 4.0
+margin_right = 420.0
+margin_bottom = 136.0
+custom_constants/vseparation = 20
+custom_constants/hseparation = 0
+columns = 2
+
+[node name="Level" type="VBoxContainer" parent="UI/Margin/Container/Grid" index="0"]
+margin_right = 210.0
+margin_bottom = 56.0
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="UI/Margin/Container/Grid/Level" index="0"]
+modulate = Color( 1, 0.0862745, 0.564706, 1 )
+margin_right = 210.0
+margin_bottom = 22.0
+custom_fonts/font = ExtResource( 6 )
+text = "T_LEVEL"
+align = 1
+uppercase = true
+
+[node name="Amount" type="Label" parent="UI/Margin/Container/Grid/Level" index="1"]
+modulate = Color( 0.952941, 0.752941, 0.368627, 1 )
+margin_top = 26.0
+margin_right = 210.0
+margin_bottom = 56.0
+rect_min_size = Vector2( 0, 30 )
+size_flags_horizontal = 3
+text = "87"
+align = 1
+clip_text = true
+uppercase = true
+
+[node name="Difficulty" type="VBoxContainer" parent="UI/Margin/Container/Grid" index="1"]
+margin_left = 210.0
+margin_right = 420.0
+margin_bottom = 56.0
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="UI/Margin/Container/Grid/Difficulty" index="0"]
+modulate = Color( 1, 0.0862745, 0.564706, 1 )
+margin_right = 210.0
+margin_bottom = 22.0
+custom_fonts/font = ExtResource( 6 )
+text = "T_DIFFICULTY"
+align = 1
+uppercase = true
+
+[node name="Amount" type="Label" parent="UI/Margin/Container/Grid/Difficulty" index="1"]
+modulate = Color( 0.952941, 0.752941, 0.368627, 1 )
+margin_top = 26.0
+margin_right = 210.0
+margin_bottom = 56.0
+rect_min_size = Vector2( 0, 30 )
+size_flags_horizontal = 3
+text = "+13%"
+align = 1
+clip_text = true
+uppercase = true
+
+[node name="Score" type="VBoxContainer" parent="UI/Margin/Container/Grid" index="2"]
+margin_top = 76.0
+margin_right = 210.0
+margin_bottom = 132.0
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="UI/Margin/Container/Grid/Score" index="0"]
+modulate = Color( 1, 0.0862745, 0.564706, 1 )
+margin_right = 210.0
+margin_bottom = 22.0
+custom_fonts/font = ExtResource( 6 )
+text = "T_SCORE"
+align = 1
+uppercase = true
+
+[node name="Amount" type="Label" parent="UI/Margin/Container/Grid/Score" index="1"]
+modulate = Color( 0.952941, 0.752941, 0.368627, 1 )
+margin_top = 26.0
+margin_right = 210.0
+margin_bottom = 56.0
+rect_min_size = Vector2( 0, 30 )
+size_flags_horizontal = 3
+text = "147"
+align = 1
+clip_text = true
+uppercase = true
+
+[node name="Keys" type="VBoxContainer" parent="UI/Margin/Container/Grid" index="3"]
+margin_left = 210.0
+margin_top = 76.0
+margin_right = 420.0
+margin_bottom = 132.0
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="UI/Margin/Container/Grid/Keys" index="0"]
+modulate = Color( 1, 0.0862745, 0.564706, 1 )
+margin_right = 210.0
+margin_bottom = 22.0
+custom_fonts/font = ExtResource( 6 )
+text = "T_VAULT_SLOTS"
+align = 1
+uppercase = true
+
+[node name="Amount" type="Label" parent="UI/Margin/Container/Grid/Keys" index="1"]
+modulate = Color( 0.952941, 0.752941, 0.368627, 1 )
+margin_top = 26.0
+margin_right = 210.0
+margin_bottom = 56.0
+rect_min_size = Vector2( 0, 30 )
+size_flags_horizontal = 3
+text = "0"
+align = 1
+clip_text = true
+uppercase = true
+
+[node name="Continue" parent="UI/Margin/Container" index="1" instance=ExtResource( 2 )]
+margin_top = 176.0
+margin_right = 420.0
+margin_bottom = 236.0
+text = "T_CONTINUE"
+
+[node name="Voice" type="AudioStreamPlayer" parent="." index="3"]
+stream = ExtResource( 5 )
+bus = "SFX"
+
+[connection signal="button_down" from="UI/Margin/Container/Continue" to="." method="_on_Continue_button_down"]

@@ -1,0 +1,100 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://theme.tres" type="Theme" id=1]
+[ext_resource path="res://assets/font/RubikItalicSmall.tres" type="DynamicFont" id=2]
+[ext_resource path="res://assets/icons/icon_material.svg" type="Texture" id=3]
+[ext_resource path="res://components/meta_bonus/meta_bonus.gd" type="Script" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+
+[sub_resource type="StyleBoxFlat" id=2]
+content_margin_left = 1.0
+content_margin_right = 1.0
+content_margin_top = 1.0
+content_margin_bottom = 1.0
+bg_color = Color( 0.952941, 0.752941, 0.368627, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+content_margin_left = 1.0
+content_margin_right = 1.0
+content_margin_top = 1.0
+content_margin_bottom = 1.0
+bg_color = Color( 0.266667, 0.337255, 0.52549, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+
+[node name="MetaBonus" type="Node2D"]
+z_index = 1
+script = ExtResource( 4 )
+
+[node name="V" type="VBoxContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -90.0
+margin_top = -27.5
+margin_right = 90.0
+margin_bottom = 27.5
+rect_min_size = Vector2( 180, 0 )
+mouse_filter = 2
+theme = ExtResource( 1 )
+custom_constants/separation = 0
+
+[node name="Label" type="Label" parent="V"]
+modulate = Color( 1, 0.0862745, 0.564706, 1 )
+margin_right = 180.0
+margin_bottom = 24.0
+custom_fonts/font = ExtResource( 2 )
+text = "T_META_BONUS"
+align = 1
+uppercase = true
+
+[node name="ProgressBar" type="ProgressBar" parent="V"]
+margin_top = 24.0
+margin_right = 180.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 0, 4 )
+mouse_filter = 2
+custom_fonts/font = SubResource( 1 )
+custom_styles/fg = SubResource( 2 )
+custom_styles/bg = SubResource( 3 )
+max_value = 320.0
+step = 1.0
+value = 3.0
+percent_visible = false
+
+[node name="H" type="HBoxContainer" parent="V"]
+margin_top = 28.0
+margin_right = 180.0
+margin_bottom = 57.0
+mouse_filter = 2
+alignment = 1
+
+[node name="Total" type="Label" parent="V/H"]
+modulate = Color( 0.952941, 0.752941, 0.368627, 1 )
+margin_left = 53.0
+margin_right = 99.0
+margin_bottom = 29.0
+text = "+32"
+
+[node name="KernelIcon" type="TextureRect" parent="V/H"]
+modulate = Color( 0.952941, 0.752941, 0.368627, 1 )
+margin_left = 103.0
+margin_right = 127.0
+margin_bottom = 29.0
+rect_min_size = Vector2( 24, 24 )
+mouse_filter = 2
+texture = ExtResource( 3 )
+expand = true
+stretch_mode = 6
+
+[node name="Tween" type="Tween" parent="."]

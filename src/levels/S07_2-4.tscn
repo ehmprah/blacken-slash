@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://components/level_base/level_base.tscn" type="PackedScene" id=1]
+
+[node name="Level" instance=ExtResource( 1 )]
+level_type = 1
+difficulty_min = 5
+difficulty_max = 20
+survive_turns = 4
+random_byte = true
+random_diode = true
+
+[node name="Floor" parent="." index="0"]
+tile_data = PoolIntArray( -196604, 0, 0, -196603, 0, 0, -196602, 0, 0, -196601, 0, 0, -196600, 0, 0, -131068, 0, 0, -131067, 0, 0, -131066, 0, 0, -131065, 0, 0, -131064, 0, 0, -65532, 0, 0, -65531, 0, 0, -65530, 0, 0, -65529, 0, 0, -65528, 0, 0, 4, 0, 0, 5, 0, 0, 6, 0, 0, 7, 0, 0, 8, 0, 0, 65540, 0, 0, 65541, 0, 0, 65542, 0, 0, 65543, 0, 0, 65544, 0, 0, 131076, 0, 0, 131077, 0, 0, 131078, 0, 0, 131079, 0, 0, 131080, 0, 0, 196612, 0, 0, 196613, 0, 0, 196614, 0, 0, 196615, 0, 0, 196616, 0, 0 )
+
+[node name="Entities" parent="." index="1"]
+tile_data = PoolIntArray( -196604, 15, 0, -196600, 15, 0, -131068, 15, 0, -131064, 15, 0, -65532, 15, 0, -65528, 15, 0, 4, 15, 0, 6, 0, 0, 8, 15, 0, 65540, 15, 0, 65544, 15, 0, 131076, 15, 0, 131080, 15, 0, 196612, 15, 0, 196616, 15, 0 )

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/push_enemy_collide.wav-d27a5e2e99b78422141c3b8eab27be93.sample"
+
+[deps]
+
+source_file="res://assets/sfx/push_enemy_collide.wav"
+dest_files=[ "res://.import/push_enemy_collide.wav-d27a5e2e99b78422141c3b8eab27be93.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

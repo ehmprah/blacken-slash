@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="120"
+   height="120"
+   viewBox="0 0 31.75 31.75"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="button_focus.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <style
+     id="style10" />
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#cccccc"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="-120.75"
+     inkscape:cy="165.75"
+     inkscape:document-units="px"
+     inkscape:current-layer="g841"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="2560"
+     inkscape:window-height="963"
+     inkscape:window-x="0"
+     inkscape:window-y="387"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0">
+    <sodipodi:guide
+       position="0,67.733332"
+       orientation="0,256"
+       id="guide22" />
+    <sodipodi:guide
+       position="67.733332,67.733332"
+       orientation="256,0"
+       id="guide24" />
+    <sodipodi:guide
+       position="60.325,0"
+       orientation="0,-256"
+       id="guide26" />
+    <sodipodi:guide
+       position="0,0"
+       orientation="-256,0"
+       id="guide28" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid869"
+       dotted="true"
+       spacingx="1.5875"
+       spacingy="1.5875"
+       snapvisiblegridlinesonly="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g841"
+       transform="matrix(2.1538598,0,0,2.1538608,-1.2211722,-1.2212256)"
+       style="stroke-width:0.464282">
+      <path
+         id="path909"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;stroke-width:0.464244;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+         d="M 1.5217995,0.56700128 C 1.4574464,0.56652036 1.395582,0.59183638 1.3500275,0.63729348 L 0.63726959,1.350051 c -0.0454571,0.045554 -0.0707731,0.1074188 -0.0702922,0.1717719 v 3.5642675 9.2668076 c -4.8092e-4,0.06435 0.0248351,0.126218 0.0702922,0.171772 l 0.71275791,0.712997 c 0.045555,0.04546 0.1074192,0.07077 0.171772,0.07029 H 2.947555 9.3630954 14.35288 c 0.06435,4.82e-4 0.126217,-0.02483 0.171772,-0.07029 l 0.712997,-0.712997 c 0.04546,-0.04556 0.07077,-0.107419 0.07029,-0.171772 V 10.78863 1.5218229 C 15.30842,1.4574701 15.283105,1.3956058 15.237649,1.350051 L 14.524652,0.63729343 C 14.479098,0.59183635 14.417233,0.56652034 14.35288,0.56700128 H 9.3630954 Z m 0.04977,0.31570421 12.7445635,0.009932 0.681501,0.69125131 -0.01006,12.7179272 -0.679267,0.679306 -12.7202273,0.0049 -0.71392183,-0.698401 0.0243948,-12.7307481 z"
+         sodipodi:nodetypes="ccccccccccccccccccccccccccccccc" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.184262px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 0.56696921,5.7263338 2.7781159,7.9374795 0.56696921,10.148625 Z"
+         id="path2485" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.184261px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 15.307947,5.7263342 -2.211146,2.2111451 2.211146,2.2111457 z"
+         id="path2617" />
+    </g>
+  </g>
+  <style
+     id="style837" />
+</svg>

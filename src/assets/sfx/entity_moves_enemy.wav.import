@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/entity_moves_enemy.wav-094b9495f8acf83d630209680d3f6be4.sample"
+
+[deps]
+
+source_file="res://assets/sfx/entity_moves_enemy.wav"
+dest_files=[ "res://.import/entity_moves_enemy.wav-094b9495f8acf83d630209680d3f6be4.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

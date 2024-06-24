@@ -1,0 +1,25 @@
+#!/bin/bash
+
+if [ ! -d './png' ] 
+then
+    mkdir png
+fi
+
+echo -e "\e[96mDeleting old files...\e[0m"
+rm ./png/*
+
+for filename in *.svg; do
+  # generate colored png
+  echo -e "\e[96mGenerating $filename\e[0m"
+  inkscape -w 128 -h 128 $filename --export-filename "./png/${filename/svg/png}";
+done
+
+cd png
+
+for filename in *.png; do
+  # generate greyscale version
+  echo -e "\e[96mGenerating greyscale $filename\e[0m"
+  convert $filename -set colorspace Gray -separate -average ${filename/.png/_off.png}
+done
+
+echo  -e "\e[96mDone!\e[0m"

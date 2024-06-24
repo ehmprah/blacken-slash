@@ -1,0 +1,334 @@
+[gd_scene load_steps=28 format=2]
+
+[ext_resource path="res://components/achievement_list/achievement_list.tscn" type="PackedScene" id=1]
+[ext_resource path="res://components/settings/settings.tscn" type="PackedScene" id=2]
+[ext_resource path="res://components/help/help.tscn" type="PackedScene" id=3]
+[ext_resource path="res://assets/icons/icon_close.svg" type="Texture" id=4]
+[ext_resource path="res://assets/icons/icon_quit.svg" type="Texture" id=5]
+[ext_resource path="res://components/button_base/button_base.tscn" type="PackedScene" id=6]
+[ext_resource path="res://assets/icons/icon_dead.svg" type="Texture" id=7]
+[ext_resource path="res://theme.tres" type="Theme" id=8]
+[ext_resource path="res://assets/icons/icon_help.svg" type="Texture" id=9]
+[ext_resource path="res://assets/icons/icon_settings.svg" type="Texture" id=10]
+[ext_resource path="res://components/menu/menu.gd" type="Script" id=11]
+[ext_resource path="res://assets/icons/icon_achievements.svg" type="Texture" id=12]
+[ext_resource path="res://assets/icons/icon_menu.svg" type="Texture" id=13]
+[ext_resource path="res://assets/icons/icon_meta.svg" type="Texture" id=14]
+[ext_resource path="res://assets/icons/icon_stats.svg" type="Texture" id=15]
+[ext_resource path="res://components/stats/stats.tscn" type="PackedScene" id=16]
+[ext_resource path="res://components/changelog/changelog.tscn" type="PackedScene" id=17]
+[ext_resource path="res://assets/icons/icon_credits.svg" type="Texture" id=18]
+[ext_resource path="res://assets/icons/icon_discord.svg" type="Texture" id=19]
+[ext_resource path="res://components/credits/credits.tscn" type="PackedScene" id=20]
+
+[sub_resource type="StyleBoxFlat" id=22]
+bg_color = Color( 0, 0, 0, 0.74902 )
+
+[sub_resource type="StyleBoxFlat" id=18]
+content_margin_left = 8.0
+content_margin_right = 8.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+bg_color = Color( 0, 0, 0, 1 )
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=25]
+bg_color = Color( 0.0156863, 0.0431373, 0.0627451, 1 )
+
+[sub_resource type="StyleBoxFlat" id=26]
+content_margin_left = 8.0
+content_margin_right = 8.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+bg_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="Animation" id=21]
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=23]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Container:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 700 ) ]
+}
+
+[sub_resource type="Animation" id=24]
+resource_name = "ShowPage"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/path = NodePath("Container:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 2 ),
+"update": 0,
+"values": [ Vector2( 0, 700 ), Vector2( 0, 0 ) ]
+}
+
+[node name="Menu" type="PanelContainer"]
+modulate = Color( 1, 1, 1, 0 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 8 )
+custom_styles/panel = SubResource( 22 )
+script = ExtResource( 11 )
+
+[node name="Container" type="HBoxContainer" parent="."]
+margin_top = 700.0
+margin_right = 700.0
+margin_bottom = 1400.0
+rect_min_size = Vector2( 700, 700 )
+size_flags_horizontal = 5
+alignment = 1
+
+[node name="Overview" type="VBoxContainer" parent="Container"]
+margin_left = 110.0
+margin_right = 590.0
+margin_bottom = 700.0
+alignment = 1
+
+[node name="Panel" type="PanelContainer" parent="Container/Overview"]
+margin_top = 40.0
+margin_right = 480.0
+margin_bottom = 660.0
+rect_min_size = Vector2( 480, 76 )
+size_flags_horizontal = 4
+size_flags_vertical = 0
+custom_styles/panel = SubResource( 18 )
+
+[node name="Buttons" type="VBoxContainer" parent="Container/Overview/Panel"]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 472.0
+margin_bottom = 612.0
+custom_constants/separation = 8
+alignment = 1
+
+[node name="Save" parent="Container/Overview/Panel/Buttons" instance=ExtResource( 6 )]
+modulate = Color( 0.643137, 0.286275, 1, 1 )
+margin_right = 464.0
+margin_bottom = 60.0
+focus_neighbour_top = NodePath("../Credits")
+focus_neighbour_bottom = NodePath("../Abandon")
+focus_next = NodePath("../Abandon")
+focus_previous = NodePath("../Credits")
+size_flags_horizontal = 3
+text = "T_SAVE_QUIT"
+icon = ExtResource( 5 )
+
+[node name="Abandon" parent="Container/Overview/Panel/Buttons" instance=ExtResource( 6 )]
+modulate = Color( 0.643137, 0.286275, 1, 1 )
+margin_top = 68.0
+margin_right = 464.0
+margin_bottom = 128.0
+focus_neighbour_top = NodePath("../Save")
+focus_neighbour_bottom = NodePath("../Settings")
+focus_next = NodePath("../Settings")
+focus_previous = NodePath("../Save")
+size_flags_horizontal = 3
+text = "T_ABANDON_RUN"
+icon = ExtResource( 7 )
+prevent_doubleclick = false
+confirm = true
+
+[node name="Settings" parent="Container/Overview/Panel/Buttons" instance=ExtResource( 6 )]
+margin_top = 136.0
+margin_right = 464.0
+margin_bottom = 196.0
+focus_neighbour_top = NodePath("../Abandon")
+focus_neighbour_bottom = NodePath("../Achievements")
+focus_next = NodePath("../Achievements")
+focus_previous = NodePath("../Abandon")
+size_flags_horizontal = 3
+text = "T_SETTINGS"
+icon = ExtResource( 10 )
+
+[node name="Achievements" parent="Container/Overview/Panel/Buttons" instance=ExtResource( 6 )]
+margin_top = 204.0
+margin_right = 464.0
+margin_bottom = 264.0
+focus_neighbour_top = NodePath("../Settings")
+focus_neighbour_bottom = NodePath("../Help")
+size_flags_horizontal = 3
+text = "T_ACHIEVEMENTS"
+icon = ExtResource( 12 )
+
+[node name="Stats" parent="Container/Overview/Panel/Buttons" instance=ExtResource( 6 )]
+margin_top = 272.0
+margin_right = 464.0
+margin_bottom = 332.0
+focus_neighbour_top = NodePath("../Settings")
+focus_neighbour_bottom = NodePath("../Help")
+size_flags_horizontal = 3
+text = "T_STATS"
+icon = ExtResource( 15 )
+
+[node name="Help" parent="Container/Overview/Panel/Buttons" instance=ExtResource( 6 )]
+margin_top = 340.0
+margin_right = 464.0
+margin_bottom = 400.0
+focus_neighbour_top = NodePath("../Achievements")
+focus_neighbour_bottom = NodePath("../Discord")
+size_flags_horizontal = 3
+text = "T_HELP"
+icon = ExtResource( 9 )
+
+[node name="Discord" parent="Container/Overview/Panel/Buttons" instance=ExtResource( 6 )]
+margin_top = 408.0
+margin_right = 464.0
+margin_bottom = 468.0
+rect_pivot_offset = Vector2( 46.7635, 57.5 )
+focus_neighbour_top = NodePath("../Help")
+focus_neighbour_bottom = NodePath("../Changelog")
+size_flags_horizontal = 3
+text = "T_COMMUNITY"
+icon = ExtResource( 19 )
+
+[node name="Changelog" parent="Container/Overview/Panel/Buttons" instance=ExtResource( 6 )]
+margin_top = 476.0
+margin_right = 464.0
+margin_bottom = 536.0
+rect_pivot_offset = Vector2( 46.7635, 57.5 )
+focus_neighbour_top = NodePath("../Discord")
+focus_neighbour_bottom = NodePath("../Credits")
+size_flags_horizontal = 3
+text = "T_CHANGELOG"
+icon = ExtResource( 14 )
+
+[node name="Credits" parent="Container/Overview/Panel/Buttons" instance=ExtResource( 6 )]
+margin_top = 544.0
+margin_right = 464.0
+margin_bottom = 604.0
+rect_pivot_offset = Vector2( 46.7635, 57.5 )
+focus_neighbour_top = NodePath("../Changelog")
+focus_neighbour_bottom = NodePath("../Save")
+size_flags_horizontal = 3
+text = "T_CREDITS"
+icon = ExtResource( 18 )
+
+[node name="Pages" type="PanelContainer" parent="Container"]
+visible = false
+margin_left = 484.0
+margin_right = 1184.0
+margin_bottom = 700.0
+rect_min_size = Vector2( 700, 700 )
+size_flags_horizontal = 4
+custom_styles/panel = SubResource( 25 )
+
+[node name="Container" type="VBoxContainer" parent="Container/Pages"]
+margin_right = 700.0
+margin_bottom = 700.0
+custom_constants/separation = 0
+
+[node name="Settings" parent="Container/Pages/Container" instance=ExtResource( 2 )]
+margin_right = 700.0
+margin_bottom = 624.0
+size_flags_vertical = 3
+
+[node name="Achievements" parent="Container/Pages/Container" instance=ExtResource( 1 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 700.0
+margin_bottom = 692.0
+size_flags_vertical = 3
+
+[node name="Stats" parent="Container/Pages/Container" instance=ExtResource( 16 )]
+visible = false
+
+[node name="Help" parent="Container/Pages/Container" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 700.0
+margin_bottom = 692.0
+size_flags_vertical = 3
+
+[node name="Changelog" parent="Container/Pages/Container" instance=ExtResource( 17 )]
+visible = false
+
+[node name="Credits" parent="Container/Pages/Container" instance=ExtResource( 20 )]
+visible = false
+
+[node name="Buttons" type="PanelContainer" parent="Container/Pages/Container"]
+margin_top = 624.0
+margin_right = 700.0
+margin_bottom = 700.0
+custom_styles/panel = SubResource( 26 )
+
+[node name="Container" type="HBoxContainer" parent="Container/Pages/Container/Buttons"]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 692.0
+margin_bottom = 68.0
+custom_constants/separation = 8
+
+[node name="Menu" parent="Container/Pages/Container/Buttons/Container" instance=ExtResource( 6 )]
+margin_right = 338.0
+margin_bottom = 60.0
+focus_neighbour_right = NodePath("../Close")
+focus_next = NodePath("../Close")
+size_flags_horizontal = 3
+text = "T_MENU"
+icon = ExtResource( 13 )
+
+[node name="Close" parent="Container/Pages/Container/Buttons/Container" instance=ExtResource( 6 )]
+margin_left = 346.0
+margin_right = 684.0
+margin_bottom = 60.0
+size_flags_horizontal = 3
+text = "T_CLOSE"
+icon = ExtResource( 4 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/Enter = SubResource( 21 )
+anims/RESET = SubResource( 23 )
+anims/ShowPage = SubResource( 24 )
+
+[connection signal="gui_input" from="." to="." method="_on_Menu_gui_input"]
+[connection signal="pressed" from="Container/Overview/Panel/Buttons/Save" to="." method="_save"]
+[connection signal="press_confirmed" from="Container/Overview/Panel/Buttons/Abandon" to="." method="_on_Abandon_button_down"]
+[connection signal="pressed" from="Container/Overview/Panel/Buttons/Settings" to="." method="_settings"]
+[connection signal="pressed" from="Container/Overview/Panel/Buttons/Achievements" to="." method="_achievements"]
+[connection signal="pressed" from="Container/Overview/Panel/Buttons/Stats" to="." method="_stats"]
+[connection signal="pressed" from="Container/Overview/Panel/Buttons/Help" to="." method="_help"]
+[connection signal="pressed" from="Container/Overview/Panel/Buttons/Discord" to="." method="_discord"]
+[connection signal="pressed" from="Container/Overview/Panel/Buttons/Changelog" to="." method="_changelog"]
+[connection signal="pressed" from="Container/Overview/Panel/Buttons/Credits" to="." method="_credits"]
+[connection signal="pressed" from="Container/Pages/Container/Buttons/Container/Menu" to="." method="_menu"]
+[connection signal="pressed" from="Container/Pages/Container/Buttons/Container/Close" to="." method="hide"]

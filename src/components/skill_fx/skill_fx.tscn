@@ -1,0 +1,90 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://assets/icons/icon_help.svg" type="Texture" id=1]
+[ext_resource path="res://components/skill_icon/skill_icon.tscn" type="PackedScene" id=2]
+[ext_resource path="res://assets/font/RubikItalicSmallest.tres" type="DynamicFont" id=3]
+[ext_resource path="res://theme.tres" type="Theme" id=4]
+[ext_resource path="res://components/skill_fx/skill_fx.gd" type="Script" id=5]
+[ext_resource path="res://components/button_base/button_base.tscn" type="PackedScene" id=6]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0, 0, 0, 1 )
+border_width_top = 1
+border_color = Color( 0.266667, 0.266667, 0.266667, 1 )
+
+[node name="SkillFX" type="PanelContainer"]
+anchor_right = 1.0
+margin_bottom = 77.0
+mouse_filter = 1
+size_flags_horizontal = 3
+theme = ExtResource( 4 )
+custom_styles/panel = SubResource( 1 )
+script = ExtResource( 5 )
+
+[node name="Margin" type="MarginContainer" parent="."]
+margin_top = 1.0
+margin_right = 700.0
+margin_bottom = 77.0
+rect_min_size = Vector2( 0, 76 )
+mouse_filter = 1
+custom_constants/margin_right = 8
+custom_constants/margin_top = 8
+custom_constants/margin_left = 8
+custom_constants/margin_bottom = 8
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Container" type="HBoxContainer" parent="Margin"]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 692.0
+margin_bottom = 68.0
+rect_min_size = Vector2( 0, 60 )
+custom_constants/separation = 10
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Labels" type="VBoxContainer" parent="Margin/Container"]
+margin_right = 594.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 0, 60 )
+size_flags_horizontal = 3
+custom_constants/separation = 0
+alignment = 1
+
+[node name="Name" type="Label" parent="Margin/Container/Labels"]
+modulate = Color( 0.666667, 0.666667, 0.666667, 1 )
+margin_top = 4.0
+margin_right = 594.0
+margin_bottom = 26.0
+size_flags_horizontal = 3
+custom_fonts/font = ExtResource( 3 )
+text = "BLABLA"
+clip_text = true
+uppercase = true
+
+[node name="Effects" type="Label" parent="Margin/Container/Labels"]
+margin_top = 26.0
+margin_right = 594.0
+margin_bottom = 55.0
+size_flags_horizontal = 3
+text = "Teleport, Paint 50 - 200%"
+clip_text = true
+
+[node name="Skill" parent="Margin/Container" instance=ExtResource( 2 )]
+margin_left = 604.0
+margin_right = 684.0
+
+[node name="Help" parent="Margin/Container" instance=ExtResource( 6 )]
+visible = false
+modulate = Color( 1, 1, 1, 1 )
+margin_left = 624.0
+margin_right = 684.0
+margin_bottom = 60.0
+focus_neighbour_left = NodePath(".")
+focus_neighbour_right = NodePath(".")
+icon = ExtResource( 1 )
+
+[connection signal="button_down" from="Margin/Container/Help" to="." method="_on_Help_button_down"]

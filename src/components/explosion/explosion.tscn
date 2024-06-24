@@ -1,0 +1,50 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://assets/particle.png" type="Texture" id=1]
+[ext_resource path="res://components/explosion/explosion.gd" type="Script" id=2]
+
+[sub_resource type="Gradient" id=1]
+colors = PoolColorArray( 0, 0, 0, 1, 0, 0, 0, 0 )
+
+[sub_resource type="GradientTexture" id=2]
+gradient = SubResource( 1 )
+
+[sub_resource type="Curve" id=3]
+_data = [ Vector2( 0, 1 ), 0.0, 0.0, 0, 0, Vector2( 1, 0 ), 0.0, 0.0, 0, 0 ]
+
+[sub_resource type="CurveTexture" id=4]
+curve = SubResource( 3 )
+
+[sub_resource type="ParticlesMaterial" id=5]
+emission_shape = 1
+emission_sphere_radius = 10.0
+flag_disable_z = true
+spread = 180.0
+gravity = Vector3( 0, 50, 0 )
+initial_velocity = 80.0
+initial_velocity_random = 0.3
+angular_velocity = 200.0
+angular_velocity_random = 1.0
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+angle = 50.0
+angle_random = 1.0
+scale = 0.75
+scale_random = 0.5
+scale_curve = SubResource( 4 )
+color_ramp = SubResource( 2 )
+hue_variation = -1.0
+hue_variation_random = 1.0
+
+[node name="Explosion" type="Particles2D"]
+modulate = Color( 5, 5, 5, 1 )
+z_index = 2
+emitting = false
+amount = 40
+one_shot = true
+preprocess = 0.1
+explosiveness = 0.7
+randomness = 1.0
+process_material = SubResource( 5 )
+texture = ExtResource( 1 )
+script = ExtResource( 2 )

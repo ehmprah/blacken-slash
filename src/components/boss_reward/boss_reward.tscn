@@ -1,0 +1,101 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://theme.tres" type="Theme" id=1]
+[ext_resource path="res://components/boss_reward/boss_reward.gd" type="Script" id=2]
+
+[sub_resource type="Animation" id=1]
+resource_name = "Enter"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, -2 ),
+"update": 0,
+"values": [ Vector2( 0, 700 ), Vector2( 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 700 ) ]
+}
+
+[node name="BossReward" type="HBoxContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 700.0
+margin_bottom = 700.0
+theme = ExtResource( 1 )
+alignment = 1
+script = ExtResource( 2 )
+
+[node name="V" type="VBoxContainer" parent="."]
+margin_left = 100.0
+margin_right = 600.0
+margin_bottom = 700.0
+rect_min_size = Vector2( 500, 0 )
+size_flags_horizontal = 4
+custom_constants/separation = 24
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Top" type="VBoxContainer" parent="V"]
+margin_top = 301.0
+margin_right = 500.0
+margin_bottom = 374.0
+
+[node name="Control" type="Control" parent="V/Top"]
+margin_right = 500.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 500, 40 )
+
+[node name="Title" type="RichTextLabel" parent="V/Top/Control"]
+modulate = Color( 1, 0.0862745, 0.564706, 1 )
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -250.0
+margin_right = 250.0
+margin_bottom = 30.0
+rect_min_size = Vector2( 0, 30 )
+rect_scale = Vector2( 1.5, 1.5 )
+rect_pivot_offset = Vector2( 250, 15 )
+rect_clip_content = false
+bbcode_enabled = true
+bbcode_text = "[center][wave amp=10 freq=5]%s[/wave][/center]"
+text = "%s"
+scroll_active = false
+
+[node name="Description" type="Label" parent="V/Top"]
+modulate = Color( 0.952941, 0.752941, 0.368627, 1 )
+margin_top = 44.0
+margin_right = 500.0
+margin_bottom = 73.0
+text = "T_QUANTUM_GATE_DESCRIPTION"
+align = 1
+
+[node name="Modifiers" type="VBoxContainer" parent="V"]
+margin_top = 398.0
+margin_right = 500.0
+margin_bottom = 398.0
+custom_constants/separation = 20
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+reset_on_save = false
+anims/Enter = SubResource( 1 )
+anims/RESET = SubResource( 2 )

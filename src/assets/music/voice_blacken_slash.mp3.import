@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/voice_blacken_slash.mp3-f14176893f774bcae44d8033b67b053d.mp3str"
+
+[deps]
+
+source_file="res://assets/music/voice_blacken_slash.mp3"
+dest_files=[ "res://.import/voice_blacken_slash.mp3-f14176893f774bcae44d8033b67b053d.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

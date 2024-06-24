@@ -1,0 +1,42 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://assets/particle.png" type="Texture" id=1]
+[ext_resource path="res://components/vfx_push/vfx_push.gd" type="Script" id=2]
+
+[sub_resource type="Gradient" id=3]
+colors = PoolColorArray( 0, 0, 0, 1, 1, 1, 1, 0 )
+
+[sub_resource type="GradientTexture" id=2]
+gradient = SubResource( 3 )
+
+[sub_resource type="ParticlesMaterial" id=4]
+emission_shape = 2
+emission_box_extents = Vector3( 1, 20, 1 )
+flag_disable_z = true
+spread = 0.0
+gravity = Vector3( 0, 0, 0 )
+initial_velocity = 200.0
+initial_velocity_random = 0.5
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+linear_accel = 100.0
+linear_accel_random = 0.5
+scale = 0.25
+scale_random = 0.5
+color_ramp = SubResource( 2 )
+hue_variation = 0.5
+hue_variation_random = 1.0
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Particles" type="Particles2D" parent="."]
+position = Vector2( 0, 32 )
+emitting = false
+amount = 20
+lifetime = 0.5
+one_shot = true
+speed_scale = 1.2
+explosiveness = 0.25
+process_material = SubResource( 4 )
+texture = ExtResource( 1 )

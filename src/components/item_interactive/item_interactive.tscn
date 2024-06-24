@@ -1,0 +1,107 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://components/item_base/item_base.tscn" type="PackedScene" id=1]
+[ext_resource path="res://assets/icons/icon_folder_add.svg" type="Texture" id=2]
+[ext_resource path="res://components/button_base/button_base.tscn" type="PackedScene" id=3]
+[ext_resource path="res://assets/icons/icon_folder_remove.svg" type="Texture" id=4]
+[ext_resource path="res://components/item_interactive/item_interactive.gd" type="Script" id=5]
+
+[sub_resource type="StyleBoxLine" id=1]
+color = Color( 0.380392, 0.380392, 0.380392, 1 )
+
+[node name="Item" instance=ExtResource( 1 )]
+script = ExtResource( 5 )
+
+[node name="Container" parent="." index="0"]
+margin_bottom = 161.0
+
+[node name="Details" parent="Container" index="1"]
+margin_bottom = 158.0
+
+[node name="Actions" type="VBoxContainer" parent="Container/Details" index="1"]
+margin_right = 700.0
+margin_bottom = 82.0
+custom_constants/separation = 0
+
+[node name="HSeparator" type="HSeparator" parent="Container/Details/Actions" index="0"]
+margin_right = 700.0
+margin_bottom = 4.0
+custom_styles/separator = SubResource( 1 )
+
+[node name="Buttons" type="MarginContainer" parent="Container/Details/Actions" index="1"]
+margin_top = 4.0
+margin_right = 700.0
+margin_bottom = 82.0
+mouse_filter = 1
+custom_constants/margin_right = 10
+custom_constants/margin_top = 8
+custom_constants/margin_left = 10
+custom_constants/margin_bottom = 10
+
+[node name="Container" type="HBoxContainer" parent="Container/Details/Actions/Buttons" index="0"]
+margin_left = 10.0
+margin_top = 8.0
+margin_right = 690.0
+margin_bottom = 68.0
+custom_constants/separation = 10
+
+[node name="Equip" parent="Container/Details/Actions/Buttons/Container" index="0" instance=ExtResource( 3 )]
+modulate = Color( 1, 1, 1, 1 )
+margin_right = 122.0
+margin_bottom = 60.0
+size_flags_horizontal = 3
+text = "T_EQUIP"
+sound = "ITEM_DROP"
+
+[node name="Compare" parent="Container/Details/Actions/Buttons/Container" index="1" instance=ExtResource( 3 )]
+modulate = Color( 1, 1, 1, 1 )
+margin_left = 132.0
+margin_right = 229.0
+margin_bottom = 60.0
+size_flags_horizontal = 3
+text = "T_COMPARE"
+clip_text = true
+
+[node name="Salvage" parent="Container/Details/Actions/Buttons/Container" index="2" instance=ExtResource( 3 )]
+modulate = Color( 1, 1, 1, 1 )
+margin_left = 239.0
+margin_right = 401.0
+margin_bottom = 60.0
+size_flags_horizontal = 3
+text = "T_SALVAGE"
+prevent_doubleclick = false
+confirm = true
+
+[node name="Vault" parent="Container/Details/Actions/Buttons/Container" index="3" instance=ExtResource( 3 )]
+modulate = Color( 1, 1, 1, 1 )
+margin_left = 411.0
+margin_right = 540.0
+margin_bottom = 60.0
+size_flags_horizontal = 3
+text = "T_VAULT"
+sound = "ITEM_DROP"
+prevent_doubleclick = false
+confirm = true
+
+[node name="Folder" parent="Container/Details/Actions/Buttons/Container" index="4" instance=ExtResource( 3 )]
+modulate = Color( 1, 1, 1, 1 )
+margin_left = 550.0
+margin_right = 610.0
+margin_bottom = 60.0
+icon = ExtResource( 2 )
+prevent_doubleclick = false
+
+[node name="FolderRemove" parent="Container/Details/Actions/Buttons/Container" index="5" instance=ExtResource( 3 )]
+modulate = Color( 1, 1, 1, 1 )
+margin_left = 620.0
+margin_right = 680.0
+margin_bottom = 60.0
+icon = ExtResource( 4 )
+prevent_doubleclick = false
+
+[connection signal="button_down" from="Container/Details/Actions/Buttons/Container/Equip" to="." method="_on_Equip_button_down"]
+[connection signal="button_down" from="Container/Details/Actions/Buttons/Container/Compare" to="." method="_on_Compare_button_down"]
+[connection signal="press_confirmed" from="Container/Details/Actions/Buttons/Container/Salvage" to="." method="_on_Salvage_button_down"]
+[connection signal="press_confirmed" from="Container/Details/Actions/Buttons/Container/Vault" to="." method="_on_Vault_button_down"]
+[connection signal="button_up" from="Container/Details/Actions/Buttons/Container/Folder" to="." method="_on_Folder_button_up"]
+[connection signal="button_up" from="Container/Details/Actions/Buttons/Container/FolderRemove" to="." method="_on_FolderRemove_button_up"]

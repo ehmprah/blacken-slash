@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/upgrade_item.wav-6c7cf1c63b0b40be420fb8665fe84ecb.sample"
+
+[deps]
+
+source_file="res://assets/sfx/upgrade_item.wav"
+dest_files=[ "res://.import/upgrade_item.wav-6c7cf1c63b0b40be420fb8665fe84ecb.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

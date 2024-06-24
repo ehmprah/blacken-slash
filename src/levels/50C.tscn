@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://shaders/glitch.gdshader" type="Shader" id=1]
+[ext_resource path="res://components/level_base/level_base.tscn" type="PackedScene" id=2]
+[ext_resource path="res://assets/sprites/boss.svg" type="Texture" id=3]
+
+[sub_resource type="ShaderMaterial" id=1]
+shader = ExtResource( 1 )
+shader_param/resolution = Vector2( 64, 64 )
+shader_param/noise = 0.2
+shader_param/distort = 0.2
+shader_param/offset = 0.6
+
+[node name="Level" instance=ExtResource( 2 )]
+level_type = 8
+
+[node name="Boss" type="Sprite" parent="." index="0"]
+material = SubResource( 1 )
+position = Vector2( 384, 0 )
+texture = ExtResource( 3 )
+
+[node name="Damage" type="Sprite" parent="Boss" index="0"]
+modulate = Color( 0, 0, 0, 1 )
+texture = ExtResource( 3 )
+centered = false
+offset = Vector2( -256, 256 )
+region_enabled = true
+region_rect = Rect2( 0, 512, 512, 0 )
+
+[node name="Tween" type="Tween" parent="Boss" index="1"]
+
+[node name="Floor" parent="." index="1"]
+tile_data = PoolIntArray( -131065, 0, 0, -131064, 0, 0, -131063, 0, 0, -131061, 0, 0, -131060, 0, 0, -131059, 0, 0, -65529, 0, 0, -65527, 0, 0, -65525, 0, 0, -65523, 0, 0, 7, 0, 0, 9, 0, 0, 11, 0, 0, 13, 0, 0, 65540, 0, 0, 65541, 0, 0, 65542, 0, 0, 65543, 0, 0, 65545, 0, 0, 65547, 0, 0, 65549, 0, 0, 131081, 0, 0, 131083, 0, 0, 131085, 0, 0, 196612, 0, 0, 196613, 0, 0, 196614, 0, 0, 196615, 0, 0, 196616, 0, 0, 196617, 0, 0, 196619, 0, 0, 196621, 0, 0, 262148, 0, 0, 262155, 0, 0, 262157, 0, 0, 327684, 0, 0, 327685, 0, 0, 327686, 0, 0, 327687, 0, 0, 327688, 0, 0, 327689, 0, 0, 327690, 0, 0, 327691, 0, 0, 327693, 0, 0, 393229, 0, 0, 458756, 0, 0, 458757, 0, 0, 458758, 0, 0, 458759, 0, 0, 458760, 0, 0, 458761, 0, 0, 458762, 0, 0, 458763, 0, 0, 458764, 0, 0, 458765, 0, 0 )
+
+[node name="Entities" parent="." index="2"]
+tile_data = PoolIntArray( -65525, 7, 0, -65523, 4, 0, 11, 7, 0, 13, 4, 0, 65547, 7, 0, 65549, 4, 0, 131083, 7, 0, 131085, 4, 0, 196619, 7, 0, 196621, 4, 0, 262155, 7, 0, 262157, 4, 0, 327685, 7, 0, 327686, 7, 0, 327687, 7, 0, 327688, 7, 0, 327689, 7, 0, 327690, 7, 0, 327691, 7, 0, 327693, 4, 0, 393229, 4, 0, 458756, 0, 0, 458757, 4, 0, 458758, 4, 0, 458759, 4, 0, 458760, 4, 0, 458761, 4, 0, 458762, 4, 0, 458763, 4, 0, 458764, 4, 0, 458765, 4, 0 )

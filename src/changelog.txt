@@ -1,0 +1,449 @@
+VERSION 1.7
+
+FIXED
+- Fixed an issue where the Completionist achievement wouldn't unlock
+- Fixed an issue with single-use scripts being usable more than once
+- Fixed Steam cloud not syncing across platforms
+- Fixed Steam overlay not working on MacOS
+
+–––––––––––––––––––––––––––––––
+
+VERSION 1.6
+
+FIXED
+- The game no longer softlocks when enemies evade a push script
+- Levels now properly end if you kill more than one enemy with the last cycle using the lightning script
+
+–––––––––––––––––––––––––––––––
+
+VERSION 1.5
+
+Yesterday's silent hotfix for the end of level softlock seems to have worked, but the quick and dirty release lead to problems with the ladder. So here's a proper update! Enjoy your weekend, friends!
+
+FIXED
+- Fixed the end of level softlock properly
+- Fixed a bug where inventory and gate rewards would show on top of each other
+- Upon equipping a folder, the inventory is now locked to prevent accidentally equipping two folders
+- The ladder now loads properly again
+
+–––––––––––––––––––––––––––––––
+
+VERSION 1.4
+
+ADDED
+- New level type: BLOCK THE EXIT, where you lose as soon as one enemy reaches the exit
+- New level type: PAINFUL MOVES, where you take damage upon moving
+- New level type: KEEP MOVING, where lightning spawns on your position every turn
+- You can now cycle tabs in the inventory with the Tab key or L/R buttons on the controller
+
+CHANGED
+- Selecting scripts you use on yourself now automatically highlights the player tile and shows a shortcut icon on the player
+- With the new types the levels are rolled at random again (except node gates every 5 levels)
+- Reworked some of the existing levels, mostly making early ones easier
+
+FIXED
+- Levels now end properly if there are no more enemies alive
+- The augment and reroll buttons on items properly update on all items, making it no longer possible to spend more kernels than you have
+- The number of available kernels in the inventory is no longer rounding up in certain cases
+- The text in story screens is now left aligned for better readability
+- Closing an achievement popup no longer triggers inputs on what's behind it
+- Fixed content being cut off in the new help overlay sometimes
+
+–––––––––––––––––––––––––––––––
+
+VERSION 1.3
+
+ADDED
+- New ENTANGLER set; with it every time you lose health, the enemies lose as much. Also it gives you the MASOCHISM skill to damage yourself and makes you regenerate health every time you eliminate an enemy!
+
+CHANGED
+- Reworked the spawner / lightning tile highlights yet another time to increase readability
+- Removed the warning icon from the player in exit levels, instead the turns left are also shown above the exit
+
+FIXED
+- With the last update I accidentally displayed the install button on items in the archive during the game – which is fixed now! :-P
+- Made the new help overlay a bit more narrow so you can close it more easily on mobile
+- When using the back button from the new game screen the title screen no longer loses focus
+- At the end of the demo, the screens are properly layered again
+
+–––––––––––––––––––––––––––––––
+
+VERSION 1.2
+
+ADDED
+- Full controller and keyboard support: consoles here we come! <3
+- Archive folders: you can now create builds in the archive with folders!
+- A new screen with stats across your normal and ladder games
+- MINELAYER script: for the rest of combat, you leave shock mines as you move
+- More Gigasprite boss level variants
+
+CHANGED
+- Completely reworked difficulty scaling:
+  > Each run ends after level 100, but runs now have a score!
+  > After each gate reward you can choose a difficulty upgrade
+  > You can get score bonuses by choosing harder difficulty upgrades
+  > For each item taken from the archive in normal runs, you have to choose one difficulty upgrade
+- Made many performance improvements under the hood to save energy and keep your device cool ;-)
+- Removed the help mode in favor of a new ingame overlay which displays info about the current run, your character and all enemies in the level
+- Improved spanish translation (thanks to Estyx Translations <3)
+- The full PIXEL PUSHER set no longer grants the ability to push immobile enemies; instead you leave shock mines upon pushing
+- Removed all levels with both Megasprites and Spawners
+- Removed translucent tiles from all levels, instead teleport scripts are now disabled in gate levels
+- Grid overload strikes no longer affect treasures
+- RANGED ROUNDHOUSE script damage nerfed from 100-300 to 100-200
+- MELEE ANNIHILATION (3) script damage buffed from 40-120 to 50-200
+- MELEE ANNIHILATION (5) script damage buffed from 100-300 to 200-300
+- MELEE CROSS (1) script damage buffed from 50-100 to 80-120
+- MELEE CROSS (2) script damage buffed from 100-200 to 100-300
+- MELEE TRIPLE (2) script damage buffed from 40-120 to 100-200
+- RANGED CROSS (2) script damage buffed from 50-200 to 100-200
+- TELESTOMP damage buffed from 50-200 to 200-300
+- Removed EVADE bonus from Megasprite bonus pool
+
+FIXED
+- The options in the language select and similar interface items are now a little bigger and easier to select on mobile devices
+- Using certain scripts can no longer lead to levels ending early
+- Teleporting enemies no longer teleport when they could move and attack instead
+- Added a cap for meta bonus and loot per level to deny certain exploits
+
+–––––––––––––––––––––––––––––––
+
+VERSION 1.1
+
+Thank you all so much for playing the game and for the amazing feedback so far! <3
+
+ADDED
+- Set parts now have a little number on the icon for clarity
+- The Steam version now checks for previously unlocked achievements at startup
+- In exit levels, a little warning icon appears on your character before you run out of turns
+- In grid overload levels, a little warning icon is displayed if you're standing on a lightning tile
+
+CHANGED
+- The lightning animation is now 33% faster overall
+- The enemy spawn animation in survival levels is now 50% faster
+- Counter attacks can no longer be countered (which also makes the Schrödinger's sprite bug much more rare)
+
+FIXED
+- FastBoot now properly calculates cycle bonus
+- Salvaging or archiving a part now properly removes the script from your loadout
+- The Elusive achievement no longer always unlocks upon beating level 25
+- The level info below the progress bar now fully disappears on mobile devices with cutouts
+- The ladder can now be scrolled on mobile devices
+- Augmenting a variable now respects the cap exactly
+- The effective health in the gear summary now updates properly
+
+–––––––––––––––––––––––––––––––
+
+VERSION 1.0
+
+ADDED
+- Chinese translation
+
+FIXED
+- The name prompt now gets properly displayed when starting the first ladder run on iOS and Android
+- Installing multiple parts with legendary variables no longer breaks their effects
+
+–––––––––––––––––––––––––––––––
+
+VERSION 0.20 "Finishing Touches"
+
+ADDED
+- French translation
+- New keyboard shortcut: End turn with [Space]
+
+FIXED
+- The enemy help popup now uses the glitch shader
+
+–––––––––––––––––––––––––––––––
+
+VERSION 0.19-beta "Babelfish"
+
+ADDED
+- German and Spanish translations
+- New keyboard shortcut: End turn with [Enter]
+- New keyboard shortcut: Toggle help mode with [Alt]
+- Right-clicking yourself or your enemies will show the help popup instantly
+
+FIXED
+- Fixed various little visual issues with the new confirm button
+- The game no longer crashes when salvaging items in the archive
+
+–––––––––––––––––––––––––––––––
+
+VERSION 0.18-beta
+
+ADDED
+- New setting to skip confirm buttons
+
+CHANGED
+- Improved UX for confirm buttons
+
+–––––––––––––––––––––––––––––––
+
+VERSION 0.17-beta "Ladder Love"
+
+ADDED
+- Help overlays now show the effective health for the player and the enemies
+- New legendary circuit SHIELDBURN: Attacks remove shields before dealing damage.
+- New legendary circuit BULLSEYE: Both you and your enemies cannot evade attacks.
+- Several new levels
+
+CHANGED
+- You now start ladder runs from the title screen
+- You can now see the current ladder and meta bonus before you start a ladder run
+- You can now play a ladder and normal game at the same time
+- Changed CHIP's color to improve readability
+- Reworked the item comparison screen
+- The first strike bonus now yields 50 kernels
+
+FIXED
+- The damage display on enemies now uses the glitch shader as well
+- When choosing an archive key as gate reward, items now always show the archive button
+- Telepush and Dash/Push no longer grant the PUSHY meta bonus twice
+
+–––––––––––––––––––––––––––––––
+
+VERSION 0.16-beta
+
+ADDED
+- More levels for the early game
+
+–––––––––––––––––––––––––––––––
+
+VERSION 0.15-beta
+
+ADDED
+- New glitchy shader for the enemies
+- New character art for the story bits
+
+CHANGED
+- Megasprites can now move, beware!
+- Increased the cap for cycles 7 >> 10
+- Both the cycle cost as well as the cycle bar are now yellow to improve readability
+- Reworked enemy colors to improve readability
+- The story has been shortened and improved here and there
+- Survival levels are now shorter but a bit harder
+
+FIXED
+- The meta bonus popup no longer blocks clicks
+
+–––––––––––––––––––––––––––––––
+
+VERSION 0.14-beta
+
+CHANGED
+- Decreased chance of rare items appearing in node reward options
+- Expensive meta bonus cost trigger 3 >> 2
+
+FIXED
+- Fixed crash upon entering one specific level
+
+–––––––––––––––––––––––––––––––
+
+VERSION 0.13-beta "Rogue Like Me"
+
+The first content patch is here – and boy oh boy is this a big one! The next patch will improve the competitive play and the ladder – stay tuned for improvements there. In the meantime, do check out the full list of changes introduced with this patch and do tell me what you think about them:
+
+ADDED
+- META BONUS: Each game now has a meta bonus, which grants bonus kernels every time you push an enemy for example. There's an achievement for completing every meta bonus and another one for completing them all
+- OVERCLOCK: Added ten extra difficulty modifiers for the normal mode, with an achievement for completing all
+- GIGAGUN: The Gigasprite is now guaranteed to drop an epic item: a transmitter with a random script and exactly one random variable at 4 times the normal maximum augment value
+- EPIC PARTS: Every legendary or set part dropping in level 50+ now has a 10% chance to become EPIC with an additional random variable
+
+CHANGED
+- SUPERFAST: each sector now has only 5 instead of 10 levels
+- I SEE A PATTERN: the levels in each sector now are always of the same type in the same order
+- LEVEL UP: Reworked all existing levels and added many new ones
+- HITTING HARD: Doubled enemy base damage, slightly reduced damage scaling
+- LESS IS MORE: You will see much fewer drops but the legendary drop rate has been tripled
+- The camera no longer recenters when you stop dragging; instead, it will recenter upon taking an action
+- Merged loot amount and loot rarity bonus into one loot bonus variable
+
+–––––––––––––––––––––––––––––––
+
+VERSION 0.12-beta
+
+This is just a little bugfix patch – I'm working on a content patch coming in the first week of May, adressing some of the feedback I got via Discord – thanks for that and keep it coming!
+
+ADDED
+- A setting to disable the grayscale filter
+- A setting to skip the level clear screen
+
+CHANGED
+- Enemy resistance scaling 2% >> 2.4% per level
+
+FIXED
+- Added scrollbar for item comparison on small screens
+- Fixed bug where you could be stuck on the same level
+- Fixed bug where the web demo would freeze
+
+–––––––––––––––––––––––––––––––
+
+VERSION 0.11-beta
+
+FIXED
+- When salvaging equipped parts, the slots are now properly freed
+
+–––––––––––––––––––––––––––––––
+
+VERSION 0.10-beta
+
+ADDED
+- Final story with lots of wording changes all around
+- New "elite" enemies with grant bonuses to other enemies
+- Survival levels with spawn endless enemies
+- New VFX: as you lose health, the screen turns monochrome
+- Several new sets and legendaries
+
+CHANGED
+- Doubled damage of all skills (now called scripts)
+- Massively reworked all attributes (now called variables)
+- Reworked the bonus you get after reaching a gate
+- Reworked the enemy scaling
+- The melee push skill now costs 2 AP (now called cycles)
+- Wallers are now immune to pushing (and called Buffers)
+- Enemies can now evade pushes
+- REGENERATE now heals 10x as much, but can only be used once per combat
+
+FIXED
+- DASHER enemies no longer dash onto treasures
+- When healing in the shop your health is now updated properly
+
+–––––––––––––––––––––––––––––––
+
+VERSION 0.9-alpha
+
+CHANGED
+- Doubled values for several attributes: material gain / loot amount / loot rarity / ranged / melee / red / green / blue bonus
+
+FIXED
+- The resistance attribute no longer shows up twice in the unlocks
+- The turn limit now properly disappears after failing a boss level
+- Vaulting items during the run now properly updates your skills
+- The boss reward no longer rolls duplicates
+- Enemies no longer use skills for which they don't have enough AP
+
+–––––––––––––––––––––––––––––––
+
+VERSION 0.8-alpha
+
+Welcome to the second phase of the Blacken Slash alpha! This one is limited to 45 levels, no ladder. Due to sweeping changes, I had to wipe your profile again, probably for the last time... ;-)
+
+ADDED
+- Unlock system: you now gradually unlock item types, rarities, attributes and skills as you play
+- A shop where you can spend materials for healing, gambling and to buy vault slots
+- Several new enemies
+- Tons of new levels
+
+CHANGED
+- Changed font and color scheme
+- Removed hull and pigment item types for simplicity
+- Reworked several attributes for more clarity
+
+FIXED
+- The boss reward selection no longer shows more than three options
+
+–––––––––––––––––––––––––––––––
+
+VERSION 0.7-alpha
+
+FIXED
+- The music no longer stops after playing one track
+
+–––––––––––––––––––––––––––––––
+
+VERSION 0.6-alpha
+
+ADDED
+- Added boss level rewards: after beating every 10th level, you can now choose a massive stat bonus (which comes at a hefty price though...)
+- Implemented the story
+- Added references screen to the menu where you can hunt all the pop cultural references hidden in the game; upon finding them all, you get an achievement!
+- Added development roadmap to the title screen
+
+FIXED
+- You can now only enter alphanumerical characters for your ladder nickname
+- When adding to your normal mode vault from ladder games, previous items in the vault are now properly displayed
+
+–––––––––––––––––––––––––––––––
+
+VERSION 0.5-alpha
+
+Due to some of the changes I made I had to wipe your save with this version, sorry!
+
+ADDED
+- Added Teleporter enemy
+
+CHANGED
+- Reworked and improved the tutorial
+- Cleanse / Cleanse per Level is now called Regenerate / Regeneration
+- The stationary bonus is now capped after three turns
+- The material costs for rerolling and augmenting now start cheaper (at 20) but get expensive faster
+- The reroll and augment buttons are now hidden for items in the loot tab
+
+FIXED
+- Saving and quitting and immediately continuing the game no longer leads to a different stage being rolled
+- Fixed display issues with the health overlay in the inventory
+- Fixed buggy range calculation for Gunner
+- The skill help icons are now displayed properly
+- The game no longer softlocks when pushing enemies onto the exit, instead they disappear (no loot drops though!)
+- Dashing onto an exit now properly finishes the stage
+
+–––––––––––––––––––––––––––––––
+
+VERSION 0.4-alpha
+
+ADDED
+- The inventory screen now shows your current health on your prism like in combat
+- When you click the currently selected skill's button again the game shows a help popup with the skill's details
+
+CHANGED
+- You previously got double loot for level 1-4 when starting without items from the vault. This bonus now only counts in the first level and is now mentioned in the tutorial
+- Removed the Replay Level button, you now increase the difficulty every time you play a level
+- Primary call to action buttons in the inventory now have a nice rainbowy highlight
+- Removed the One Hit Wonder, Seven at One Blow and Hat Trick achievements for now, will add them again after a future rework
+
+FIXED
+- Fixed an issue with enemy pathfinding
+- During animations in combat and the inventory all controls are now locked to prevent softlocks and other unexpected behaviours
+- Fixed lag ocurring on inventory operations when you have many items
+
+–––––––––––––––––––––––––––––––
+
+VERSION 0.3-alpha
+
+ADDED
+- New tutorial screens to help with game mechanics
+- Back button on new game screen
+
+CHANGED
+- Updated some levels and fixed their difficulty settings
+
+FIXED
+- Fixed an issue where the game would sometimes softlock upon moving on an exit
+- Added missing preview tile where you would have 6 AP left after moving
+- The game no longer softlocks when using cleanse at full health
+- You can no longer skip levels by exiting the game during a level and continuing to the next
+- Fixed an issue where dragging or double-clicking could lead to a softlock
+
+–––––––––––––––––––––––––––––––
+
+VERSION 0.2-alpha
+Thank you all for playing the alpha and providing such helpful feedback! <3
+
+ADDED
+- New tooltips for buttons in the inventory screen
+
+CHANGED
+- You can now play unlimited ladder runs per week, but you'll overwrite your progress each time
+- Improved the display of skill effects on items and added a help button for them
+- Instead of "Replay Level" and "Next Level" these buttons now just show "Level n" and "Level n+1" respectively
+
+FIXED
+- The game no longer becomes unresponsive upon hitting treasure or an exit with a ranged skill (thanks @excell for the detailed report!)
+- The close button in the credits now actually closes the credits
+
+–––––––––––––––––––––––––––––––
+
+VERSION 0.1-alpha
+
+- Welcome to the Blacken Slash alpha!

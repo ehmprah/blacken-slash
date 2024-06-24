@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/quick_swoosh_for_overlays2.wav-60e3abb09d9e469b2c189515c6430f9f.sample"
+
+[deps]
+
+source_file="res://assets/sfx/quick_swoosh_for_overlays2.wav"
+dest_files=[ "res://.import/quick_swoosh_for_overlays2.wav-60e3abb09d9e469b2c189515c6430f9f.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

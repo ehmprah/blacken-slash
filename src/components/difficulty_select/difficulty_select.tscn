@@ -1,0 +1,329 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://theme.tres" type="Theme" id=1]
+[ext_resource path="res://components/difficulty_select/difficulty_select.gd" type="Script" id=2]
+[ext_resource path="res://assets/font/RubikItalicSmall.tres" type="DynamicFont" id=3]
+[ext_resource path="res://components/difficulty_select/difficulty.gd" type="Script" id=5]
+
+[sub_resource type="StyleBoxFlat" id=3]
+content_margin_left = 16.0
+content_margin_right = 16.0
+content_margin_top = 16.0
+content_margin_bottom = 16.0
+bg_color = Color( 0, 0, 0, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 1, 0.0862745, 0.564706, 1 )
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="Animation" id=1]
+resource_name = "Enter"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, -2 ),
+"update": 0,
+"values": [ Vector2( 0, 700 ), Vector2( 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 700 ) ]
+}
+
+[node name="DifficultySelect" type="HBoxContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 700.0
+margin_bottom = 700.0
+theme = ExtResource( 1 )
+alignment = 1
+script = ExtResource( 2 )
+
+[node name="V" type="VBoxContainer" parent="."]
+margin_left = 110.0
+margin_right = 590.0
+margin_bottom = 700.0
+rect_min_size = Vector2( 480, 0 )
+size_flags_horizontal = 4
+custom_constants/separation = 24
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Top" type="VBoxContainer" parent="V"]
+margin_top = 134.0
+margin_right = 480.0
+margin_bottom = 174.0
+
+[node name="Control" type="Control" parent="V/Top"]
+margin_right = 480.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 480, 40 )
+
+[node name="Title" type="RichTextLabel" parent="V/Top/Control"]
+modulate = Color( 1, 0.0862745, 0.564706, 1 )
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -250.0
+margin_right = 250.0
+margin_bottom = 30.0
+rect_min_size = Vector2( 0, 30 )
+rect_scale = Vector2( 1.5, 1.5 )
+rect_pivot_offset = Vector2( 250, 15 )
+rect_clip_content = false
+bbcode_enabled = true
+bbcode_text = "[center][wave amp=10 freq=5]%s[/wave][/center]"
+text = "%s"
+scroll_active = false
+
+[node name="Modifiers" type="VBoxContainer" parent="V"]
+margin_top = 198.0
+margin_right = 480.0
+margin_bottom = 566.0
+custom_constants/separation = 20
+
+[node name="M1" type="PanelContainer" parent="V/Modifiers"]
+self_modulate = Color( 0, 0, 0, 1 )
+margin_right = 480.0
+margin_bottom = 93.0
+focus_mode = 2
+custom_styles/panel = SubResource( 3 )
+script = ExtResource( 5 )
+
+[node name="Container" type="VBoxContainer" parent="V/Modifiers/M1"]
+margin_left = 16.0
+margin_top = 16.0
+margin_right = 464.0
+margin_bottom = 77.0
+custom_constants/separation = 8
+
+[node name="Difficulty" type="HBoxContainer" parent="V/Modifiers/M1/Container"]
+margin_right = 448.0
+margin_bottom = 24.0
+alignment = 1
+
+[node name="Who" type="Label" parent="V/Modifiers/M1/Container/Difficulty"]
+modulate = Color( 1, 0.0862745, 0.564706, 1 )
+margin_right = 302.0
+margin_bottom = 24.0
+size_flags_horizontal = 3
+custom_fonts/font = ExtResource( 3 )
+text = "T_ENEMY"
+uppercase = true
+
+[node name="Modifier" type="Label" parent="V/Modifiers/M1/Container/Difficulty"]
+modulate = Color( 0.47451, 0.596078, 0.933333, 1 )
+margin_left = 306.0
+margin_right = 348.0
+margin_bottom = 24.0
+custom_fonts/font = ExtResource( 3 )
+text = "+8%"
+
+[node name="Score" type="Label" parent="V/Modifiers/M1/Container/Difficulty"]
+modulate = Color( 0.47451, 0.596078, 0.933333, 1 )
+margin_left = 352.0
+margin_right = 448.0
+margin_bottom = 24.0
+custom_fonts/font = ExtResource( 3 )
+text = "T_SCORE"
+uppercase = true
+
+[node name="Attribute" type="HBoxContainer" parent="V/Modifiers/M1/Container"]
+modulate = Color( 0.952941, 0.752941, 0.368627, 1 )
+margin_top = 32.0
+margin_right = 448.0
+margin_bottom = 61.0
+
+[node name="Label" type="Label" parent="V/Modifiers/M1/Container/Attribute"]
+margin_right = 396.0
+margin_bottom = 29.0
+size_flags_horizontal = 3
+text = "Attribute"
+autowrap = true
+
+[node name="Value" type="Label" parent="V/Modifiers/M1/Container/Attribute"]
+margin_left = 400.0
+margin_right = 448.0
+margin_bottom = 29.0
+text = "10%"
+
+[node name="M2" type="PanelContainer" parent="V/Modifiers"]
+self_modulate = Color( 0, 0, 0, 1 )
+margin_top = 113.0
+margin_right = 480.0
+margin_bottom = 206.0
+focus_mode = 2
+custom_styles/panel = SubResource( 3 )
+script = ExtResource( 5 )
+
+[node name="Container" type="VBoxContainer" parent="V/Modifiers/M2"]
+margin_left = 16.0
+margin_top = 16.0
+margin_right = 464.0
+margin_bottom = 77.0
+custom_constants/separation = 8
+
+[node name="Difficulty" type="HBoxContainer" parent="V/Modifiers/M2/Container"]
+margin_right = 448.0
+margin_bottom = 24.0
+alignment = 1
+
+[node name="Who" type="Label" parent="V/Modifiers/M2/Container/Difficulty"]
+modulate = Color( 1, 0.0862745, 0.564706, 1 )
+margin_right = 302.0
+margin_bottom = 24.0
+size_flags_horizontal = 3
+custom_fonts/font = ExtResource( 3 )
+text = "T_ENEMY"
+uppercase = true
+
+[node name="Modifier" type="Label" parent="V/Modifiers/M2/Container/Difficulty"]
+modulate = Color( 0.47451, 0.596078, 0.933333, 1 )
+margin_left = 306.0
+margin_right = 348.0
+margin_bottom = 24.0
+custom_fonts/font = ExtResource( 3 )
+text = "+8%"
+
+[node name="Score" type="Label" parent="V/Modifiers/M2/Container/Difficulty"]
+modulate = Color( 0.47451, 0.596078, 0.933333, 1 )
+margin_left = 352.0
+margin_right = 448.0
+margin_bottom = 24.0
+custom_fonts/font = ExtResource( 3 )
+text = "T_SCORE"
+uppercase = true
+
+[node name="Attribute" type="HBoxContainer" parent="V/Modifiers/M2/Container"]
+modulate = Color( 0.952941, 0.752941, 0.368627, 1 )
+margin_top = 32.0
+margin_right = 448.0
+margin_bottom = 61.0
+
+[node name="Label" type="Label" parent="V/Modifiers/M2/Container/Attribute"]
+margin_right = 396.0
+margin_bottom = 29.0
+size_flags_horizontal = 3
+text = "Attribute"
+autowrap = true
+
+[node name="Value" type="Label" parent="V/Modifiers/M2/Container/Attribute"]
+margin_left = 400.0
+margin_right = 448.0
+margin_bottom = 29.0
+text = "10%"
+
+[node name="M3" type="PanelContainer" parent="V/Modifiers"]
+self_modulate = Color( 0, 0, 0, 1 )
+margin_top = 226.0
+margin_right = 480.0
+margin_bottom = 319.0
+focus_mode = 2
+custom_styles/panel = SubResource( 3 )
+script = ExtResource( 5 )
+
+[node name="Container" type="VBoxContainer" parent="V/Modifiers/M3"]
+margin_left = 16.0
+margin_top = 16.0
+margin_right = 464.0
+margin_bottom = 77.0
+custom_constants/separation = 8
+
+[node name="Difficulty" type="HBoxContainer" parent="V/Modifiers/M3/Container"]
+margin_right = 448.0
+margin_bottom = 24.0
+alignment = 1
+
+[node name="Who" type="Label" parent="V/Modifiers/M3/Container/Difficulty"]
+modulate = Color( 1, 0.0862745, 0.564706, 1 )
+margin_right = 302.0
+margin_bottom = 24.0
+size_flags_horizontal = 3
+custom_fonts/font = ExtResource( 3 )
+text = "T_ENEMY"
+uppercase = true
+
+[node name="Modifier" type="Label" parent="V/Modifiers/M3/Container/Difficulty"]
+modulate = Color( 0.47451, 0.596078, 0.933333, 1 )
+margin_left = 306.0
+margin_right = 348.0
+margin_bottom = 24.0
+custom_fonts/font = ExtResource( 3 )
+text = "+8%"
+
+[node name="Score" type="Label" parent="V/Modifiers/M3/Container/Difficulty"]
+modulate = Color( 0.47451, 0.596078, 0.933333, 1 )
+margin_left = 352.0
+margin_right = 448.0
+margin_bottom = 24.0
+custom_fonts/font = ExtResource( 3 )
+text = "T_SCORE"
+uppercase = true
+
+[node name="Attribute" type="HBoxContainer" parent="V/Modifiers/M3/Container"]
+modulate = Color( 0.952941, 0.752941, 0.368627, 1 )
+margin_top = 32.0
+margin_right = 448.0
+margin_bottom = 61.0
+
+[node name="Label" type="Label" parent="V/Modifiers/M3/Container/Attribute"]
+margin_right = 396.0
+margin_bottom = 29.0
+size_flags_horizontal = 3
+text = "Attribute"
+autowrap = true
+
+[node name="Value" type="Label" parent="V/Modifiers/M3/Container/Attribute"]
+margin_left = 400.0
+margin_right = 448.0
+margin_bottom = 29.0
+text = "10%"
+
+[node name="AmountLeft" type="Label" parent="V/Modifiers"]
+modulate = Color( 1, 0.0862745, 0.564706, 1 )
+margin_top = 339.0
+margin_right = 480.0
+margin_bottom = 368.0
+text = "+1"
+align = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+reset_on_save = false
+anims/Enter = SubResource( 1 )
+anims/RESET = SubResource( 2 )
+
+[connection signal="choose" from="V/Modifiers/M1" to="." method="_on_choose"]
+[connection signal="focus_entered" from="V/Modifiers/M1" to="V/Modifiers/M1" method="_on_focus_entered"]
+[connection signal="focus_exited" from="V/Modifiers/M1" to="V/Modifiers/M1" method="_on_focus_exited"]
+[connection signal="mouse_entered" from="V/Modifiers/M1" to="V/Modifiers/M1" method="_on_mouse_entered"]
+[connection signal="choose" from="V/Modifiers/M2" to="." method="_on_choose"]
+[connection signal="focus_entered" from="V/Modifiers/M2" to="V/Modifiers/M2" method="_on_focus_entered"]
+[connection signal="focus_exited" from="V/Modifiers/M2" to="V/Modifiers/M2" method="_on_focus_exited"]
+[connection signal="mouse_entered" from="V/Modifiers/M2" to="V/Modifiers/M2" method="_on_mouse_entered"]
+[connection signal="choose" from="V/Modifiers/M3" to="." method="_on_choose"]
+[connection signal="focus_entered" from="V/Modifiers/M3" to="V/Modifiers/M3" method="_on_focus_entered"]
+[connection signal="focus_exited" from="V/Modifiers/M3" to="V/Modifiers/M3" method="_on_focus_exited"]
+[connection signal="mouse_entered" from="V/Modifiers/M3" to="V/Modifiers/M3" method="_on_mouse_entered"]

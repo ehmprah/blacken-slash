@@ -1,0 +1,89 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://components/game/game.gd" type="Script" id=1]
+[ext_resource path="res://components/entity_player/entity_player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://shaders/chromatic_abberation.tres" type="Material" id=8]
+
+[sub_resource type="Animation" id=9]
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("ColorRect:material:shader_param/strength")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4 ),
+"transitions": PoolRealArray( 1, -2, 0.5 ),
+"update": 0,
+"values": [ 0.0, 1.5, 0.0 ]
+}
+
+[sub_resource type="Animation" id=10]
+length = 0.6
+tracks/0/type = "value"
+tracks/0/path = NodePath("Level:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.6 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Entities:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.6 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=15]
+length = 0.001
+
+[node name="Game" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Level" type="Node2D" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+z_index = -1
+
+[node name="Entities" type="YSort" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+z_as_relative = false
+
+[node name="Player" parent="Entities" instance=ExtResource( 3 )]
+
+[node name="ChromaticAbberation" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="ChromaticAbberation"]
+material = ExtResource( 8 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 1.0
+margin_bottom = 1.0
+mouse_filter = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="ChromaticAbberation"]
+reset_on_save = false
+method_call_mode = 1
+anims/Glitch = SubResource( 9 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+reset_on_save = false
+anims/Enter = SubResource( 10 )
+anims/RESET = SubResource( 15 )
+
+[connection signal="damage_taken" from="Entities/Player" to="." method="_on_player_damage_taken"]
+[connection signal="death" from="Entities/Player" to="." method="_on_Player_death"]
